@@ -12,7 +12,7 @@
 |---|---|
 | **项目报告书**（含过程截图、资产迭代对比、关键效果） | <https://gaogao94.github.io/dental-clinic-3d/> · [PDF](report.pdf) |
 | **3D 资产库**（351 件目录：名称、分类、优先级、体积、缩略图） | <https://gaogao94.github.io/dental-clinic-3d/catalog/> |
-| **在线演示**（平台配置器，含出图与报价） | <https://dma.automed.cn/demo/index.html> |
+| **在线演示**（平台配置器，含出图与报价，用户名密码均为qunhe） | <https://dma.automed.cn> |
 
 > 演示站由自托管服务器提供：浏览器只访问它自己的服务器，服务器用凭据从对象存储取模型并落盘缓存。**不暴露对象存储直链、没有签名 URL、不会因链接过期失效。**
 
