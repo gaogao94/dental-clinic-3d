@@ -960,11 +960,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <caption>表 8-3 · 三套校验与 2026-11-18 复跑结果</caption>
         <thead><tr><th style="width:30%">校验</th><th style="width:34%">做什么</th><th>结果</th></tr></thead>
         <tbody>
-          <tr><td><b>verify-drawing-quote.mjs</b></td><td>遍历三档平台合计 <b>1,595</b> 种组合（S 105 + M 440 + L 1,050），逐项断言金额自洽、单调、可复现，DXF / SVG 结构一致</td><td><b>1,595 / 1,595 组合通过</b>；11,957,003 条断言，0 失败；57 秒</td></tr>
+          <tr><td><b>verify-drawing-quote.mjs</b></td><td>遍历三档平台合计 <b>1,595</b> 种组合（S 105 + M 440 + L 1,050），逐项断言金额自洽、单调、可复现，DXF / SVG 结构一致</td><td><b>1,595 / 1,595 组合通过</b>；11,957,003 条断言，0 失败；复跑 57 秒（首跑 83.9 秒）</td></tr>
           <tr><td><b>validate_dxf.py</b></td><td>用第三方库 ezdxf 独立读回 DXF，检查版本、单位、实体数与可渲染性</td><td>AC1021（R2007）、INSUNITS=4；4 个典型配置实体 1,319–1,855；<b>0 错误</b></td></tr>
           <tr><td><b>shot-sheet.mjs</b></td><td>浏览器端 E2E：打开出图浮层、断言图页与金额、真实点击 DXF / SVG / CSV 下载</td><td><b>110 条断言 0 失败</b>，console 0 报错；3/3 下载文件名与内容正确</td></tr>
         </tbody>
       </table>
+    </div>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/terminal-5.jpg" alt="终端记录：三套校验的实际输出，1,595 组合、11,957,003 条断言、0 失败，DXF AC1021 与 E2E 110 断言" loading="lazy">
+        <figcaption><span class="tag">图 8-6 · 日志回放</span><span>三套校验的实际输出：全组合 1,595 通过、11,957,003 条断言 0 失败、DXF 读回 0 错误、E2E 110 条断言 0 失败。图为首次运行（83.9 秒），2026-11-18 复跑 57 秒；按真实运行结果渲染（非拍照），复跑命令见第 12 章。</span></figcaption>
+      </figure>
     </div>
 
     <div class="callout">
