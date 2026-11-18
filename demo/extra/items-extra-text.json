@@ -1,0 +1,182 @@
+{
+ "1": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a ceiling cassette air conditioner indoor unit, white square panel with four-way air outlet grille and central intake, isolated product photo, pure white background, three-quarter downward view, studio lighting, photorealistic, high detail",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "2": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a square LED panel ceiling light, thin white aluminum frame, flat uniform white diffuser, isolated product photo, pure white background, three-quarter view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "3": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a modern linear pendant light, long slim white metal bar with warm LED strip underneath, hanging from two thin cables, isolated product photo, pure white background, three-quarter view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "4": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a modern coffee bar counter, white stone countertop with light wood front panel, small sink and open shelf, isolated product photo, pure white background, three-quarter front view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "5": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a lead lined radiation protection door for a hospital x-ray room, single white steel door leaf with stainless steel handle and small warning label, isolated product photo, pure white background, three-quarter front view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "6": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a modern rectangular area rug, soft grey short pile with subtle darker border, viewed from a three-quarter top angle, isolated product photo, pure white background, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "7": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a small children's play tent, pastel teepee made of canvas fabric with wooden poles, isolated product photo, pure white background, three-quarter front view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "8": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a laboratory fume hood bench, stainless steel frame with transparent glass sash and interior work surface, isolated product photo, pure white background, three-quarter front view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ },
+ "9": {
+  "endpoint": {
+   "method": "POST",
+   "path": "/lux3d/v1/generate/text-to-3d/task/create"
+  },
+  "parameters": {
+   "pathParameters": {},
+   "queryParameters": {},
+   "body": {
+    "prompt": "a double sliding automatic entrance glass door with slim dark aluminum frame, closed, isolated product photo, pure white background, front view, studio lighting, photorealistic",
+    "version": "G1-Turbo",
+    "outputFormat": [
+     "glb"
+    ],
+    "faceCount": 80000,
+    "enablePbr": true,
+    "aiPredictSize": true
+   }
+  }
+ }
+}

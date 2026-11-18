@@ -1,0 +1,923 @@
+{
+ "reception-desk-curved": {
+  "fit": 2.4,
+  "rotY": 180,
+  "h": 0.4,
+  "note": "弧形双台；bbox 偏扁，h 会偏矮；正面按封闭木饰面侧定（approx）"
+ },
+ "reception-desk-straight": {
+  "fit": 1.8,
+  "rotY": 180,
+  "h": 0.75,
+  "note": "1800×700×1050mm 一字型"
+ },
+ "receptionist-chair": {
+  "fit": 0.65,
+  "rotY": 0,
+  "h": 1.02
+ },
+ "monitor-27": {
+  "fit": 0.62,
+  "rotY": 0,
+  "h": 0.51
+ },
+ "reception-computer-tower": {
+  "fit": 0.45,
+  "rotY": 270,
+  "h": 0.46,
+  "note": "正面按前面板(+X)定；侧透玻璃朝 +Z（approx）"
+ },
+ "laser-printer": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.32
+ },
+ "pos-terminal": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.41
+ },
+ "queue-display-screen": {
+  "fit": 0.71,
+  "rotY": 0,
+  "h": 0.44,
+  "note": "32寸壁挂；双面屏（正反均有画面），主屏按 +Z"
+ },
+ "brochure-rack": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 1.33
+ },
+ "reception-planter": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 0.71
+ },
+ "waiting-bench-3seat": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 0.98
+ },
+ "waiting-bench-4seat": {
+  "fit": 2.4,
+  "rotY": 0,
+  "h": 0.88
+ },
+ "waiting-sofa-3seat": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 0.67
+ },
+ "waiting-sofa-modular": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 0.67
+ },
+ "armchair-single": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.73
+ },
+ "coffee-table-rect": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.48
+ },
+ "coffee-table-round": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 0.65,
+  "note": "嵌套圆茶几组（多只）"
+ },
+ "water-dispenser-floor": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 1.14
+ },
+ "tv-wall-55": {
+  "fit": 1.22,
+  "rotY": 270,
+  "h": 0.45,
+  "note": "55寸；bbox 纵深异常(含重复面板)，见 notes；坏件：模型含两块电视面板、纵深 2.05×宽，归一化后厚≈2m；建议不用/换件"
+ },
+ "magazine-rack": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 1.48
+ },
+ "waiting-planter-large": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 1.04
+ },
+ "dental-chair-adult": {
+  "fit": 2,
+  "rotY": 270,
+  "h": 1.76
+ },
+ "dental-chair-deluxe": {
+  "fit": 2,
+  "rotY": 270,
+  "h": 1.8
+ },
+ "dental-chair-left-hand": {
+  "fit": 2,
+  "rotY": 270,
+  "h": 1.76
+ },
+ "dental-chair-orthodontic": {
+  "fit": 2,
+  "rotY": 270,
+  "h": 1.8
+ },
+ "dental-chair-implant": {
+  "fit": 2,
+  "rotY": 270,
+  "h": 1.76
+ },
+ "dental-chair-child": {
+  "fit": 1.8,
+  "rotY": 270,
+  "h": 1.54,
+  "note": "儿童椅，略小于成人椅"
+ },
+ "dental-chair-child-cartoon": {
+  "fit": 1.8,
+  "rotY": 270,
+  "h": 1.45,
+  "note": "儿童椅，略小于成人椅"
+ },
+ "dentist-stool": {
+  "fit": 0.55,
+  "rotY": 0,
+  "h": 0.56,
+  "note": "鞍形座，前后差异小（approx）"
+ },
+ "assistant-stool": {
+  "fit": 0.55,
+  "rotY": 0,
+  "h": 0.69,
+  "note": "带靠背，正面 +Z"
+ },
+ "mobile-cabinet-two-drawer": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 0.38,
+  "note": "比例偏矮：h≈0.38m（真实≈0.7m），宽度口径仍取 0.6"
+ },
+ "dental-workstation-desk": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.69
+ },
+ "chairside-monitor": {
+  "fit": 0.53,
+  "rotY": 0,
+  "h": 0.53,
+  "note": "24寸椅旁显示器"
+ },
+ "cabinet-base-run": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 1.15,
+  "note": "模型近方形占地、h≈1.15m，更像器械储物柜而非地柜（approx）"
+ },
+ "sink-cabinet": {
+  "fit": 1,
+  "rotY": 0,
+  "h": 0.94
+ },
+ "sensor-faucet": {
+  "fit": 0.15,
+  "rotY": 180,
+  "h": 0.12,
+  "note": "出水嘴朝 -Z（approx）"
+ },
+ "dental-cart": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 0.89,
+  "note": "推车四面近似，正面取 +Z（approx）"
+ },
+ "medical-waste-bin": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.47
+ },
+ "sharps-container": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.12,
+  "note": "坏件：盒体/盒盖分裂漂浮，建议换件或不使用"
+ },
+ "surgical-light": {
+  "fit": 0.6,
+  "rotY": 180,
+  "h": 0.77,
+  "note": "模型为落地移动式检查灯（非吊顶无影灯），比例偏矮 h≈0.77m"
+ },
+ "led-xray-viewer": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.39
+ },
+ "privacy-curtain": {
+  "fit": 2,
+  "rotY": 0,
+  "h": 2.04
+ },
+ "intraoral-camera": {
+  "fit": 0.15,
+  "rotY": 0,
+  "h": 0.17,
+  "note": "手持内窥镜+小屏，四面近似（approx）"
+ },
+ "implant-motor": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.28
+ },
+ "intraoral-scanner": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.72,
+  "note": "推车式口扫，四面近似，正面取 +Z（approx）"
+ },
+ "autoclave-class-b": {
+  "fit": 0.68,
+  "rotY": 0,
+  "h": 1.45,
+  "note": "23L 台式"
+ },
+ "washer-disinfector": {
+  "fit": 0.75,
+  "rotY": 0,
+  "h": 1.49,
+  "note": "模型为立式大容量机型（h≈1.49m），非台式"
+ },
+ "cleaning-sink-double": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.54,
+  "note": "模型偏低（h≈0.54m），更像嵌入/台式双槽"
+ },
+ "drying-cabinet": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 1.62,
+  "note": "双开门高柜，按宽度 0.6 计"
+ },
+ "sealing-machine": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.15
+ },
+ "stainless-worktable": {
+  "fit": 1.5,
+  "rotY": 0,
+  "h": 0.88,
+  "note": "1500×600mm"
+ },
+ "sterile-storage-cabinet": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 1.62
+ },
+ "ultrasonic-cleaner": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.32
+ },
+ "panoramic-xray": {
+  "fit": 1.5,
+  "rotY": 90,
+  "h": 1.38,
+  "note": "模型含工作台+座椅组合（非单机，整组 1.5×1.5m）；正面按操作侧（approx）"
+ },
+ "cbct-machine": {
+  "fit": 1.6,
+  "rotY": 90,
+  "h": 2.03,
+  "note": "正面＝患者站立/扶手侧（-X），已转到 +Z（approx）"
+ },
+ "imaging-workstation": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.17,
+  "note": "坏件风险：多设备散布组合，归一化后整体仅 0.45m 宽、0.18m 高，偏小，建议换件"
+ },
+ "diagnostic-monitor": {
+  "fit": 0.62,
+  "rotY": 0,
+  "h": 0.62,
+  "note": "27寸医疗显示器"
+ },
+ "lead-apron-rack": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 2.03,
+  "note": "h≈2.0m 偏高（真实铅衣架≈1.7m）"
+ },
+ "lead-shielding-screen": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.17,
+  "note": "偏矮：h≈1.18m（真实≈1.75m），三折移动铅屏"
+ },
+ "radiation-warning-sign": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 0.4,
+  "note": "模型为旋转警示灯（非壁挂灯牌）；fit 取 0.2"
+ },
+ "lab-workbench": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 1.52,
+  "note": "1800×700mm；带顶架技工台，h≈1.5m；正面按操作侧（approx）"
+ },
+ "plaster-mixer": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.86,
+  "note": "立式真空搅拌机 h≈0.86m（略高于台式）"
+ },
+ "curing-box": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.38
+ },
+ "dust-extractor": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.58,
+  "note": "四面近似，正面取 +Z（approx）"
+ },
+ "resin-3d-printer": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.53,
+  "note": "含散落小零件（打印平台/料盒悬浮）"
+ },
+ "desktop-scanner": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.49
+ },
+ "kids-sink": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 1.02,
+  "note": "偏高：h≈1.02m（儿童洗手台真实≈0.6-0.8m）"
+ },
+ "toy-cabinet": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 1.08
+ },
+ "kids-table-set": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.53,
+  "note": "一桌两椅整体"
+ },
+ "kids-indoor-slide": {
+  "fit": 1.6,
+  "rotY": 0,
+  "h": 1.16,
+  "note": "正面＝滑梯出口端（+Z），梯子靠墙侧"
+ },
+ "kids-play-carpet": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 1.38,
+  "note": "坏件风险：地垫模型非平面（bbox 近立方、h≈1.39m），不像地毯，建议换件"
+ },
+ "picture-book-rack": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.75
+ },
+ "toilet-floor": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 0.73
+ },
+ "urinal": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.76
+ },
+ "bathroom-vanity": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 1.39,
+  "note": "800mm 宽；含镜面/背板，h≈1.39m"
+ },
+ "bathroom-mirror": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 0.8,
+  "note": "600×800mm"
+ },
+ "hand-dryer": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 0.25
+ },
+ "accessibility-grab-bar": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 0.48,
+  "note": "坏件：模型为漂浮碎杆件（疑似参考图文字/零件），不可用，建议换件"
+ },
+ "office-desk": {
+  "fit": 1.6,
+  "rotY": 0,
+  "h": 1.12,
+  "note": "1600×800mm；含桌上屏风/置物架，h≈1.12m"
+ },
+ "executive-desk": {
+  "fit": 2,
+  "rotY": 0,
+  "h": 1.4,
+  "note": "2000×900mm；含高侧板/隔屏，h≈1.41m 偏高"
+ },
+ "office-chair": {
+  "fit": 0.65,
+  "rotY": 0,
+  "h": 1.02
+ },
+ "office-file-cabinet": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.73,
+  "note": "抽屉全部拉出且部分漂浮，比例偏矮 h≈0.74m（真实≈1.3m），建议换件"
+ },
+ "bookcase": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.56,
+  "note": "1800 高书柜；bbox 疑似侧躺，见 notes；比例异常：低矮宽柜 h≈0.57m（真实书柜≈1.8m 高），与 1800 高不符，建议换件"
+ },
+ "office-safe": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.49
+ },
+ "office-sofa": {
+  "fit": 1.6,
+  "rotY": 0,
+  "h": 0.95
+ },
+ "office-coffee-table": {
+  "fit": 1.1,
+  "rotY": 0,
+  "h": 0.55
+ },
+ "locker-3door": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 1.49,
+  "note": "1800 高三门更衣柜"
+ },
+ "locker-room-bench": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.39
+ },
+ "staff-lounge-sofa": {
+  "fit": 1.6,
+  "rotY": 0,
+  "h": 0.95
+ },
+ "staff-break-table": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 0.47,
+  "note": "偏矮 h≈0.47m（真实餐桌面≈0.75m）"
+ },
+ "refrigerator": {
+  "fit": 0.65,
+  "rotY": 0,
+  "h": 1.29,
+  "note": "双门冰箱"
+ },
+ "microwave": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.3,
+  "note": "20L"
+ },
+ "coffee-machine": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.35
+ },
+ "wayfinding-standee": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.66,
+  "note": "坏件：模型碎散（面板与支架分离漂浮），建议换件"
+ },
+ "wall-art": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 0.96
+ },
+ "corridor-planter": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 0.71
+ },
+ "corridor-wall-clock": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.4
+ },
+ "fire-extinguisher": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.3,
+  "note": "4kg 干粉，含软管；偏矮：h≈0.30m（真实 4kg 灭火器≈0.5m）"
+ },
+ "emergency-exit-sign": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.42,
+  "note": "坏件：模型碎散（多块画面漂浮），建议换件"
+ },
+ "entrance-floor-mat": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.2,
+  "note": "模型为一端卷起的地垫（非完全平铺）"
+ },
+ "sanitizer-station": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.23,
+  "note": "坏件：模型为 3 个悬浮消毒瓶+手，不像落地消毒站，建议换件"
+ },
+ "ceiling-cassette-ac": {
+  "fit": 0.84,
+  "rotY": 0,
+  "h": 0.8,
+  "rotX": 90,
+  "note": "天花嵌入式 840 面板；模型姿态：面板朝 +Z 竖立，需 rotX=90 才能水平（天花件，JSON 已给 rotX）；fit 按 840 面板"
+ },
+ "led-panel-light": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 0.6,
+  "rotX": 90,
+  "note": "600×600 平板灯；模型姿态：面板朝 +Z 竖立，需 rotX=90 才能水平（天花件，JSON 已给 rotX）"
+ },
+ "reception-pendant-light": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 0.73,
+  "note": "长条吊灯；h≈0.73m 含吊杆；演示页按吊顶高度调整"
+ },
+ "coffee-bar-counter": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 1.18,
+  "note": "候诊区咖啡吧台"
+ },
+ "lead-lined-door": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 1.83,
+  "note": "单开 900×2100 防护门；h≈1.83m（真实门 2.1m）、厚≈0.28m 偏厚"
+ },
+ "waiting-area-rug": {
+  "fit": 2,
+  "rotY": 0,
+  "h": 1.58,
+  "note": "模型斜靠竖立；建议不用；若必须用可试 rotX≈-45 令其平铺（approx），仅 rotY 无法摆正"
+ },
+ "kids-play-tent": {
+  "fit": 1,
+  "rotY": 0,
+  "h": 1.11
+ },
+ "lab-fume-hood": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.68,
+  "note": "立式排风柜 h≈1.68m"
+ },
+ "clinic-entrance-door": {
+  "fit": 2.25,
+  "rotY": 0,
+  "h": 2.1,
+  "note": "双开感应玻璃门；fit 由门洞高 2.1m 反推（h≈2.1）；宽度随之≈2.25m，演示页可按门洞宽另调 X"
+ },
+ "autoclave-large": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 1.75,
+  "note": "立式 75L，h≈1.75m"
+ },
+ "baby-changing-station": {
+  "fit": 0.85,
+  "rotY": 0,
+  "h": 0.96,
+  "note": "壁挂折叠式（含下层架），h≈0.96m"
+ },
+ "bathroom-trash-bin": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.49,
+  "note": "脚踏不锈钢"
+ },
+ "brushing-teaching-board": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.5,
+  "note": "坏件：牙齿/板体碎散漂浮，建议换件"
+ },
+ "cartoon-decoration": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 0.54,
+  "note": "多只小摆件组合（approx）"
+ },
+ "clinic-photo-wall": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.2,
+  "note": "9 联照片墙组合"
+ },
+ "contaminated-waste-bin": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.45,
+  "note": "脚踏 30L"
+ },
+ "corridor-trash-bin": {
+  "fit": 0.28,
+  "rotY": 0,
+  "h": 0.55,
+  "note": "双分类不锈钢"
+ },
+ "curing-light": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.26,
+  "note": "无线光固化灯（approx）"
+ },
+ "decorative-vase": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.43,
+  "note": "高≈0.43m（approx）"
+ },
+ "dental-computer-tower": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.97,
+  "note": "实为移动电脑推车（含显示器），h≈1.0"
+ },
+ "desk-lamp-office": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.51,
+  "note": "桌面台灯（approx）"
+ },
+ "dosimeter-badge-rack": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.35,
+  "note": "壁挂亚克力（approx）"
+ },
+ "guest-chair": {
+  "fit": 0.55,
+  "rotY": 0,
+  "h": 0.83,
+  "note": "折叠访客椅"
+ },
+ "hand-sanitizer-dispenser": {
+  "fit": 0.2,
+  "rotY": 0,
+  "h": 0.2,
+  "note": "含悬浮手套盒碎块（approx）"
+ },
+ "heavy-duty-shelf": {
+  "fit": 2,
+  "rotY": 0,
+  "h": 1.94,
+  "note": "四层重型货架 2000 高"
+ },
+ "imaging-positioning-chair": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.18,
+  "note": "坏件：模型碎散（白色部件分离），建议换件"
+ },
+ "instrument-basket-rack": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.18,
+  "note": "实为单个器械篮（非多层架）"
+ },
+ "intraoral-xray-wall": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 0.69,
+  "note": "壁挂球管臂（approx）"
+ },
+ "key-cabinet": {
+  "fit": 0.4,
+  "rotY": 0,
+  "h": 0.58,
+  "note": "挂墙 24 位（approx）"
+ },
+ "kids-ball-pit": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.03,
+  "note": "含围栏 h≈1.0m"
+ },
+ "kids-partition-shelf": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.05,
+  "note": "矮柜隔断"
+ },
+ "kids-play-chair": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.48,
+  "note": "儿童塑料椅"
+ },
+ "kids-play-table": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 1.21,
+  "note": "bbox 异常（h≈1.2m，两张小桌上下错位），建议换件"
+ },
+ "kids-step-stool": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 0.13,
+  "note": "塑料脚踏（approx）"
+ },
+ "kids-tv": {
+  "fit": 0.95,
+  "rotY": 0,
+  "h": 0.7,
+  "note": "43寸壁挂电视（含底座柜）"
+ },
+ "kids-waiting-armchair": {
+  "fit": 0.7,
+  "rotY": 0,
+  "h": 0.66,
+  "note": "卡通造型单人沙发"
+ },
+ "kids-waiting-bench": {
+  "fit": 1.4,
+  "rotY": 90,
+  "h": 0.82,
+  "note": "彩色矮靠背"
+ },
+ "kids-waiting-sofa": {
+  "fit": 1,
+  "rotY": 0,
+  "h": 0.59,
+  "note": "卡通双人沙发"
+ },
+ "lab-material-cabinet": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 1.12,
+  "note": "h≈1.1m"
+ },
+ "lead-apron": {
+  "fit": 0.6,
+  "rotY": 0,
+  "h": 1.21,
+  "note": "铅衣（挂式），h≈1.2m（approx）"
+ },
+ "lead-collar": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.37,
+  "note": "铅围脖（approx）"
+ },
+ "material-supply-cart": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.82,
+  "note": "折叠搬运车"
+ },
+ "medicine-cabinet": {
+  "fit": 1.2,
+  "rotY": 0,
+  "h": 1.19,
+  "note": "坏件：模型为药品箱堆叠（非柜体），建议换件"
+ },
+ "monitor-24": {
+  "fit": 0.55,
+  "rotY": 0,
+  "h": 0.42,
+  "note": "24寸桌面显示器"
+ },
+ "office-monitor": {
+  "fit": 0.62,
+  "rotY": 0,
+  "h": 0.61,
+  "note": "27寸"
+ },
+ "office-potted-plant": {
+  "fit": 0.8,
+  "rotY": 0,
+  "h": 0.81,
+  "note": "发财树盆栽"
+ },
+ "office-printer": {
+  "fit": 0.5,
+  "rotY": 0,
+  "h": 0.22,
+  "note": "激光一体机"
+ },
+ "packing-table": {
+  "fit": 1.8,
+  "rotY": 0,
+  "h": 1.22,
+  "note": "h≈1.22m 偏高（模型含高框架）"
+ },
+ "reception-back-cabinet": {
+  "fit": 2.4,
+  "rotY": 0,
+  "h": 1.27,
+  "note": "模型为矮边柜（参考 2400×400×2000 储物展示一体），h≈1.3m"
+ },
+ "reward-toy-cabinet": {
+  "fit": 1,
+  "rotY": 0,
+  "h": 1.22,
+  "note": "坏件：模型碎散（白色箱体/面板堆叠），建议换件"
+ },
+ "side-table": {
+  "fit": 0.45,
+  "rotY": 0,
+  "h": 0.16,
+  "note": "模型含沙发组合（非单件边几），h≈0.16 偏扁"
+ },
+ "staff-wall-clock": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.6,
+  "note": "摆锤挂钟，h≈0.59m"
+ },
+ "teaching-tooth-model": {
+  "fit": 0.25,
+  "rotY": 0,
+  "h": 0.22,
+  "note": "牙齿模型教具（approx）"
+ },
+ "toilet-paper-holder": {
+  "fit": 0.3,
+  "rotY": 0,
+  "h": 0.13,
+  "note": "双卷纸架"
+ },
+ "toilet-wall-hung": {
+  "fit": 0.55,
+  "rotY": 0,
+  "h": 0.58,
+  "note": "隐藏水箱挂墙马桶"
+ },
+ "toy-shelf": {
+  "fit": 0.9,
+  "rotY": 0,
+  "h": 0.9,
+  "note": "低矮木质分格"
+ },
+ "ultrasonic-scaler": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.27,
+  "note": "台式带手柄（approx）"
+ },
+ "umbrella-stand": {
+  "fit": 0.35,
+  "rotY": 0,
+  "h": 0.22,
+  "note": "模型偏扁 h≈0.22（真实≈0.6）"
+ },
+ "upper-wall-cabinet": {
+  "fit": 1,
+  "rotY": 0,
+  "h": 0.82,
+  "note": "挂墙吊柜 h≈0.82m"
+ },
+ "waiting-sofa-2seat": {
+  "fit": 1.6,
+  "rotY": 0,
+  "h": 0.59,
+  "note": "双人候诊沙发"
+ }
+}

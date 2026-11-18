@@ -1,0 +1,352 @@
+﻿id,中文名,英文名,分类,空间,优先级,状态,taskId,积分,交付MB,参考尺寸/备注
+reception-desk-curved,弧形接待台,curved reception desk,前台接待,前台接待区,1,succeeded,6520333,1,2.98,2400x800x1100mm 人造石台面 木饰面
+reception-desk-straight,一字型接待台,straight reception desk,前台接待,前台接待区,2,succeeded,6528912,1,2.67,1800x700x1050mm 简约直线造型
+reception-back-cabinet,前台背景储物柜,reception back storage cabinet,前台接待,前台接待区,2,succeeded,6528918,1,1.06,2400x400x2000mm 储物展示一体
+receptionist-chair,前台工作椅,receptionist office chair,前台接待,前台接待区,1,succeeded,6520434,1,1.74,网布中背转椅 带扶手
+reception-counter-stool,前台吧椅,reception counter stool,前台接待,前台接待区,2,succeeded,6529012,1,1.67,金属脚 皮革座面
+reception-computer-tower,前台电脑主机,reception computer tower,前台接待,前台接待区,1,succeeded,6520574,1,2.77,迷你主机 黑色
+monitor-24,24寸桌面显示器,24 inch desktop monitor,前台接待,前台接待区,1,succeeded,6521085,1,3.31,1920x1080 黑色窄边框
+monitor-27,27寸桌面显示器,27 inch desktop monitor,前台接待,前台接待区,2,succeeded,6529015,1,1.34,2560x1440 窄边框
+pos-terminal,收银一体机,point of sale terminal,前台接待,前台接待区,1,succeeded,6521089,1,2.85,15.6寸触屏 白色
+card-payment-terminal,刷卡机,card payment terminal,前台接待,前台接待区,2,succeeded,6529091,1,1.37,掌上POS 黑色
+cash-drawer,钱箱,cash drawer,前台接待,前台接待区,3,succeeded,6547412,1,2.68,金属 350宽 黑色
+receipt-printer,小票打印机,receipt printer,前台接待,前台接待区,2,succeeded,6529401,1,1.61,热敏打印机 桌面式 白色
+label-printer,标签打印机,label printer,前台接待,前台接待区,2,succeeded,6529408,1,1.32,桌面式 灰白色
+laser-printer,激光打印机,laser printer,前台接待,前台接待区,2,succeeded,6529807,1,1.40,黑白激光 白色
+file-cabinet-3drawer,三斗文件柜,three drawer file cabinet,前台接待,前台接待区,2,succeeded,6529810,1,0.77,钢制 灰色 900高
+file-cabinet-4drawer,四斗文件柜,four drawer file cabinet,前台接待,前台接待区,2,succeeded,6529816,1,1.36,钢制 灰色 1320高
+queue-display-screen,叫号显示屏,queue number display screen,前台接待,前台接待区,2,succeeded,6529820,1,1.34,32寸壁挂 黑色
+brochure-rack,宣传资料架,brochure display rack,前台接待,前台接待区,3,succeeded,6547418,1,3.70,亚克力多层 落地式
+desktop-leaflet-holder,桌面资料架,desktop leaflet holder,前台接待,前台接待区,3,succeeded,6547422,1,2.69,亚克力 A4尺寸
+umbrella-stand,雨伞架,umbrella stand,前台接待,前台接待区,3,succeeded,6547428,1,3.11,不锈钢 落地式
+reception-planter,前台绿植,reception potted plant,前台接待,前台接待区,3,succeeded,6547638,1,4.19,散尾葵 编织花盆
+decorative-vase,装饰花瓶,decorative ceramic vase,前台接待,前台接待区,3,succeeded,6547640,1,1.46,白色陶瓷 高400mm
+service-bell,服务铃,service call bell,前台接待,前台接待区,3,succeeded,6547701,1,1.58,金属 桌面式
+key-cabinet,钥匙柜,key cabinet,前台接待,前台接待区,3,succeeded,6547801,1,1.53,挂墙式 24位
+reception-desk-lamp,前台台灯,reception desk lamp,前台接待,前台接待区,3,succeeded,6547880,1,2.61,金属 暖光
+wifi-router,无线路由器,wifi router,前台接待,前台接待区,3,succeeded,6548045,1,1.49,白色 桌面式
+waiting-bench-3seat,三人位连排候诊椅,three seat waiting bench,候诊区,候诊区,1,succeeded,6519788,1,1.80,钢架连排 蓝色皮革
+waiting-bench-4seat,四人位连排候诊椅,four seat waiting bench,候诊区,候诊区,2,succeeded,6527033,1,2.75,钢架连排 蓝色皮革
+waiting-sofa-modular,模块化候诊沙发,modular waiting sofa,候诊区,候诊区,2,succeeded,6527288,1,1.47,可拼接 灰色布艺
+armchair-single,单人休闲沙发,single armchair,候诊区,候诊区,2,succeeded,6527294,1,1.60,布艺 米灰色
+waiting-sofa-2seat,双人候诊沙发,two seat waiting sofa,候诊区,候诊区,2,succeeded,6527297,1,1.46,布艺 浅灰色
+waiting-sofa-3seat,三人候诊沙发,three seat waiting sofa,候诊区,候诊区,2,succeeded,6527298,1,1.45,布艺 浅灰色
+coffee-table-rect,长方形茶几,rectangular coffee table,候诊区,候诊区,2,succeeded,6527303,1,1.41,1200x600mm 白色岩板
+coffee-table-round,圆形茶几,round coffee table,候诊区,候诊区,3,succeeded,6542234,1,2.86,直径600mm 木纹
+side-table,沙发边几,side table,候诊区,候诊区,3,succeeded,6542241,1,1.51,400x400mm 金属木纹
+tv-wall-55,55寸壁挂电视,55 inch wall mounted tv,候诊区,候诊区,2,succeeded,6527605,1,3.06,4K 黑色
+digital-signage-kiosk,立式数字标牌,vertical digital signage kiosk,候诊区,候诊区,2,succeeded,6527611,1,1.48,43寸 落地式
+water-dispenser-floor,立式饮水机,floor standing water dispenser,候诊区,候诊区,1,succeeded,6519794,1,1.45,白色 冷热双温
+water-dispenser-tabletop,台式饮水机,tabletop water dispenser,候诊区,候诊区,3,succeeded,6542544,1,1.53,白色
+magazine-rack,杂志架,magazine rack,候诊区,候诊区,3,succeeded,6542656,1,2.58,木质 落地式
+waiting-trash-bin,候诊区垃圾桶,waiting area trash bin,候诊区,候诊区,3,succeeded,6542659,1,1.79,不锈钢 脚踏式
+waiting-planter-large,候诊区大型绿植,large waiting area potted plant,候诊区,候诊区,3,succeeded,6542758,1,3.42,幸福树 陶盆
+desktop-plant,桌面小绿植,small desktop plant,候诊区,候诊区,3,succeeded,6542761,1,4.12,绿萝 白瓷盆
+toy-shelf,玩具架,toy shelf,候诊区,候诊区,3,succeeded,6542982,1,1.77,低矮木质 分格
+kids-play-table,儿童游戏小桌,children play table,候诊区,候诊区,3,succeeded,6542989,1,1.84,600x600mm 彩色
+kids-play-chair,儿童游戏小椅,children play chair,候诊区,候诊区,3,succeeded,6543515,1,1.77,塑料 彩色
+newspaper-rack,报刊架,newspaper rack,候诊区,候诊区,3,succeeded,6543521,1,2.80,木质斜面
+air-purifier-waiting,候诊区空气净化器,waiting area air purifier,候诊区,候诊区,3,succeeded,6543527,1,1.32,壁挂式小型 白色
+coat-rack,落地衣帽架,freestanding coat rack,候诊区,候诊区,3,succeeded,6543531,1,2.56,木质
+phone-charging-station,手机充电站,mobile phone charging station,候诊区,候诊区,3,succeeded,6543535,1,1.56,落地式 白色
+waiting-privacy-screen,候诊区折叠屏风,folding privacy screen,候诊区,候诊区,3,succeeded,6543953,1,3.38,布面 折叠
+dental-chair-adult,成人牙科综合治疗椅,adult dental treatment chair unit,诊疗室,诊疗室,1,succeeded,6516395,1,1.16,电动升降 四手操作 标准款
+dental-chair-deluxe,高端牙科综合治疗椅,deluxe dental treatment chair unit,诊疗室,诊疗室,2,succeeded,6540126,1,2.54,真皮坐垫 电动靠背 腿托
+dental-chair-left-hand,左手型牙科治疗椅,left handed dental treatment chair unit,诊疗室,诊疗室,3,succeeded,6555135,1,2.51,左利手医生操作布局
+dental-chair-orthodontic,正畸专用牙椅,orthodontic dental chair,诊疗室,诊疗室,3,succeeded,6555229,1,2.56,加长头枕 正畸操作位
+dental-chair-implant,种植专用牙椅,implant dental chair,诊疗室,诊疗室,3,succeeded,6555443,1,2.54,大行程 种植操作位
+dentist-stool,医生椅,dentist stool,诊疗室,诊疗室,1,succeeded,6559458,13,1.52,气动升降 马鞍形座面
+assistant-stool,护士椅,dental assistant stool,诊疗室,诊疗室,1,succeeded,6525703,1,2.63,气动升降 带靠背
+mobile-cabinet-two-drawer,双抽屉移动边柜,two drawer mobile dental cabinet,诊疗室,诊疗室,1,succeeded,6525851,1,1.32,600宽 带脚轮
+mobile-cabinet-four-drawer,四抽屉移动边柜,four drawer mobile dental cabinet,诊疗室,诊疗室,2,succeeded,6540231,1,1.48,800宽 带脚轮
+dental-cart,牙科治疗推车,dental treatment cart,诊疗室,诊疗室,1,succeeded,6525956,1,2.32,三层 带器械盘
+cabinet-base-run,诊疗室固定地柜,dental base cabinet run,诊疗室,诊疗室,1,succeeded,6526316,1,2.95,定做 人造石台面
+upper-wall-cabinet,诊疗室吊柜,dental wall mounted cabinet,诊疗室,诊疗室,2,succeeded,6540658,1,1.57,白色亚克力 挂墙
+sink-cabinet,洗手台柜,dental sink cabinet,诊疗室,诊疗室,1,succeeded,6526320,1,1.44,带柜体 人造石台面
+sensor-faucet,感应水龙头,sensor faucet,诊疗室,诊疗室,2,succeeded,6540661,1,1.31,不锈钢 电池供电
+medical-hand-sink,医用洗手池,medical hand wash sink,诊疗室,诊疗室,2,succeeded,6558472,1,1.87,不锈钢 深槽
+soap-dispenser-sensor,感应皂液器,sensor soap dispenser,诊疗室,诊疗室,3,succeeded,6555445,1,1.02,壁挂 白色
+paper-towel-dispenser,擦手纸盒,paper towel dispenser,诊疗室,诊疗室,3,succeeded,6555510,1,1.36,壁挂 不锈钢
+chairside-monitor,椅旁显示器,chairside monitor,诊疗室,诊疗室,1,succeeded,6559460,13,1.71,24寸 支架固定
+dental-computer-tower,诊室电脑主机,dental operatory computer tower,诊疗室,诊疗室,1,succeeded,6526327,1,1.42,迷你主机 黑色
+medical-keyboard,医用键盘,medical keyboard,诊疗室,诊疗室,3,succeeded,6555512,1,1.45,防水硅胶 白色
+medical-mouse,医用鼠标,medical mouse,诊疗室,诊疗室,3,succeeded,6555835,1,1.46,防水 白色
+dental-workstation-desk,医生工作台,dental doctor workstation desk,诊疗室,诊疗室,1,succeeded,6559466,13,1.54,1200x600mm 白色
+dental-printer,诊室打印机,dental operatory printer,诊疗室,诊疗室,3,succeeded,6555838,1,1.35,小型激光 白色
+intraoral-camera,口腔内窥镜,intraoral camera,诊疗室,诊疗室,1,succeeded,6526607,1,1.48,手柄式 带光源
+curing-light,光固化灯,dental curing light,诊疗室,诊疗室,1,succeeded,6559469,13,1.30,无线 蓝光
+ultrasonic-scaler,超声洁牙机,ultrasonic dental scaler,诊疗室,诊疗室,1,succeeded,6526708,1,0.96,台式 带手柄
+implant-motor,种植机,dental implant motor,诊疗室,诊疗室,1,succeeded,6559477,13,1.60,台式 无刷电机
+apex-locator,根管测量仪,root canal apex locator,诊疗室,诊疗室,1,succeeded,6526837,1,1.49,台式 带显示屏
+endo-motor,根管马达,endodontic motor,诊疗室,诊疗室,3,succeeded,6555843,1,1.54,无线 带扭矩控制
+dental-xray-viewer,观片灯,dental x-ray viewer,诊疗室,诊疗室,3,succeeded,6555850,1,1.97,壁挂式 单联
+led-xray-viewer,LED观片灯,led dental x-ray viewer,诊疗室,诊疗室,3,succeeded,6555853,1,1.21,双联 超薄
+medical-waste-bin,医疗垃圾桶,medical waste bin,诊疗室,诊疗室,2,succeeded,6540672,1,1.49,15L 脚踏式 黄色标识
+sharps-container,锐器盒,sharps container,诊疗室,诊疗室,2,succeeded,6540675,1,1.32,5L 红色
+tissue-box-holder,纸巾盒,tissue box holder,诊疗室,诊疗室,3,succeeded,6556210,1,0.84,亚克力 桌面
+privacy-curtain,隔断帘,dental privacy curtain,诊疗室,诊疗室,2,succeeded,6541049,1,3.70,医用布帘 带轨道
+headrest-cushion,牙椅头枕,dental chair headrest cushion,诊疗室,诊疗室,2,succeeded,6558476,1,1.83,记忆棉 皮革
+headrest-cover,牙椅头枕套,dental chair headrest cover,诊疗室,诊疗室,3,succeeded,6556211,1,1.84,一次性 白色
+instrument-tray,不锈钢器械盘,stainless steel dental instrument tray,诊疗室,诊疗室,2,succeeded,6541264,1,1.68,250x150mm 不锈钢
+handpiece-holder-bracket,手机架,dental handpiece holder bracket,诊疗室,诊疗室,3,succeeded,6556271,1,1.26,不锈钢 壁挂
+high-speed-handpiece,高速牙科手机,high speed dental air turbine handpiece,诊疗室,诊疗室,2,succeeded,6541370,1,1.52,涡轮 不锈钢
+low-speed-handpiece,低速牙科手机,low speed dental handpiece set,诊疗室,诊疗室,2,succeeded,6562039,1,1.06,弯机直机套装
+suction-tip-holder,吸唾管架,dental suction tip holder,诊疗室,诊疗室,3,succeeded,6556385,1,1.83,不锈钢
+saliva-ejector-pump,内置吸唾泵,built in dental saliva ejector pump,诊疗室,诊疗室,3,succeeded,6556460,1,1.63,内置式
+surgical-light,手术无影灯,dental surgical operating light,诊疗室,诊疗室,1,succeeded,6526987,1,1.78,LED 单头
+patient-companion-chair,患者陪护椅,patient companion chair,诊疗室,诊疗室,3,succeeded,6556578,1,3.04,折叠 布艺
+general-waste-bin,生活垃圾桶,general waste bin,诊疗室,诊疗室,3,succeeded,6556580,1,1.81,塑料 灰色
+hand-sanitizer-dispenser,免洗手消毒液架,hand sanitizer dispenser,诊疗室,诊疗室,3,succeeded,6557071,1,2.43,壁挂 自动感应
+tall-storage-cabinet,高身储物柜,tall dental storage cabinet,诊疗室,诊疗室,2,succeeded,6541718,1,1.63,1800高 白色
+drawer-base-cabinet,抽屉地柜,dental drawer base cabinet,诊疗室,诊疗室,2,succeeded,6541722,1,1.44,800宽 白色
+wall-shelf,墙上搁板,wall mounted shelf,诊疗室,诊疗室,3,succeeded,6557075,1,2.74,1200长 白色
+small-autoclave-dental,诊室小型灭菌器,small dental autoclave,诊疗室,诊疗室,2,succeeded,6542224,1,2.44,B类 18L 台式
+small-ultrasonic-cleaner,诊室超声波清洗机,small ultrasonic cleaner,诊疗室,诊疗室,2,succeeded,6542230,1,1.63,6L 台式
+dental-unit-cart,牙科综合治疗机推车,dental unit cart,诊疗室,诊疗室,3,succeeded,6557082,1,2.82,移动式
+dental-foot-control,牙科脚踏控制器,dental unit foot control,诊疗室,诊疗室,3,succeeded,6557086,1,1.43,塑料 黑色
+autoclave-class-b,B类高压蒸汽灭菌器,class b steam autoclave sterilizer,消毒供应室,消毒供应室,1,succeeded,6516412,1,0.86,23L 台式 带打印机
+autoclave-class-n,N类高压蒸汽灭菌器,class n steam autoclave,消毒供应室,消毒供应室,1,succeeded,6525103,1,1.56,18L 台式
+autoclave-large,大型高压蒸汽灭菌器,large steam autoclave,消毒供应室,消毒供应室,2,succeeded,6539326,1,1.70,75L 立式
+ultrasonic-cleaner,超声波清洗机,ultrasonic cleaner,消毒供应室,消毒供应室,1,succeeded,6525108,1,1.72,30L 不锈钢内胆
+washer-disinfector,清洗消毒机,washer disinfector,消毒供应室,消毒供应室,2,succeeded,6539334,1,1.62,台式 全自动
+cleaning-sink-double,双槽清洗槽,double bowl cleaning sink,消毒供应室,消毒供应室,1,succeeded,6525112,1,1.34,不锈钢 双槽带沥水
+cleaning-sink-single,单槽清洗槽,single bowl cleaning sink,消毒供应室,消毒供应室,2,succeeded,6539337,1,3.50,不锈钢
+drying-cabinet,器械干燥柜,instrument drying cabinet,消毒供应室,消毒供应室,1,succeeded,6525117,1,1.70,热风循环 双开门
+sealing-machine,封口机,sterilization pouch sealer,消毒供应室,消毒供应室,1,succeeded,6525495,1,1.79,台式 带日期打印
+uv-sterilizer-cabinet,紫外线消毒柜,uv sterilization cabinet,消毒供应室,消毒供应室,2,succeeded,6539715,1,1.74,双门 不锈钢
+stainless-worktable,不锈钢工作台,stainless steel work table,消毒供应室,消毒供应室,1,succeeded,6525598,1,1.50,1500x600mm 带下层板
+stainless-shelf-rack,不锈钢货架,stainless steel shelf rack,消毒供应室,消毒供应室,2,succeeded,6539812,1,1.70,四层 1500高
+instrument-basket-rack,器械篮架,instrument basket rack,消毒供应室,消毒供应室,2,succeeded,6539816,1,4.14,多层 不锈钢
+sterile-storage-cabinet,无菌物品储物柜,sterile storage cabinet,消毒供应室,消毒供应室,1,succeeded,6525604,1,1.56,双门 带玻璃视窗
+eyewash-station,洗眼器,emergency eyewash station,消毒供应室,消毒供应室,2,succeeded,6539820,1,0.98,壁挂式 双喷头
+pass-through-window,传递窗,pass through window box,消毒供应室,消毒供应室,2,succeeded,6539962,1,2.50,不锈钢 互锁式
+contaminated-waste-bin,污物桶,contaminated waste bin,消毒供应室,消毒供应室,3,succeeded,6554075,1,1.54,脚踏式 30L
+biohazard-waste-bin,生物危害垃圾桶,red biohazard waste bin,消毒供应室,消毒供应室,3,succeeded,6554081,1,1.81,红色标识 脚踏式
+sterile-hand-sink,消毒室洗手池,sterilization room hand sink,消毒供应室,消毒供应室,3,succeeded,6554258,1,1.23,不锈钢
+chemical-storage-cabinet,化学品储存柜,chemical storage cabinet,消毒供应室,消毒供应室,3,succeeded,6554368,1,1.42,防腐蚀 黄色
+tray-drying-rack,托盘沥水架,tray drying rack,消毒供应室,消毒供应室,3,succeeded,6554689,1,2.69,不锈钢 20格
+sterilization-timer,灭菌计时器,sterilization timer,消毒供应室,消毒供应室,3,succeeded,6554693,1,1.45,数字显示 壁挂
+pouch-dispenser-box,灭菌袋取用盒,sterilization pouch dispenser box,消毒供应室,消毒供应室,3,succeeded,6554698,1,1.45,桌面式 塑料
+instrument-lube-station,器械注油保养台,instrument lubrication station,消毒供应室,消毒供应室,3,succeeded,6554701,1,1.70,小型台式
+record-binder-stand,灭菌记录文件夹架,record binder stand,消毒供应室,消毒供应室,3,succeeded,6554705,1,3.68,桌面 亚克力
+clean-gown-rack,清洁工服挂架,clean gown rack,消毒供应室,消毒供应室,3,succeeded,6562877,13,3.90,挂墙 不锈钢
+panoramic-xray,全景X光机,panoramic dental x-ray machine,影像室,影像室,1,succeeded,6523038,1,2.96,立式 数字成像
+cbct-machine,CBCT机,cone beam ct scanner,影像室,影像室,1,succeeded,6523245,1,1.81,三合一 立式
+intraoral-xray-wall,壁挂式口内X光机,wall mounted intraoral x-ray unit,影像室,影像室,1,succeeded,6523362,1,1.35,壁挂 球管臂
+imaging-workstation,影像工作站电脑,dental imaging workstation computer,影像室,影像室,1,succeeded,6523601,1,1.57,图形工作站 黑色
+diagnostic-monitor,医疗诊断显示器,diagnostic medical monitor,影像室,影像室,1,succeeded,6523605,1,1.46,27寸4K 医疗级
+lead-apron-rack,铅衣架,lead apron rack,影像室,影像室,1,succeeded,6523611,1,1.90,落地式 双钩
+intraoral-sensor,口内数字传感器,intraoral digital sensor,影像室,影像室,2,succeeded,6536557,1,1.24,有线 多尺寸
+lead-apron,铅防护衣,lead protective apron,影像室,影像室,2,succeeded,6560094,13,3.42,0.5mmPb 蓝色
+imaging-positioning-chair,影像定位椅,imaging positioning chair,影像室,影像室,2,succeeded,6536979,1,1.75,可调高度
+lead-shielding-screen,移动铅屏风,mobile lead shielding screen,影像室,影像室,2,succeeded,6536982,1,2.27,铅玻璃 移动式
+film-storage-cabinet,胶片柜,x-ray film storage cabinet,影像室,影像室,2,succeeded,6560207,13,1.77,抽屉式 灰色
+xray-control-panel,X光控制面板,x-ray control panel,影像室,影像室,2,succeeded,6537081,1,1.69,壁挂式
+lead-collar,铅围脖,lead thyroid collar,影像室,影像室,3,succeeded,6562862,13,1.53,0.5mmPb
+imaging-xray-viewer,影像室观片灯,imaging room x-ray viewer,影像室,影像室,3,succeeded,6552250,1,1.76,壁挂 双联
+radiation-warning-sign,辐射警示灯,radiation warning light,影像室,影像室,3,succeeded,6552254,1,1.44,门灯 红色
+dosimeter-badge-rack,剂量计收纳架,dosimeter badge rack,影像室,影像室,3,succeeded,6552259,1,2.76,壁挂 亚克力
+imaging-hand-sink,影像室洗手池,imaging room hand sink,影像室,影像室,3,succeeded,6552263,1,3.38,不锈钢
+lab-workbench,技工台,dental laboratory workbench,技工室,技工室,1,succeeded,6523617,1,1.74,1800x700mm 带吸尘孔
+dental-lab-motor,技工马达,dental laboratory handpiece motor,技工室,技工室,1,succeeded,6523620,1,1.50,台式 带脚踏
+curing-box,光固化箱,dental curing box,技工室,技工室,1,succeeded,6523985,1,0.81,UV LED 圆形
+dust-extractor,打磨吸尘机,dental lab dust extractor,技工室,技工室,1,succeeded,6524127,1,2.45,台式 静音
+resin-3d-printer,树脂3D打印机,dental resin 3d printer,技工室,技工室,1,succeeded,6524131,1,1.86,光固化 桌面级
+intraoral-scanner,口内扫描仪,intraoral 3d scanner,技工室,技工室,1,succeeded,6524261,1,2.77,手柄式 推车
+plaster-mixer,石膏搅拌机,dental plaster mixer,技工室,技工室,2,succeeded,6537159,1,1.71,台式 真空搅拌
+steam-cleaner-lab,蒸汽清洗机,dental steam cleaner,技工室,技工室,2,succeeded,6537368,1,1.37,台式 带喷枪
+vacuum-forming-machine,压膜机,dental vacuum forming machine,技工室,技工室,2,succeeded,6537371,1,3.78,台式 自动加热
+desktop-scanner,台式扫描仪,dental desktop 3d scanner,技工室,技工室,2,succeeded,6537821,1,1.86,台式 激光
+lab-computer,技工室电脑,dental lab computer,技工室,技工室,2,succeeded,6537830,1,1.67,台式 黑色
+model-trimmer,模型修整机,dental model trimmer,技工室,技工室,2,succeeded,6537835,1,1.42,台式 带水冷
+plaster-vibrator,石膏振荡器,dental plaster vibrator,技工室,技工室,2,succeeded,6537839,1,1.43,台式
+bunsen-burner,酒精喷灯,dental bunsen burner,技工室,技工室,2,succeeded,6537847,1,1.36,台式
+model-saw,模型切割锯,dental model saw,技工室,技工室,2,succeeded,6538229,1,1.79,台式 带吸尘
+dental-articulator,牙合架,dental articulator,技工室,技工室,2,succeeded,6538418,1,1.74,金属 可调
+air-compressor,静音空压机,silent dental air compressor,技工室,技工室,2,succeeded,6538423,1,2.90,无油 落地式
+lab-vacuum-unit,技工室吸尘器,dental lab vacuum unit,技工室,技工室,2,succeeded,6538427,1,1.88,落地式
+lab-material-cabinet,技工室材料柜,dental lab material cabinet,技工室,技工室,2,succeeded,6560955,13,2.69,双门 灰色
+model-display-shelf,模型展示架,dental model display shelf,技工室,技工室,3,succeeded,6552563,1,3.27,多层 木饰面
+lab-monitor,技工室显示器,dental lab monitor,技工室,技工室,3,succeeded,6562864,13,1.19,27寸
+wax-pot,数显蜡锅,dental wax pot,技工室,技工室,3,succeeded,6552653,1,1.37,数显 单锅
+lab-sink,技工室水槽,dental lab sink,技工室,技工室,3,succeeded,6552743,1,1.88,不锈钢 带沉淀
+lab-task-lamp,技工台灯,dental lab task lamp,技工室,技工室,3,succeeded,6552826,1,2.93,可调臂 白色
+dental-chair-child,儿童牙科治疗椅,pediatric dental treatment chair,儿童区,儿童诊疗区,1,succeeded,6519798,1,2.45,小尺寸 卡通贴饰
+dental-chair-child-cartoon,卡通造型儿童牙椅,cartoon pediatric dental chair,儿童区,儿童诊疗区,1,succeeded,6519805,1,1.95,动物造型 彩色
+kids-sink,儿童洗手台,children hand wash sink,儿童区,儿童诊疗区,1,succeeded,6558969,13,1.26,低高度 彩色
+kids-waiting-bench,儿童候诊长椅,pediatric waiting bench,儿童区,儿童诊疗区,2,succeeded,6527680,1,1.40,彩色 矮靠背
+kids-waiting-sofa,儿童双人沙发,pediatric two seat sofa,儿童区,儿童诊疗区,2,succeeded,6527689,1,1.30,卡通 彩色
+toy-cabinet,玩具柜,toy storage cabinet,儿童区,儿童诊疗区,2,succeeded,6527747,1,2.38,木色 分格抽屉
+kids-tv,儿童区壁挂电视,kids area wall mounted tv,儿童区,儿童诊疗区,2,succeeded,6528019,1,1.87,43寸壁挂
+kids-table-set,儿童桌椅套装,children table and chair set,儿童区,儿童诊疗区,2,succeeded,6528168,1,1.68,一桌两椅 彩色
+reward-toy-cabinet,奖励玩具柜,reward toy cabinet,儿童区,儿童诊疗区,2,succeeded,6528562,1,1.64,玻璃门 木色
+picture-book-rack,绘本架,picture book display rack,儿童区,儿童诊疗区,3,succeeded,6544041,1,1.05,斜面展示 木色
+kids-waiting-armchair,儿童单人沙发,pediatric armchair,儿童区,儿童诊疗区,3,succeeded,6558811,1,1.45,卡通造型
+cartoon-decoration,卡通装饰摆件,cartoon decoration figurine,儿童区,儿童诊疗区,3,succeeded,6545030,1,1.63,树脂 动物造型
+kids-play-carpet,儿童游戏地垫,kids play carpet,儿童区,儿童诊疗区,3,succeeded,6544212,1,1.55,圆形 卡通
+kids-indoor-slide,儿童室内滑梯,indoor play slide,儿童区,儿童诊疗区,3,succeeded,6560960,13,1.29,小型 塑料
+kids-ball-pit,海洋球池,ball pit,儿童区,儿童诊疗区,3,succeeded,6544477,1,3.49,围栏式
+kids-step-stool,儿童脚踏凳,children step stool,儿童区,儿童诊疗区,3,succeeded,6545034,1,1.28,塑料
+teaching-tooth-model,牙齿模型教具,teaching tooth model,儿童区,儿童诊疗区,3,succeeded,6545038,1,1.54,放大 可拆
+brushing-teaching-board,刷牙教学板,brushing teaching board,儿童区,儿童诊疗区,3,succeeded,6545040,1,1.75,壁挂 卡通
+kids-partition-shelf,儿童区隔断架,kids area partition shelf,儿童区,儿童诊疗区,3,succeeded,6545046,1,3.35,矮柜隔断
+cartoon-wall-clock,卡通挂钟,cartoon wall clock,儿童区,儿童诊疗区,3,succeeded,6545380,1,1.60,动物造型
+toilet-floor,落地马桶,floor mounted toilet,卫生间,卫生间,1,succeeded,6521616,1,1.64,白色陶瓷 虹吸式
+urinal,挂墙小便器,wall mounted urinal,卫生间,卫生间,1,succeeded,6521619,1,4.10,白色陶瓷
+bathroom-vanity,卫生间洗手台柜,bathroom vanity cabinet,卫生间,卫生间,1,succeeded,6521819,1,2.52,800宽 陶瓷台盆
+bathroom-mirror,卫生间镜子,bathroom mirror,卫生间,卫生间,1,succeeded,6558987,13,2.66,圆角矩形 600x800
+toilet-wall-hung,挂墙马桶,wall hung toilet,卫生间,卫生间,2,succeeded,6530925,1,1.66,隐藏水箱 白色陶瓷
+basin-faucet,面盆水龙头,basin faucet,卫生间,卫生间,2,succeeded,6530931,1,2.79,单孔 镀铬
+baby-changing-station,婴儿护理台,baby changing station,卫生间,卫生间,2,succeeded,6530937,1,1.79,壁挂折叠式
+shower-seat,淋浴折叠凳,folding shower seat,卫生间,卫生间,2,succeeded,6530940,1,1.59,壁挂式 白色
+hand-dryer,高速烘手机,high speed hand dryer,卫生间,卫生间,3,succeeded,6549194,1,1.27,白色
+bathroom-trash-bin,卫生间垃圾桶,bathroom trash bin,卫生间,卫生间,3,succeeded,6549860,1,1.84,脚踏式 不锈钢
+accessibility-grab-bar,无障碍扶手,accessibility grab bar,卫生间,卫生间,3,succeeded,6549865,1,2.73,不锈钢 L型
+mop-sink-small,小型拖把池,small mop sink,卫生间,卫生间,3,succeeded,6549870,1,1.46,陶瓷 落地
+toilet-paper-holder,卷纸架,toilet paper holder,卫生间,卫生间,3,succeeded,6549876,1,1.33,不锈钢
+bathroom-soap-dispenser,卫生间皂液器,bathroom soap dispenser,卫生间,卫生间,3,succeeded,6549882,1,1.56,壁挂 白色
+bathroom-shelf,卫生间置物架,bathroom shelf,卫生间,卫生间,3,succeeded,6550118,1,1.65,不锈钢 壁挂
+sanitary-disposal-bin,卫生用品废物箱,sanitary disposal bin,卫生间,卫生间,3,succeeded,6550121,1,1.12,壁挂 不锈钢
+locker-2door,双门更衣柜,two door locker,员工区,员工休息区,1,succeeded,6522030,1,1.29,钢制 灰色 1800高
+microwave,微波炉,microwave oven,员工区,员工休息区,1,succeeded,6522477,1,1.47,20L 白色
+refrigerator,双门冰箱,refrigerator,员工区,员工休息区,1,succeeded,6522480,1,1.43,双门 银色
+locker-3door,三门更衣柜,three door locker,员工区,员工休息区,2,succeeded,6531377,1,1.45,钢制 灰色 1800高
+single-tall-locker,单门高更衣柜,single door tall locker,员工区,员工休息区,2,succeeded,6531387,1,1.20,钢制 1800高
+locker-room-bench,更衣长凳,locker room bench,员工区,员工休息区,2,succeeded,6531392,1,1.56,木质 1200长
+shoe-change-bench,换鞋凳,shoe changing bench,员工区,员工休息区,2,succeeded,6531403,1,2.60,带鞋格 木质
+staff-lounge-sofa,员工休息沙发,staff lounge sofa,员工区,员工休息区,2,succeeded,6531753,1,1.40,双人 布艺
+staff-lounge-chair,员工休息椅,staff lounge chair,员工区,员工休息区,2,succeeded,6531839,1,1.63,布艺 单人
+staff-break-table,员工休息桌,staff break table,员工区,员工休息区,2,succeeded,6559934,13,1.27,圆形 直径800
+staff-water-dispenser,员工饮水机,staff water dispenser,员工区,员工休息区,2,succeeded,6532418,1,2.77,立式 白色
+coffee-machine,半自动咖啡机,coffee machine,员工区,员工休息区,2,succeeded,6532425,1,1.63,不锈钢
+staff-dining-chair,员工餐椅,staff dining chair,员工区,员工休息区,3,succeeded,6562855,13,1.43,塑料 白色
+whiteboard,白板,whiteboard,员工区,员工休息区,3,succeeded,6550302,1,1.30,1200x900 带笔槽
+bulletin-board,公告板,bulletin board,员工区,员工休息区,3,succeeded,6550305,1,1.40,软木 1200x900
+coat-hook-rack,挂衣钩排,coat hook rack,员工区,员工休息区,3,succeeded,6550592,1,3.45,铝合金 6钩
+staff-wall-clock,员工区挂钟,staff room wall clock,员工区,员工休息区,3,succeeded,6550666,1,2.48,圆形 静音
+cup-dispenser,一次性水杯架,disposable cup dispenser,员工区,员工休息区,3,succeeded,6551066,1,2.68,壁挂
+staff-hand-sink,员工区洗手池,staff room sink,员工区,员工休息区,3,succeeded,6551069,1,1.49,不锈钢
+shift-schedule-stand,排班表架,shift schedule stand,员工区,员工休息区,3,succeeded,6551078,1,2.63,桌面
+boot-dryer,烘鞋机,boot dryer,员工区,员工休息区,3,succeeded,6551086,1,2.88,落地式
+office-desk,办公桌,office desk,办公/院长室,办公/院长室,1,succeeded,6521093,1,1.66,1600x800mm 木饰面
+executive-desk,院长办公桌,executive office desk,办公/院长室,办公/院长室,1,succeeded,6521098,1,1.62,2000x900mm 深色木纹
+office-chair,办公椅,office chair,办公/院长室,办公/院长室,1,succeeded,6521102,1,1.72,网布中背 带扶手
+office-file-cabinet,办公文件柜,office file cabinet,办公/院长室,办公/院长室,1,succeeded,6521484,1,2.71,钢制四斗 灰色
+conference-table,会议桌,conference table,办公/院长室,办公/院长室,1,succeeded,6521607,1,1.29,2400x1200mm 木纹
+executive-chair,老板椅,executive high back chair,办公/院长室,办公/院长室,2,succeeded,6529824,1,1.66,真皮 高背
+bookcase,书柜,bookcase,办公/院长室,办公/院长室,2,succeeded,6530113,1,2.85,1800高 木色
+conference-chair,会议椅,conference chair,办公/院长室,办公/院长室,2,succeeded,6530181,1,1.49,网布 黑色
+office-computer,办公电脑主机,office computer tower,办公/院长室,办公/院长室,2,succeeded,6530184,1,1.52,台式 黑色
+office-printer,办公打印机,office printer,办公/院长室,办公/院长室,2,succeeded,6530259,1,1.69,激光一体机 白色
+office-safe,保险柜,office safe,办公/院长室,办公/院长室,2,succeeded,6530325,1,1.44,电子密码 450高
+honor-display-cabinet,荣誉展示柜,honor display cabinet,办公/院长室,办公/院长室,2,succeeded,6530465,1,2.50,玻璃门 木色
+credenza,办公矮柜,credenza cabinet,办公/院长室,办公/院长室,2,succeeded,6530565,1,1.12,1200宽 木色
+meeting-room-display,会议显示屏,meeting room display,办公/院长室,办公/院长室,2,succeeded,6530920,1,1.48,65寸壁挂
+guest-chair,访客椅,guest chair,办公/院长室,办公/院长室,3,succeeded,6548133,1,1.43,布艺 无扶手
+office-monitor,办公显示器,office monitor,办公/院长室,办公/院长室,3,succeeded,6561516,13,1.29,27寸
+office-coffee-table,办公室茶几,office coffee table,办公/院长室,办公/院长室,3,succeeded,6548506,1,2.57,方形 玻璃台面
+office-sofa,办公室沙发,office sofa,办公/院长室,办公/院长室,3,succeeded,6548513,1,1.38,双人 皮质
+office-potted-plant,办公室绿植,office potted plant,办公/院长室,办公/院长室,3,succeeded,6548516,1,4.15,发财树 白盆
+desk-lamp-office,办公台灯,office desk lamp,办公/院长室,办公/院长室,3,succeeded,6548522,1,2.61,LED 金属
+document-tray,文件托盘,document tray,办公/院长室,办公/院长室,3,succeeded,6548871,1,2.35,三层 金属
+paper-shredder,碎纸机,paper shredder,办公/院长室,办公/院长室,3,succeeded,6548874,1,1.38,桌面式
+office-whiteboard,办公白板,office whiteboard,办公/院长室,办公/院长室,3,succeeded,6548880,1,2.78,移动支架式 900x1200
+coat-stand-office,办公室衣帽架,office coat stand,办公/院长室,办公/院长室,3,succeeded,6548997,1,1.81,木质 落地
+projector,投影仪,projector,办公/院长室,办公/院长室,3,succeeded,6549000,1,1.67,吊装 白色
+desk-phone,桌面座机,desk phone,办公/院长室,办公/院长室,3,succeeded,6549187,1,1.54,黑色
+medicine-cabinet,药品柜,medicine cabinet,材料/药房,材料药房,1,succeeded,6524445,1,3.26,玻璃门五层 1800高
+heavy-duty-shelf,重型货架,heavy duty storage shelf,材料/药房,材料药房,1,succeeded,6524518,1,3.18,四层 2000高
+medicine-refrigerator,药品冷藏柜,medical refrigerator,材料/药房,材料药房,1,succeeded,6524526,1,3.22,单门 2到8度
+pharmacy-desk,药房办公桌,pharmacy desk,材料/药房,材料药房,1,succeeded,6525098,1,2.38,1200x600mm
+light-duty-shelf,轻型货架,light duty storage shelf,材料/药房,材料药房,2,succeeded,6538693,1,3.05,四层 1800高
+material-supply-cart,耗材推车,material supply cart,材料/药房,材料药房,2,succeeded,6538783,1,3.33,三层 带脚轮
+packing-table,打包台,packing table,材料/药房,材料药房,2,succeeded,6539318,1,1.46,1800x800mm 带下层板
+apothecary-drawer-cabinet,抽屉药柜,apothecary drawer cabinet,材料/药房,材料药房,2,succeeded,6539323,1,1.49,多抽屉 木色
+pharmacy-safe,药房保险柜,pharmacy safe,材料/药房,材料药房,3,succeeded,6553168,1,1.45,小型 密码锁
+medicine-basket,药品收纳篮,medicine storage basket,材料/药房,材料药房,3,succeeded,6553172,1,3.10,塑料 白色
+drug-label-printer,药品标签打印机,drug label printer,材料/药房,材料药房,3,succeeded,6553484,1,1.45,桌面式
+pharmacy-computer,药房电脑,pharmacy computer tower,材料/药房,材料药房,3,succeeded,6562873,13,1.55,台式
+glass-display-case,玻璃展示柜,glass display case,材料/药房,材料药房,3,succeeded,6553493,1,2.73,双门 木框
+parts-bin-rack,零件盒架,parts bin rack,材料/药房,材料药房,3,succeeded,6553500,1,3.38,30格
+digital-scale,电子秤,digital scale,材料/药房,材料药房,3,succeeded,6553502,1,2.78,桌面式
+thermo-hygrometer,温湿度计,thermo hygrometer,材料/药房,材料药房,3,succeeded,6553942,1,1.72,壁挂 数字显示
+pharmacy-sink,药房洗手池,pharmacy hand sink,材料/药房,材料药房,3,succeeded,6553944,1,1.22,不锈钢
+pharmacy-work-stool,药房工作凳,pharmacy work stool,材料/药房,材料药房,3,succeeded,6553952,1,1.36,升降 带轮
+wayfinding-standee,导诊立牌,freestanding wayfinding sign,公共/走廊,公共走廊,1,succeeded,6520099,1,2.70,落地式 铝合金
+fire-extinguisher,灭火器,fire extinguisher,公共/走廊,公共走廊,1,succeeded,6558445,1,1.48,4kg干粉 红色
+air-purifier,走廊空气净化器,corridor air purifier,公共/走廊,公共走廊,1,succeeded,6520267,1,1.37,立式 白色
+uv-sterilization-cart,紫外线消毒车,uv disinfection cart,公共/走廊,公共走廊,1,succeeded,6520270,1,2.63,双管 移动式
+cleaning-cart,清洁工具车,janitorial cleaning cart,公共/走廊,公共走廊,2,succeeded,6528567,1,2.80,多层 带垃圾袋架
+waste-sorting-station,分类垃圾桶站,waste sorting station,公共/走廊,公共走廊,2,succeeded,6528570,1,2.52,三分类 不锈钢
+emergency-exit-sign,安全出口指示牌,emergency exit sign,公共/走廊,公共走廊,2,succeeded,6528572,1,2.86,LED 壁挂
+self-service-kiosk,自助查询机,self service kiosk,公共/走廊,公共走廊,2,succeeded,6528575,1,1.38,立式触摸屏
+directional-wall-sign,走廊指示牌,directional wall sign,公共/走廊,公共走廊,3,succeeded,6545472,1,1.86,亚克力 壁挂
+room-door-sign,诊室门牌,room door sign,公共/走廊,公共走廊,3,succeeded,6545553,1,2.96,亚克力
+corridor-handrail,走廊扶手,corridor handrail,公共/走廊,公共走廊,3,succeeded,6558962,1,1.25,不锈钢 壁装
+fire-hydrant-cabinet,消防栓箱,fire hydrant cabinet,公共/走廊,公共走廊,3,succeeded,6560963,13,1.60,内嵌式 红色
+corridor-trash-bin,走廊垃圾桶,corridor trash bin,公共/走廊,公共走廊,3,succeeded,6545700,1,1.87,不锈钢 双分类
+wall-art,装饰挂画,framed wall art,公共/走廊,公共走廊,3,succeeded,6560967,13,1.44,抽象画 木框
+corridor-wall-clock,走廊时钟,corridor wall clock,公共/走廊,公共走廊,3,succeeded,6546253,1,2.52,圆形 白色
+corridor-planter,走廊绿植,corridor potted plant,公共/走廊,公共走廊,3,succeeded,6546259,1,4.14,金钱树 陶盆
+mop-sink,拖把池,mop sink,公共/走廊,公共走廊,3,succeeded,6562430,13,1.44,不锈钢 落地式
+umbrella-stand-public,公共伞架,public umbrella stand,公共/走廊,公共走廊,3,succeeded,6546271,1,2.87,不锈钢
+sanitizer-station,立式免洗消毒站,freestanding sanitizer station,公共/走廊,公共走廊,3,succeeded,6546273,1,1.56,落地式
+queue-barrier,排队隔离带,queue barrier stanchion,公共/走廊,公共走廊,3,succeeded,6546547,1,1.55,不锈钢 伸缩带
+entrance-floor-mat,入口吸水地垫,entrance floor mat,公共/走廊,公共走廊,3,succeeded,6546620,1,1.68,灰色 防滑
+corridor-waiting-bench,走廊等候长椅,corridor waiting bench,公共/走廊,公共走廊,3,succeeded,6546717,1,1.77,400深 木色
+clinic-photo-wall,诊所文化墙相框,clinic photo wall frame,公共/走廊,公共走廊,3,succeeded,6560971,13,3.62,亚克力
+public-sanitizer-box,公共消毒用品盒,public sanitizer supply box,公共/走廊,公共走廊,3,succeeded,6546730,1,1.45,桌面 白色
+a4-sign-holder,A4告示牌座,a4 sign holder stand,公共/走廊,公共走廊,3,succeeded,6546865,1,1.41,桌面 亚克力
+fire-blanket,灭火毯,fire blanket,公共/走廊,公共走廊,3,succeeded,6547069,1,2.88,壁挂盒装
+instrument-tray-set,口腔器械盘套装,dental instrument tray set,小型器械/耗材,诊室/通用,1,succeeded,6522487,1,2.65,不锈钢 含镊子探针
+impression-tray,印模托盘,dental impression tray,小型器械/耗材,诊室/通用,1,succeeded,6558996,13,1.22,不锈钢 多尺寸
+dental-syringe,牙科注射器,dental anesthetic syringe,小型器械/耗材,诊室/通用,1,succeeded,6522495,1,1.58,金属 卡式
+disposable-glove-box,一次性手套盒,disposable glove box,小型器械/耗材,诊室/通用,1,succeeded,6522947,1,1.47,抽取式 蓝色
+mask-box,口罩盒,face mask box,小型器械/耗材,诊室/通用,1,succeeded,6522951,1,1.81,抽取式 蓝色
+sterilization-pouch,灭菌袋,sterilization pouch,小型器械/耗材,诊室/通用,1,succeeded,6523030,1,2.70,自封式
+dental-material-box,牙科材料盒,dental material box,小型器械/耗材,诊室/通用,1,succeeded,6523033,1,1.67,分格 透明
+mouth-mirror,口腔反光镜,dental mouth mirror,小型器械/耗材,诊室/通用,2,succeeded,6532429,1,1.72,不锈钢 5号
+dental-explorer,牙科探针,dental explorer probe,小型器械/耗材,诊室/通用,2,succeeded,6532435,1,1.58,双头 不锈钢
+dental-tweezers,牙科镊子,dental tweezers,小型器械/耗材,诊室/通用,2,succeeded,6532440,1,3.11,不锈钢
+periodontal-probe,牙周探针,periodontal probe,小型器械/耗材,诊室/通用,2,succeeded,6559938,13,1.36,刻度 不锈钢
+disposable-cup-holder,一次性杯架,disposable cup holder,小型器械/耗材,诊室/通用,2,succeeded,6532848,1,1.76,亚克力 桌面
+disposable-paper-cup,一次性纸杯,disposable paper cup,小型器械/耗材,诊室/通用,2,succeeded,6532851,1,2.13,200ml 白色
+surgical-cap-box,医用帽盒,surgical cap box,小型器械/耗材,诊室/通用,2,succeeded,6532989,1,1.45,抽取式
+patient-bib,患者围兜,dental patient bib,小型器械/耗材,诊室/通用,2,succeeded,6560092,13,1.87,一次性 蓝色
+case-folder,病例夹,dental chart folder,小型器械/耗材,诊室/通用,2,succeeded,6533269,1,1.68,牛皮纸 A4
+cotton-roll-jar,棉卷罐,cotton roll jar,小型器械/耗材,诊室/通用,2,succeeded,6533379,1,1.33,玻璃 带盖
+cotton-ball-container,棉球盒,cotton ball container,小型器械/耗材,诊室/通用,2,succeeded,6533792,1,1.73,塑料 白色
+gauze-pad-box,纱布盒,gauze pad box,小型器械/耗材,诊室/通用,2,succeeded,6533795,1,1.36,抽取式
+suction-tip-box,吸唾管盒,suction tip box,小型器械/耗材,诊室/通用,2,succeeded,6533806,1,3.15,塑料
+disposable-saliva-ejector,一次性吸唾管,disposable saliva ejector,小型器械/耗材,诊室/通用,2,succeeded,6533813,1,1.36,弯曲 白色
+air-water-syringe-tip,三用枪头,three way syringe tip,小型器械/耗材,诊室/通用,2,succeeded,6533817,1,1.47,不锈钢
+dental-bur-box,车针盒,dental bur box,小型器械/耗材,诊室/通用,2,succeeded,6534212,1,1.59,不锈钢 分格
+endo-file-holder,根管锉架,endodontic file holder,小型器械/耗材,诊室/通用,2,succeeded,6534217,1,2.83,塑料 分格
+alginate-mixing-bowl,印模材调拌碗,alginate mixing bowl,小型器械/耗材,诊室/通用,2,succeeded,6534222,1,1.25,橡胶 黑色
+mixing-spatula,调拌刀,dental mixing spatula,小型器械/耗材,诊室/通用,2,succeeded,6534301,1,1.83,不锈钢
+composite-syringe,树脂输送器,dental composite syringe,小型器械/耗材,诊室/通用,2,succeeded,6534304,1,1.01,注射式
+bonding-agent-bottle,粘结剂瓶,dental bonding agent bottle,小型器械/耗材,诊室/通用,2,succeeded,6558457,1,1.38,避光瓶
+etching-gel-syringe,酸蚀剂注射器,dental etching gel syringe,小型器械/耗材,诊室/通用,2,succeeded,6534588,1,1.37,绿色凝胶
+anesthetic-cartridge-box,麻药安瓿盒,dental anesthetic cartridge box,小型器械/耗材,诊室/通用,2,succeeded,6535008,1,3.02,金属 100支
+dental-needle-box,针头盒,dental needle box,小型器械/耗材,诊室/通用,2,succeeded,6535012,1,1.42,塑料
+tooth-model-display,标准牙列模型,standard dental tooth model,小型器械/耗材,诊室/通用,2,succeeded,6535013,1,1.47,白色 标准牙列
+articulating-paper,咬合纸,dental articulating paper,小型器械/耗材,诊室/通用,2,succeeded,6535021,1,1.18,蓝色 盒装
+rubber-dam-kit,橡皮障套装,dental rubber dam kit,小型器械/耗材,诊室/通用,2,succeeded,6535025,1,1.00,含夹子 蓝色
+rubber-dam-clamp,橡皮障夹,rubber dam clamp,小型器械/耗材,诊室/通用,2,succeeded,6535531,1,1.81,不锈钢
+matrix-band,成形片,dental matrix band,小型器械/耗材,诊室/通用,2,succeeded,6558463,1,2.86,金属 盒装
+dental-wedge,牙科楔子,dental wedge,小型器械/耗材,诊室/通用,2,succeeded,6535630,1,3.61,塑料 盒装
+polishing-paste,抛光膏,dental polishing paste,小型器械/耗材,诊室/通用,2,succeeded,6535752,1,1.29,小罐
+prophy-angle,一次性抛光弯机,disposable prophy angle,小型器械/耗材,诊室/通用,2,succeeded,6535758,1,1.69,蓝色
+fluoride-varnish,氟保护漆,dental fluoride varnish,小型器械/耗材,诊室/通用,2,succeeded,6535919,1,1.49,单支装
+tray-cover,托盘套,dental tray cover,小型器械/耗材,诊室/通用,2,succeeded,6535997,1,1.81,一次性
+chairside-supply-caddy,椅旁收纳架,chairside supply caddy,小型器械/耗材,诊室/通用,2,succeeded,6536544,1,3.02,亚克力
+floss-box,牙线盒,dental floss box,小型器械/耗材,诊室/通用,2,succeeded,6536548,1,1.84,抽取式
+toothbrush-dispenser,牙刷取用盒,toothbrush dispenser,小型器械/耗材,诊室/通用,2,succeeded,6536553,1,1.76,壁挂
+dental-model-display-stand,牙模展示底座,dental model display stand,小型器械/耗材,诊室/通用,3,succeeded,6551091,1,1.59,亚克力
+whitening-tray,美白托盘,dental whitening tray,小型器械/耗材,诊室/通用,3,succeeded,6551456,1,1.81,透明 上下颌
+retainer-case,保持器盒,dental retainer case,小型器械/耗材,诊室/通用,3,succeeded,6551567,1,1.36,塑料 彩色
+denture-storage-box,义齿盒,denture storage box,小型器械/耗材,诊室/通用,3,succeeded,6551570,1,1.89,塑料 白色
+oral-rinse-cup,一次性漱口杯,disposable rinse cup,小型器械/耗材,诊室/通用,3,succeeded,6551573,1,1.15,白色
+patient-card-box,病历卡盒,patient record card box,小型器械/耗材,诊室/通用,3,succeeded,6551648,1,1.77,桌面 金属
+bib-clip-chain,围兜夹链,dental bib clip chain,小型器械/耗材,诊室/通用,3,succeeded,6551923,1,2.63,金属珠链
+shoe-cover-box,鞋套盒,shoe cover box,小型器械/耗材,诊室/通用,3,succeeded,6551931,1,0.97,抽取式

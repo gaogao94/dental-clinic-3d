@@ -1,0 +1,1628 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -21000 124800 21000" width="2496mm" height="420mm" data-units="mm" data-scale-den="50" data-sheets="4" data-entities="1559">
+<rect x="0" y="-21000" width="124800" height="21000" fill="#ffffff"/>
+<g font-family="SimSun, Songti SC, Noto Serif CJK SC, serif">
+<g id="sheet-plan" data-sheet-id="plan" data-sheet-name="平面布置图" data-sheet-no="ADS-01-01" data-scale-den="50">
+<rect x="0" y="-21000" width="29700" height="21000" fill="#ffffff" stroke="#c9ced6" stroke-width="5"/>
+<g class="layer" data-layer="A-外墙" stroke="#1a1a1a" fill="none" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+<line x1="9225" y1="-18615" x2="10725" y2="-18615"/>
+<line x1="9225" y1="-18735" x2="10725" y2="-18735"/>
+<line x1="9225" y1="-18615" x2="9225" y2="-18735"/>
+<line x1="10725" y1="-18615" x2="10725" y2="-18735"/>
+<line x1="19725" y1="-18615" x2="21225" y2="-18615"/>
+<line x1="19725" y1="-18735" x2="21225" y2="-18735"/>
+<line x1="19725" y1="-18615" x2="19725" y2="-18735"/>
+<line x1="21225" y1="-18615" x2="21225" y2="-18735"/>
+<line x1="9225" y1="-6115" x2="21225" y2="-6115"/>
+<line x1="9225" y1="-6235" x2="21225" y2="-6235"/>
+<line x1="9225" y1="-6115" x2="9225" y2="-6235"/>
+<line x1="21225" y1="-6115" x2="21225" y2="-6235"/>
+<line x1="9165" y1="-18675" x2="9165" y2="-6175"/>
+<line x1="9285" y1="-18675" x2="9285" y2="-6175"/>
+<line x1="9165" y1="-18675" x2="9285" y2="-18675"/>
+<line x1="9165" y1="-6175" x2="9285" y2="-6175"/>
+<line x1="21165" y1="-18675" x2="21165" y2="-6175"/>
+<line x1="21285" y1="-18675" x2="21285" y2="-6175"/>
+<line x1="21165" y1="-18675" x2="21285" y2="-18675"/>
+<line x1="21165" y1="-6175" x2="21285" y2="-6175"/>
+<line x1="10725" y1="-18643" x2="14325" y2="-18643"/>
+<line x1="10725" y1="-18707" x2="14325" y2="-18707"/>
+<line x1="16125" y1="-18643" x2="19725" y2="-18643"/>
+<line x1="16125" y1="-18707" x2="19725" y2="-18707"/>
+<line x1="10725" y1="-18615" x2="10725" y2="-18735"/>
+<line x1="12525" y1="-18615" x2="12525" y2="-18735"/>
+<line x1="14325" y1="-18615" x2="14325" y2="-18735"/>
+<line x1="16125" y1="-18615" x2="16125" y2="-18735"/>
+<line x1="17925" y1="-18615" x2="17925" y2="-18735"/>
+<line x1="19725" y1="-18615" x2="19725" y2="-18735"/>
+</g>
+<g class="layer" data-layer="A-内墙" stroke="#1a1a1a" fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<line x1="9225" y1="-14415" x2="19425" y2="-14415"/>
+<line x1="9225" y1="-14535" x2="19425" y2="-14535"/>
+<line x1="9225" y1="-14415" x2="9225" y2="-14535"/>
+<line x1="19425" y1="-14415" x2="19425" y2="-14535"/>
+<line x1="9225" y1="-11215" x2="10050" y2="-11215"/>
+<line x1="9225" y1="-11335" x2="10050" y2="-11335"/>
+<line x1="9225" y1="-11215" x2="9225" y2="-11335"/>
+<line x1="10050" y1="-11215" x2="10050" y2="-11335"/>
+<line x1="10950" y1="-11215" x2="12600" y2="-11215"/>
+<line x1="10950" y1="-11335" x2="12600" y2="-11335"/>
+<line x1="10950" y1="-11215" x2="10950" y2="-11335"/>
+<line x1="12600" y1="-11215" x2="12600" y2="-11335"/>
+<line x1="13500" y1="-11215" x2="15150" y2="-11215"/>
+<line x1="13500" y1="-11335" x2="15150" y2="-11335"/>
+<line x1="13500" y1="-11215" x2="13500" y2="-11335"/>
+<line x1="15150" y1="-11215" x2="15150" y2="-11335"/>
+<line x1="16050" y1="-11215" x2="17700" y2="-11215"/>
+<line x1="16050" y1="-11335" x2="17700" y2="-11335"/>
+<line x1="16050" y1="-11215" x2="16050" y2="-11335"/>
+<line x1="17700" y1="-11215" x2="17700" y2="-11335"/>
+<line x1="18600" y1="-11215" x2="19425" y2="-11215"/>
+<line x1="18600" y1="-11335" x2="19425" y2="-11335"/>
+<line x1="18600" y1="-11215" x2="18600" y2="-11335"/>
+<line x1="19425" y1="-11215" x2="19425" y2="-11335"/>
+<line x1="9225" y1="-9415" x2="9913.017" y2="-9415"/>
+<line x1="9225" y1="-9535" x2="9913.017" y2="-9535"/>
+<line x1="9225" y1="-9415" x2="9225" y2="-9535"/>
+<line x1="9913.017" y1="-9415" x2="9913.017" y2="-9535"/>
+<line x1="10813.017" y1="-9415" x2="11767.562" y2="-9415"/>
+<line x1="10813.017" y1="-9535" x2="11767.562" y2="-9535"/>
+<line x1="10813.017" y1="-9415" x2="10813.017" y2="-9535"/>
+<line x1="11767.562" y1="-9415" x2="11767.562" y2="-9535"/>
+<line x1="12667.562" y1="-9415" x2="13622.107" y2="-9415"/>
+<line x1="12667.562" y1="-9535" x2="13622.107" y2="-9535"/>
+<line x1="12667.562" y1="-9415" x2="12667.562" y2="-9535"/>
+<line x1="13622.107" y1="-9415" x2="13622.107" y2="-9535"/>
+<line x1="14522.107" y1="-9415" x2="15813.843" y2="-9415"/>
+<line x1="14522.107" y1="-9535" x2="15813.843" y2="-9535"/>
+<line x1="14522.107" y1="-9415" x2="14522.107" y2="-9535"/>
+<line x1="15813.843" y1="-9415" x2="15813.843" y2="-9535"/>
+<line x1="16713.843" y1="-9415" x2="17921.281" y2="-9415"/>
+<line x1="16713.843" y1="-9535" x2="17921.281" y2="-9535"/>
+<line x1="16713.843" y1="-9415" x2="16713.843" y2="-9535"/>
+<line x1="17921.281" y1="-9415" x2="17921.281" y2="-9535"/>
+<line x1="18821.281" y1="-9415" x2="19425" y2="-9415"/>
+<line x1="18821.281" y1="-9535" x2="19425" y2="-9535"/>
+<line x1="18821.281" y1="-9415" x2="18821.281" y2="-9535"/>
+<line x1="19425" y1="-9415" x2="19425" y2="-9535"/>
+<line x1="11715" y1="-14475" x2="11715" y2="-11275"/>
+<line x1="11835" y1="-14475" x2="11835" y2="-11275"/>
+<line x1="11715" y1="-14475" x2="11835" y2="-14475"/>
+<line x1="11715" y1="-11275" x2="11835" y2="-11275"/>
+<line x1="14265" y1="-14475" x2="14265" y2="-11275"/>
+<line x1="14385" y1="-14475" x2="14385" y2="-11275"/>
+<line x1="14265" y1="-14475" x2="14385" y2="-14475"/>
+<line x1="14265" y1="-11275" x2="14385" y2="-11275"/>
+<line x1="16815" y1="-14475" x2="16815" y2="-11275"/>
+<line x1="16935" y1="-14475" x2="16935" y2="-11275"/>
+<line x1="16815" y1="-14475" x2="16935" y2="-14475"/>
+<line x1="16815" y1="-11275" x2="16935" y2="-11275"/>
+<line x1="19365" y1="-14475" x2="19365" y2="-11275"/>
+<line x1="19485" y1="-14475" x2="19485" y2="-11275"/>
+<line x1="19365" y1="-14475" x2="19485" y2="-14475"/>
+<line x1="19365" y1="-11275" x2="19485" y2="-11275"/>
+<line x1="11441.033" y1="-9475" x2="11441.033" y2="-6175"/>
+<line x1="11561.033" y1="-9475" x2="11561.033" y2="-6175"/>
+<line x1="11441.033" y1="-9475" x2="11561.033" y2="-9475"/>
+<line x1="11441.033" y1="-6175" x2="11561.033" y2="-6175"/>
+<line x1="12874.091" y1="-9475" x2="12874.091" y2="-6175"/>
+<line x1="12994.091" y1="-9475" x2="12994.091" y2="-6175"/>
+<line x1="12874.091" y1="-9475" x2="12994.091" y2="-9475"/>
+<line x1="12874.091" y1="-6175" x2="12994.091" y2="-6175"/>
+<line x1="15150.124" y1="-9475" x2="15150.124" y2="-6175"/>
+<line x1="15270.124" y1="-9475" x2="15270.124" y2="-6175"/>
+<line x1="15150.124" y1="-9475" x2="15270.124" y2="-9475"/>
+<line x1="15150.124" y1="-6175" x2="15270.124" y2="-6175"/>
+<line x1="17257.562" y1="-9475" x2="17257.562" y2="-6175"/>
+<line x1="17377.562" y1="-9475" x2="17377.562" y2="-6175"/>
+<line x1="17257.562" y1="-9475" x2="17377.562" y2="-9475"/>
+<line x1="17257.562" y1="-6175" x2="17377.562" y2="-6175"/>
+<line x1="19365" y1="-9475" x2="19365" y2="-6175"/>
+<line x1="19485" y1="-9475" x2="19485" y2="-6175"/>
+<line x1="19365" y1="-9475" x2="19485" y2="-9475"/>
+<line x1="19365" y1="-6175" x2="19485" y2="-6175"/>
+</g>
+<g class="layer" data-layer="A-门" stroke="#1e8449" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="14325,-18615 15225,-18615 15225,-18675 14325,-18675"/>
+<polygon points="15225,-18675 16125,-18675 16125,-18735 15225,-18735"/>
+<line x1="10050" y1="-11335" x2="10686.396" y2="-11971.396"/>
+<polyline points="10950,-11335 10919.333,-11567.937 10829.423,-11785 10686.396,-11971.396" fill="none"/>
+<line x1="12600" y1="-11335" x2="13236.396" y2="-11971.396"/>
+<polyline points="13500,-11335 13469.333,-11567.937 13379.423,-11785 13236.396,-11971.396" fill="none"/>
+<line x1="15150" y1="-11335" x2="15786.396" y2="-11971.396"/>
+<polyline points="16050,-11335 16019.333,-11567.937 15929.423,-11785 15786.396,-11971.396" fill="none"/>
+<line x1="17700" y1="-11335" x2="18336.396" y2="-11971.396"/>
+<polyline points="18600,-11335 18569.333,-11567.937 18479.423,-11785 18336.396,-11971.396" fill="none"/>
+<line x1="9913.017" y1="-9415" x2="10549.413" y2="-8778.604"/>
+<polyline points="10813.017,-9415 10782.35,-9182.063 10692.439,-8965 10549.413,-8778.604" fill="none"/>
+<line x1="11767.562" y1="-9415" x2="12403.958" y2="-8778.604"/>
+<polyline points="12667.562,-9415 12636.895,-9182.063 12546.985,-8965 12403.958,-8778.604" fill="none"/>
+<line x1="13622.107" y1="-9415" x2="14258.504" y2="-8778.604"/>
+<polyline points="14522.107,-9415 14491.441,-9182.063 14401.53,-8965 14258.504,-8778.604" fill="none"/>
+<line x1="15813.843" y1="-9415" x2="16450.239" y2="-8778.604"/>
+<polyline points="16713.843,-9415 16683.176,-9182.063 16593.266,-8965 16450.239,-8778.604" fill="none"/>
+<line x1="17921.281" y1="-9415" x2="18557.677" y2="-8778.604"/>
+<polyline points="18821.281,-9415 18790.614,-9182.063 18700.704,-8965 18557.677,-8778.604" fill="none"/>
+</g>
+<g class="layer" data-layer="A-家具" stroke="#7a7f87" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="11283,-18386 13083,-18386 13083,-17864 11283,-17864"/>
+<polygon points="11783,-16887.5 12583,-16887.5 12583,-16094.5 11783,-16094.5"/>
+<polygon points="11184.5,-17785 13181.5,-17785 13181.5,-15785 11184.5,-15785"/>
+<polygon points="12903,-14550 11463,-14550 11463,-14600 12903,-14600"/>
+<polygon points="13408,-18472.5 13858,-18472.5 13858,-18037.5 13408,-18037.5"/>
+<polygon points="9755,-14690.5 9455,-14690.5 9455,-14959.5 9755,-14959.5"/>
+<polygon points="14321,-18449 15121,-18449 15121,-18061 14321,-18061"/>
+<polygon points="9449,-14575 9449,-15475 10001,-15475 10001,-14575"/>
+<polygon points="14373,-17165 14373,-15565 13909,-15565 13909,-17165"/>
+<polygon points="14791,-14534.5 13991,-14534.5 13991,-14575.5 14791,-14575.5"/>
+<polygon points="18397,-15157.5 15997,-15157.5 15997,-17152.5 18397,-17152.5"/>
+<polygon points="18483,-14396 16083,-14396 16083,-15034 18483,-15034"/>
+<polygon points="18122,-15229 17472,-15229 17472,-15841 18122,-15841"/>
+<polygon points="17087,-15921.5 16467,-15921.5 16467,-16188.5 17087,-16188.5"/>
+<polygon points="18017,-15950 17617,-15950 17617,-16120 18017,-16120"/>
+<polygon points="18422,-15802.5 17972,-15802.5 17972,-16187.5 18422,-16187.5"/>
+<polygon points="18879.05,-15142.88 18456.188,-14988.971 18354.95,-15267.12 18777.812,-15421.029"/>
+<polygon points="15111,-18621.5 15811,-18621.5 15811,-17928.5 15111,-17928.5"/>
+<polygon points="17638,-14557 16928,-14557 16928,-14593 17638,-14593"/>
+<polygon points="15246,-16417.5 15596,-16417.5 15596,-16312.5 15246,-16312.5"/>
+<polygon points="16126,-16530 16368,-16530 16368,-16280 16126,-16280"/>
+<polygon points="9955,-13875 11145,-13875 11145,-11875 9955,-11875"/>
+<polygon points="10750,-13773 11350,-13773 11350,-13457 10750,-13457"/>
+<polygon points="9401,-12460 9401,-13010 9899,-13010 9899,-12460"/>
+<polygon points="11745,-13295 11745,-12855 11195,-12855 11195,-13295"/>
+<polygon points="11953,-12655 11953,-12055 11427,-12055 11427,-12655"/>
+<polygon points="11820.5,-13660 11820.5,-13130 11359.5,-13130 11359.5,-13660"/>
+<polygon points="9300,-13271 9300,-14271 9870,-14271 9870,-13271"/>
+<polygon points="9900,-14445 11100,-14445 11100,-13785 9900,-13785"/>
+<polygon points="10825,-13209 10175,-13209 10175,-13821 10825,-13821"/>
+<polygon points="10190,-14256.5 10810,-14256.5 10810,-13973.5 10190,-13973.5"/>
+<polygon points="10050,-14462.5 10950,-14462.5 10950,-14307.5 10050,-14307.5"/>
+<polygon points="11720,-11309.5 11520,-11309.5 11520,-11480.5 11720,-11480.5"/>
+<polygon points="11280,-14302 11630,-14302 11630,-14008 11280,-14008"/>
+<polygon points="11860.5,-12530 11860.5,-12180 11519.5,-12180 11519.5,-12530"/>
+<polygon points="10756,-14045 11244,-14045 11244,-13545 10756,-13545"/>
+<polygon points="12505,-13875 13695,-13875 13695,-11875 12505,-11875"/>
+<polygon points="13300,-13773 13900,-13773 13900,-13457 13300,-13457"/>
+<polygon points="11951,-12460 11951,-13010 12449,-13010 12449,-12460"/>
+<polygon points="14295,-13295 14295,-12855 13745,-12855 13745,-13295"/>
+<polygon points="14503,-12655 14503,-12055 13977,-12055 13977,-12655"/>
+<polygon points="14370.5,-13660 14370.5,-13130 13909.5,-13130 13909.5,-13660"/>
+<polygon points="11850,-13271 11850,-14271 12420,-14271 12420,-13271"/>
+<polygon points="12450,-14445 13650,-14445 13650,-13785 12450,-13785"/>
+<polygon points="13375,-13209 12725,-13209 12725,-13821 13375,-13821"/>
+<polygon points="12740,-14256.5 13360,-14256.5 13360,-13973.5 12740,-13973.5"/>
+<polygon points="12600,-14462.5 13500,-14462.5 13500,-14307.5 12600,-14307.5"/>
+<polygon points="14270,-11309.5 14070,-11309.5 14070,-11480.5 14270,-11480.5"/>
+<polygon points="13830,-14302 14180,-14302 14180,-14008 13830,-14008"/>
+<polygon points="14410.5,-12530 14410.5,-12180 14069.5,-12180 14069.5,-12530"/>
+<polygon points="13306,-14045 13794,-14045 13794,-13545 13306,-13545"/>
+<polygon points="15055,-13875 16245,-13875 16245,-11875 15055,-11875"/>
+<polygon points="15850,-13773 16450,-13773 16450,-13457 15850,-13457"/>
+<polygon points="14501,-12460 14501,-13010 14999,-13010 14999,-12460"/>
+<polygon points="16845,-13295 16845,-12855 16295,-12855 16295,-13295"/>
+<polygon points="17053,-12655 17053,-12055 16527,-12055 16527,-12655"/>
+<polygon points="16920.5,-13660 16920.5,-13130 16459.5,-13130 16459.5,-13660"/>
+<polygon points="14400,-13271 14400,-14271 14970,-14271 14970,-13271"/>
+<polygon points="15000,-14445 16200,-14445 16200,-13785 15000,-13785"/>
+<polygon points="15925,-13209 15275,-13209 15275,-13821 15925,-13821"/>
+<polygon points="15290,-14256.5 15910,-14256.5 15910,-13973.5 15290,-13973.5"/>
+<polygon points="15150,-14462.5 16050,-14462.5 16050,-14307.5 15150,-14307.5"/>
+<polygon points="16820,-11309.5 16620,-11309.5 16620,-11480.5 16820,-11480.5"/>
+<polygon points="16380,-14302 16730,-14302 16730,-14008 16380,-14008"/>
+<polygon points="16960.5,-12530 16960.5,-12180 16619.5,-12180 16619.5,-12530"/>
+<polygon points="15856,-14045 16344,-14045 16344,-13545 15856,-13545"/>
+<polygon points="17605,-13875 18795,-13875 18795,-11875 17605,-11875"/>
+<polygon points="18400,-13773 19000,-13773 19000,-13457 18400,-13457"/>
+<polygon points="17051,-12460 17051,-13010 17549,-13010 17549,-12460"/>
+<polygon points="19395,-13295 19395,-12855 18845,-12855 18845,-13295"/>
+<polygon points="19603,-12655 19603,-12055 19077,-12055 19077,-12655"/>
+<polygon points="19470.5,-13660 19470.5,-13130 19009.5,-13130 19009.5,-13660"/>
+<polygon points="16950,-13271 16950,-14271 17520,-14271 17520,-13271"/>
+<polygon points="17550,-14445 18750,-14445 18750,-13785 17550,-13785"/>
+<polygon points="18475,-13209 17825,-13209 17825,-13821 18475,-13821"/>
+<polygon points="17840,-14256.5 18460,-14256.5 18460,-13973.5 17840,-13973.5"/>
+<polygon points="17700,-14462.5 18600,-14462.5 18600,-14307.5 17700,-14307.5"/>
+<polygon points="19370,-11309.5 19170,-11309.5 19170,-11480.5 19370,-11480.5"/>
+<polygon points="18930,-14302 19280,-14302 19280,-14008 18930,-14008"/>
+<polygon points="19510.5,-12530 19510.5,-12180 19169.5,-12180 19169.5,-12530"/>
+<polygon points="18406,-14045 18894,-14045 18894,-13545 18406,-13545"/>
+<polygon points="11113,-6194.5 9613,-6194.5 9613,-6875.5 11113,-6875.5"/>
+<polygon points="10300,-6195 9626,-6195 9626,-6875 10300,-6875"/>
+<polygon points="10963,-6435.5 10563,-6435.5 10563,-6634.5 10963,-6634.5"/>
+<polygon points="9484,-7489 9484,-8689 9806,-8689 9806,-7489"/>
+<polygon points="11307.5,-8596 11307.5,-7846 10694.5,-7846 10694.5,-8596"/>
+<polygon points="10063,-9343.5 10663,-9343.5 10663,-8886.5 10063,-8886.5"/>
+<polygon points="11381,-7885 11381,-6985 10941,-6985 10941,-7885"/>
+<polygon points="9765,-6398.5 9365,-6398.5 9365,-6631.5 9765,-6631.5"/>
+<polygon points="9335.5,-9375 9714.5,-9375 9714.5,-8975 9335.5,-8975"/>
+<polygon points="9613,-6390.5 9213,-6390.5 9213,-6679.5 9613,-6679.5"/>
+<polygon points="12453,-6185 11753,-6185 11753,-6885 12453,-6885"/>
+<polygon points="12767.5,-8720 12767.5,-7920 12380.5,-7920 12380.5,-8720"/>
+<polygon points="12860.5,-8620 12860.5,-8020 12807.5,-8020 12807.5,-8620"/>
+<polygon points="11523,-9415.5 11823,-9415.5 11823,-9294.5 11523,-9294.5"/>
+<polygon points="11676,-9269 11926,-9269 11926,-9081 11676,-9081"/>
+<polygon points="11794,-6488 11494,-6488 11494,-6582 11794,-6582"/>
+<polygon points="15460,-8575 15460,-7207 13860,-7207 13860,-8575"/>
+<polygon points="14645,-5904 13045,-5904 13045,-7166 14645,-7166"/>
+<polygon points="14155,-6401.5 13535,-6401.5 13535,-6668.5 14155,-6668.5"/>
+<polygon points="12924,-7660.5 12924,-8319.5 13624,-8319.5 13624,-7660.5"/>
+<polygon points="13586,-7978 14786,-7978 14786,-7342 13586,-7342"/>
+<polygon points="13942,-9485 14202,-9485 14202,-9185 13942,-9185"/>
+<polygon points="13622,-9574.5 14522,-9574.5 14522,-9295.5 13622,-9295.5"/>
+<polygon points="17064,-6037.5 15464,-6037.5 15464,-7032.5 17064,-7032.5"/>
+<polygon points="15714,-7863.5 16814,-7863.5 16814,-7306.5 15714,-7306.5"/>
+<polygon points="15269,-8807 15819,-8807 15819,-8263 15269,-8263"/>
+<polygon points="16709,-8807 17259,-8807 17259,-8263 16709,-8263"/>
+<polygon points="15456,-7540 15456,-8440 15564,-8440 15564,-7540"/>
+<polygon points="16664,-6254.5 15864,-6254.5 15864,-6295.5 16664,-6295.5"/>
+<polygon points="16847,-8610 17089,-8610 17089,-8360 16847,-8360"/>
+<polygon points="19171,-5904 17571,-5904 17571,-7166 19171,-7166"/>
+<polygon points="18046,-7461 18696,-7461 18696,-6849 18046,-6849"/>
+<polygon points="18681,-6393.5 18061,-6393.5 18061,-6676.5 18681,-6676.5"/>
+<polygon points="17408,-8262 17408,-8708 17908,-8708 17908,-8262"/>
+<polygon points="19179,-8110 19179,-7210 19071,-7210 19071,-8110"/>
+<polygon points="18652.5,-6835 18652.5,-7335 19097.5,-7335 19097.5,-6835"/>
+<polygon points="18605,-9521 19405,-9521 19405,-8729 18605,-8729"/>
+<polygon points="18771,-6514.5 17971,-6514.5 17971,-6555.5 18771,-6555.5"/>
+<polygon points="14625,-18418.5 15825,-18418.5 15825,-17691.5 14625,-17691.5"/>
+<polygon points="14100,-18689.5 16350,-18689.5 16350,-18460.5 14100,-18460.5"/>
+<polygon points="9450,-11031.5 9700,-11031.5 9700,-10918.5 9450,-10918.5"/>
+<polygon points="18785,-9930 19065,-9930 19065,-9720 18785,-9720"/>
+<polygon points="9325,-10121.5 10025,-10121.5 10025,-9428.5 9325,-9428.5"/>
+<polygon points="18625,-11301.5 19325,-11301.5 19325,-10608.5 18625,-10608.5"/>
+<polygon points="9725,-11376 10125,-11376 10125,-11294 9725,-11294"/>
+<polygon points="13925,-11355.5 14725,-11355.5 14725,-11314.5 13925,-11314.5"/>
+<polygon points="16169,-11355.5 16969,-11355.5 16969,-11314.5 16169,-11314.5"/>
+</g>
+<g class="layer" data-layer="A-文字" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="12183" y="-17652.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">模块化候诊沙发</text>
+<text x="12183" y="-15573.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区地毯</text>
+<text x="14141" y="-17376.67" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">双人候诊沙发</text>
+<text x="17197" y="-17364.17" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">弧形接待台</text>
+<text x="17283" y="-15245.67" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台背景储物柜</text>
+<text x="10550" y="-11663.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植专用牙椅</text>
+<text x="13100" y="-11663.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植专用牙椅</text>
+<text x="15650" y="-11663.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植专用牙椅</text>
+<text x="18200" y="-11663.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植专用牙椅</text>
+<text x="14660" y="-6995.33" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">CBCT机</text>
+<text x="14362.65" y="-18248.83" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">感应玻璃门</text>
+<text x="12183" y="-16959.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="12183" y="-16465.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.92×4.20</text>
+<text x="12183" y="-16080.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">24.8㎡</text>
+<text x="17283" y="-16959.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待区</text>
+<text x="17283" y="-16465.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.28×4.20</text>
+<text x="17283" y="-16080.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">18.0㎡</text>
+<text x="10500" y="-13225.535" font-size="321.86" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 1</text>
+<text x="10500" y="-12860.37" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.55×3.20</text>
+<text x="10500" y="-12509.835" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.2㎡</text>
+<text x="13050" y="-13225.535" font-size="321.86" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 2</text>
+<text x="13050" y="-12860.37" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.55×3.20</text>
+<text x="13050" y="-12509.835" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.2㎡</text>
+<text x="15600" y="-13225.535" font-size="321.86" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 3</text>
+<text x="15600" y="-12860.37" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.55×3.20</text>
+<text x="15600" y="-12509.835" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.2㎡</text>
+<text x="18150" y="-13225.535" font-size="321.86" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 4</text>
+<text x="18150" y="-12860.37" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.55×3.20</text>
+<text x="18150" y="-12509.835" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.2㎡</text>
+<text x="10363.017" y="-8209.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒室</text>
+<text x="10363.017" y="-7715.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.28×3.30</text>
+<text x="10363.017" y="-7330.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.5㎡</text>
+<text x="12217.562" y="-8117.015" font-size="321.86" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="12217.562" y="-7781.11" font-size="234.08" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.43×3.30</text>
+<text x="12217.562" y="-7489.095" font-size="234.08" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.7㎡</text>
+<text x="14072.107" y="-8209.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="14072.107" y="-7715.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.28×3.30</text>
+<text x="14072.107" y="-7330.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.5㎡</text>
+<text x="16263.843" y="-8209.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">咨询室</text>
+<text x="16263.843" y="-7715.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.11×3.30</text>
+<text x="16263.843" y="-7330.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.0㎡</text>
+<text x="18371.281" y="-8209.769" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公</text>
+<text x="18371.281" y="-7715.275" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.11×3.30</text>
+<text x="18371.281" y="-7330.506" font-size="292.6" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.0㎡</text>
+<text x="14325" y="-10535" font-size="438.9" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共走廊</text>
+<text x="20325" y="-10325" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">通道</text>
+</g>
+<g class="layer" data-layer="A-标注" stroke="#117a8b" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<line x1="15225" y1="-19125" x2="15225" y2="-18325"/>
+<polygon points="15225,-18175 15105,-18375 15345,-18375 15345,-18375" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<text x="15225" y="-19300" font-size="512.05" text-anchor="middle" dominant-baseline="central" fill="#117a8b" stroke="none">入口</text>
+<line x1="9225" y1="-6115" x2="9225" y2="-5575"/>
+<line x1="21225" y1="-6115" x2="21225" y2="-5575"/>
+<line x1="9225" y1="-5725" x2="21225" y2="-5725"/>
+<polygon points="9225,-5725 9350,-5687.5 9350,-5762.5 9350,-5762.5" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<polygon points="21225,-5725 21100,-5762.5 21100,-5687.5 21100,-5687.5" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<text x="15225" y="-5967.875" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#117a8b" stroke="none">12000</text>
+<line x1="9165" y1="-18675" x2="8925" y2="-18675"/>
+<line x1="9165" y1="-6175" x2="8925" y2="-6175"/>
+<line x1="8775" y1="-18675" x2="8775" y2="-6175"/>
+<polygon points="8775,-18675 8737.5,-18550 8812.5,-18550 8812.5,-18550" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<polygon points="8775,-6175 8812.5,-6300 8737.5,-6300 8737.5,-6300" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<text x="8605" y="-12425" font-size="365.75" text-anchor="end" dominant-baseline="central" fill="#117a8b" stroke="none">12500</text>
+<line x1="21225" y1="-11275" x2="21525" y2="-11275"/>
+<line x1="21225" y1="-9475" x2="21525" y2="-9475"/>
+<line x1="21675" y1="-11275" x2="21675" y2="-9475"/>
+<polygon points="21675,-11275 21637.5,-11150 21712.5,-11150 21712.5,-11150" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<polygon points="21675,-9475 21712.5,-9600 21637.5,-9600 21637.5,-9600" fill="#117a8b" fill-opacity="1" stroke="none"/>
+<text x="21845" y="-10375" font-size="365.75" text-anchor="start" dominant-baseline="central" fill="#117a8b" stroke="none">1800</text>
+</g>
+<g class="layer" data-layer="A-图例" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="1750" y="-750" font-size="175.56" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位：mm</text>
+</g>
+<g class="layer" data-layer="TK-图框" stroke="#1a1a1a" fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="0,0 29700,0 29700,-21000 0,-21000"/>
+<polygon points="1250,-500 29200,-500 29200,-20500 1250,-20500"/>
+<circle cx="27500" cy="-19000" r="450" fill="#ffffff"/>
+<polygon points="27500,-19369 27365,-18797.5 27635,-18797.5 27635,-18797.5" fill="#1a1a1a" fill-opacity="1" stroke="none"/>
+<text x="27500" y="-19625" font-size="190.19" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">N</text>
+<polygon points="19200,-500 29200,-500 29200,-4450 19200,-4450"/>
+<line x1="19200" y1="-3650" x2="29200" y2="-3650"/>
+<line x1="19200" y1="-950" x2="29200" y2="-950"/>
+<line x1="19200" y1="-1400" x2="29200" y2="-1400"/>
+<line x1="19200" y1="-1850" x2="29200" y2="-1850"/>
+<line x1="19200" y1="-2300" x2="29200" y2="-2300"/>
+<line x1="19200" y1="-2750" x2="29200" y2="-2750"/>
+<line x1="19200" y1="-3200" x2="29200" y2="-3200"/>
+<line x1="24200" y1="-500" x2="24200" y2="-3650"/>
+<line x1="20500" y1="-500" x2="20500" y2="-3650"/>
+<line x1="25500" y1="-500" x2="25500" y2="-3650"/>
+<text x="24200" y="-4050" font-size="731.5" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">平面布置图</text>
+<text x="19300" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目名</text>
+<text x="20600" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">口腔诊所方案</text>
+<text x="24300" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门店类型</text>
+<text x="25600" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植旗舰店</text>
+<text x="19300" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">平台</text>
+<text x="20600" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">M 平台</text>
+<text x="24300" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">风格</text>
+<text x="25600" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">暖奶油</text>
+<text x="19300" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">面积</text>
+<text x="20600" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">150 ㎡</text>
+<text x="24300" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">椅位</text>
+<text x="25600" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">4 椅</text>
+<text x="19300" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">房间数</text>
+<text x="20600" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">11 间</text>
+<text x="24300" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">家具</text>
+<text x="25600" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">129 件</text>
+<text x="19300" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">图号</text>
+<text x="20600" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">ADS-01-01</text>
+<text x="24300" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">比例</text>
+<text x="25600" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1:50</text>
+<text x="19300" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">日期</text>
+<text x="20600" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">2026-11-13</text>
+<text x="24300" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">阶段</text>
+<text x="25600" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">方案设计</text>
+<text x="19300" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">估价（元）</text>
+<text x="20600" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,882,299</text>
+<text x="24300" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时（人天）</text>
+<text x="25600" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">133.0</text>
+</g>
+</g>
+<g id="sheet-mep" data-sheet-id="mep" data-sheet-name="机电点位图" data-sheet-no="ADS-02-01" data-scale-den="50">
+<rect x="31700" y="-21000" width="29700" height="21000" fill="#ffffff" stroke="#c9ced6" stroke-width="5"/>
+<g class="layer" data-layer="A-外墙" stroke="#1a1a1a" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<line x1="40925" y1="-18675" x2="42425" y2="-18675"/>
+<line x1="51425" y1="-18675" x2="52925" y2="-18675"/>
+<line x1="40925" y1="-6175" x2="52925" y2="-6175"/>
+<line x1="40925" y1="-18675" x2="40925" y2="-6175"/>
+<line x1="52925" y1="-18675" x2="52925" y2="-6175"/>
+</g>
+<g class="layer" data-layer="A-内墙" stroke="#1a1a1a" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<line x1="40925" y1="-14475" x2="51125" y2="-14475"/>
+<line x1="40925" y1="-11275" x2="41750" y2="-11275"/>
+<line x1="42650" y1="-11275" x2="44300" y2="-11275"/>
+<line x1="45200" y1="-11275" x2="46850" y2="-11275"/>
+<line x1="47750" y1="-11275" x2="49400" y2="-11275"/>
+<line x1="50300" y1="-11275" x2="51125" y2="-11275"/>
+<line x1="40925" y1="-9475" x2="41613.017" y2="-9475"/>
+<line x1="42513.017" y1="-9475" x2="43467.562" y2="-9475"/>
+<line x1="44367.562" y1="-9475" x2="45322.107" y2="-9475"/>
+<line x1="46222.107" y1="-9475" x2="47513.843" y2="-9475"/>
+<line x1="48413.843" y1="-9475" x2="49621.281" y2="-9475"/>
+<line x1="50521.281" y1="-9475" x2="51125" y2="-9475"/>
+<line x1="43475" y1="-14475" x2="43475" y2="-11275"/>
+<line x1="46025" y1="-14475" x2="46025" y2="-11275"/>
+<line x1="48575" y1="-14475" x2="48575" y2="-11275"/>
+<line x1="51125" y1="-14475" x2="51125" y2="-11275"/>
+<line x1="43201.033" y1="-9475" x2="43201.033" y2="-6175"/>
+<line x1="44634.091" y1="-9475" x2="44634.091" y2="-6175"/>
+<line x1="46910.124" y1="-9475" x2="46910.124" y2="-6175"/>
+<line x1="49017.562" y1="-9475" x2="49017.562" y2="-6175"/>
+<line x1="51125" y1="-9475" x2="51125" y2="-6175"/>
+</g>
+<g class="layer" data-layer="A-文字" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="43883" y="-18375" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="48983" y="-18375" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待区</text>
+<text x="42200" y="-14175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 1</text>
+<text x="44750" y="-14175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 2</text>
+<text x="47300" y="-14175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 3</text>
+<text x="49850" y="-14175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植诊疗室 4</text>
+<text x="42063.017" y="-9175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒室</text>
+<text x="43917.562" y="-9175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="45772.107" y="-9175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="47963.843" y="-9175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">咨询室</text>
+<text x="50071.281" y="-9175" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公</text>
+</g>
+<g class="layer" data-layer="M-给水" stroke="#1f4e9c" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="41150" cy="-13265" r="180" fill="#ffffff"/>
+<text x="41150" y="-13265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="41680" cy="-13135" r="180" fill="#ffffff"/>
+<text x="41680" y="-13135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="42261" cy="-7330" r="180" fill="#ffffff"/>
+<text x="42261" y="-7330" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="43700" cy="-13265" r="180" fill="#ffffff"/>
+<text x="43700" y="-13265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="44230" cy="-13135" r="180" fill="#ffffff"/>
+<text x="44230" y="-13135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="46250" cy="-13265" r="180" fill="#ffffff"/>
+<text x="46250" y="-13265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="46780" cy="-13135" r="180" fill="#ffffff"/>
+<text x="46780" y="-13135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="48800" cy="-13265" r="180" fill="#ffffff"/>
+<text x="48800" y="-13265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="49330" cy="-13135" r="180" fill="#ffffff"/>
+<text x="49330" y="-13135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+<circle cx="58000" cy="-7325" r="180" fill="#ffffff"/>
+<text x="58000" y="-7325" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1f4e9c" stroke="none">水</text>
+</g>
+<g class="layer" data-layer="M-排水" stroke="#8e44ad" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="41150" cy="-12765" r="180" fill="#ffffff"/>
+<text x="41150" y="-12765" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="42660" cy="-13235" r="180" fill="#ffffff"/>
+<text x="42660" y="-13235" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="43361" cy="-7330" r="180" fill="#ffffff"/>
+<text x="43361" y="-7330" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="43700" cy="-12765" r="180" fill="#ffffff"/>
+<text x="43700" y="-12765" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="45210" cy="-13235" r="180" fill="#ffffff"/>
+<text x="45210" y="-13235" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="46250" cy="-12765" r="180" fill="#ffffff"/>
+<text x="46250" y="-12765" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="47760" cy="-13235" r="180" fill="#ffffff"/>
+<text x="47760" y="-13235" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="48800" cy="-12765" r="180" fill="#ffffff"/>
+<text x="48800" y="-12765" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="50310" cy="-13235" r="180" fill="#ffffff"/>
+<text x="50310" y="-13235" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+<circle cx="58000" cy="-5975" r="180" fill="#ffffff"/>
+<text x="58000" y="-5975" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#8e44ad" stroke="none">排</text>
+</g>
+<g class="layer" data-layer="E-强电" stroke="#b8860b" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="42700" cy="-12335" r="180" fill="#ffffff"/>
+<text x="42700" y="-12335" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="42861" cy="-7330" r="180" fill="#ffffff"/>
+<text x="42861" y="-7330" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="45250" cy="-12335" r="180" fill="#ffffff"/>
+<text x="45250" y="-12335" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="46535" cy="-16365" r="180" fill="#ffffff"/>
+<text x="46535" y="-16365" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="47800" cy="-12335" r="180" fill="#ffffff"/>
+<text x="47800" y="-12335" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="50350" cy="-12335" r="180" fill="#ffffff"/>
+<text x="50350" y="-12335" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+<circle cx="58000" cy="-6875" r="180" fill="#ffffff"/>
+<text x="58000" y="-6875" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#b8860b" stroke="none">电</text>
+</g>
+<g class="layer" data-layer="E-弱电" stroke="#c0392b" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="43000" cy="-12655" r="180" fill="#ffffff"/>
+<text x="43000" y="-12655" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+<circle cx="45550" cy="-12655" r="180" fill="#ffffff"/>
+<text x="45550" y="-12655" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+<circle cx="47249" cy="-16575" r="180" fill="#ffffff"/>
+<text x="47249" y="-16575" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+<circle cx="48100" cy="-12655" r="180" fill="#ffffff"/>
+<text x="48100" y="-12655" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+<circle cx="50650" cy="-12655" r="180" fill="#ffffff"/>
+<text x="50650" y="-12655" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+<circle cx="58000" cy="-5525" r="180" fill="#ffffff"/>
+<text x="58000" y="-5525" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#c0392b" stroke="none">网</text>
+</g>
+<g class="layer" data-layer="G-气" stroke="#1e8449" fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="41820" cy="-12215" r="180" fill="#ffffff"/>
+<text x="41820" y="-12215" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+<circle cx="43791" cy="-7330" r="180" fill="#ffffff"/>
+<text x="43791" y="-7330" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+<circle cx="44370" cy="-12215" r="180" fill="#ffffff"/>
+<text x="44370" y="-12215" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+<circle cx="46920" cy="-12215" r="180" fill="#ffffff"/>
+<text x="46920" y="-12215" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+<circle cx="49470" cy="-12215" r="180" fill="#ffffff"/>
+<text x="49470" y="-12215" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+<circle cx="58000" cy="-6425" r="180" fill="#ffffff"/>
+<text x="58000" y="-6425" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1e8449" stroke="none">气</text>
+</g>
+<g class="layer" data-layer="A-图例" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="33450" y="-750" font-size="175.56" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位：mm</text>
+<polygon points="55500,-4850 60500,-4850 60500,-8050 55500,-8050"/>
+<line x1="57200" y1="-4850" x2="57200" y2="-8050"/>
+<line x1="58800" y1="-4850" x2="58800" y2="-8050"/>
+<line x1="55500" y1="-7550" x2="60500" y2="-7550"/>
+<text x="56350" y="-7800" font-size="219.45" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">类目</text>
+<text x="58000" y="-7800" font-size="219.45" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">符号</text>
+<text x="59650" y="-7800" font-size="219.45" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">数量</text>
+<line x1="55500" y1="-7100" x2="60500" y2="-7100"/>
+<text x="55600" y="-7325" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">给水</text>
+<text x="60300" y="-7325" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9</text>
+<line x1="55500" y1="-6650" x2="60500" y2="-6650"/>
+<text x="55600" y="-6875" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">强电</text>
+<text x="60300" y="-6875" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6</text>
+<line x1="55500" y1="-6200" x2="60500" y2="-6200"/>
+<text x="55600" y="-6425" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">燃气</text>
+<text x="60300" y="-6425" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5</text>
+<line x1="55500" y1="-5750" x2="60500" y2="-5750"/>
+<text x="55600" y="-5975" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">排水</text>
+<text x="60300" y="-5975" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9</text>
+<line x1="55500" y1="-5300" x2="60500" y2="-5300"/>
+<text x="55600" y="-5525" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">弱电</text>
+<text x="60300" y="-5525" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5</text>
+<text x="55600" y="-5075" font-size="182.875" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">合计</text>
+<text x="60300" y="-5075" font-size="182.875" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">34</text>
+</g>
+<g class="layer" data-layer="TK-图框" stroke="#1a1a1a" fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="31700,0 61400,0 61400,-21000 31700,-21000"/>
+<polygon points="32950,-500 60900,-500 60900,-20500 32950,-20500"/>
+<polygon points="50900,-500 60900,-500 60900,-4450 50900,-4450"/>
+<line x1="50900" y1="-3650" x2="60900" y2="-3650"/>
+<line x1="50900" y1="-950" x2="60900" y2="-950"/>
+<line x1="50900" y1="-1400" x2="60900" y2="-1400"/>
+<line x1="50900" y1="-1850" x2="60900" y2="-1850"/>
+<line x1="50900" y1="-2300" x2="60900" y2="-2300"/>
+<line x1="50900" y1="-2750" x2="60900" y2="-2750"/>
+<line x1="50900" y1="-3200" x2="60900" y2="-3200"/>
+<line x1="55900" y1="-500" x2="55900" y2="-3650"/>
+<line x1="52200" y1="-500" x2="52200" y2="-3650"/>
+<line x1="57200" y1="-500" x2="57200" y2="-3650"/>
+<text x="55900" y="-4050" font-size="731.5" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">机电点位图</text>
+<text x="51000" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目名</text>
+<text x="52300" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">口腔诊所方案</text>
+<text x="56000" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门店类型</text>
+<text x="57300" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植旗舰店</text>
+<text x="51000" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">平台</text>
+<text x="52300" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">M 平台</text>
+<text x="56000" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">风格</text>
+<text x="57300" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">暖奶油</text>
+<text x="51000" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">面积</text>
+<text x="52300" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">150 ㎡</text>
+<text x="56000" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">椅位</text>
+<text x="57300" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">4 椅</text>
+<text x="51000" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">房间数</text>
+<text x="52300" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">11 间</text>
+<text x="56000" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">家具</text>
+<text x="57300" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">129 件</text>
+<text x="51000" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">图号</text>
+<text x="52300" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">ADS-02-01</text>
+<text x="56000" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">比例</text>
+<text x="57300" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1:50</text>
+<text x="51000" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">日期</text>
+<text x="52300" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">2026-11-13</text>
+<text x="56000" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">阶段</text>
+<text x="57300" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">方案设计</text>
+<text x="51000" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">估价（元）</text>
+<text x="52300" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,882,299</text>
+<text x="56000" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时（人天）</text>
+<text x="57300" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">133.0</text>
+</g>
+</g>
+<g id="sheet-boq" data-sheet-id="boq" data-sheet-name="工程量与估价表" data-sheet-no="ADS-03-01" data-scale-den="50">
+<rect x="63400" y="-21000" width="29700" height="21000" fill="#ffffff" stroke="#c9ced6" stroke-width="5"/>
+<g class="layer" data-layer="A-家具" stroke="#7a7f87" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="65050,-19427.5 92200,-19427.5 92200,-19662.5 65050,-19662.5" fill="#7a7f87" fill-opacity="0.32" stroke="none"/>
+<polygon points="65050,-16842.5 92200,-16842.5 92200,-17077.5 65050,-17077.5" fill="#7a7f87" fill-opacity="0.32" stroke="none"/>
+<polygon points="65050,-14257.5 92200,-14257.5 92200,-14492.5 65050,-14492.5" fill="#7a7f87" fill-opacity="0.32" stroke="none"/>
+</g>
+<g class="layer" data-layer="A-文字" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="65115" y="-19545" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">硬装工程</text>
+<text x="65500" y="-19310" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">1</text>
+<text x="66015" y="-19310" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">地面工程（自流平+地胶/瓷砖）</text>
+<text x="76832" y="-19310" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">建筑面积</text>
+<text x="85050" y="-19310" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">150.00</text>
+<text x="88335" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">237</text>
+<text x="90035" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">35,475</text>
+<text x="92135" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.50</text>
+<text x="65500" y="-19075" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">2</text>
+<text x="66015" y="-19075" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">天花吊顶（矿棉板/铝扣板+龙骨）</text>
+<text x="76832" y="-19075" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">天花面积</text>
+<text x="85050" y="-19075" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">150.00</text>
+<text x="88335" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">167</text>
+<text x="90035" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">25,080</text>
+<text x="92135" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.25</text>
+<text x="65500" y="-18840" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">3</text>
+<text x="66015" y="-18840" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">墙面涂装（外墙内表面批腻子+乳胶漆）</text>
+<text x="76832" y="-18840" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">外墙内表面面积</text>
+<text x="85050" y="-18840" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">115.15</text>
+<text x="88335" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">81</text>
+<text x="90035" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9,373</text>
+<text x="92135" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.45</text>
+<text x="65500" y="-18605" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">4</text>
+<text x="66015" y="-18605" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">隔墙系统（轻钢龙骨双面石膏板+隔音）</text>
+<text x="76832" y="-18605" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">隔墙投影面积</text>
+<text x="85050" y="-18605" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">167.72</text>
+<text x="88335" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">204</text>
+<text x="90035" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">34,131</text>
+<text x="92135" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">11.74</text>
+<text x="65500" y="-18370" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">5</text>
+<text x="66015" y="-18370" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">隔墙面层处理（双面批腻子+涂料）</text>
+<text x="76832" y="-18370" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">隔墙双面面积</text>
+<text x="85050" y="-18370" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">335.44</text>
+<text x="88335" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">48</text>
+<text x="90035" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">16,235</text>
+<text x="92135" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8.39</text>
+<text x="65500" y="-18135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">6</text>
+<text x="66015" y="-18135" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">踢脚线/收口/门套</text>
+<text x="76832" y="-18135" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">建筑周长</text>
+<text x="85050" y="-18135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">m</text>
+<text x="86635" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">49.00</text>
+<text x="88335" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">42</text>
+<text x="90035" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,048</text>
+<text x="92135" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.49</text>
+<text x="65500" y="-17900" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">7</text>
+<text x="66015" y="-17900" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门窗工程（诊室门/入口感应门/五金）</text>
+<text x="76832" y="-17900" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门洞数量</text>
+<text x="85050" y="-17900" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">樘</text>
+<text x="86635" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">10.00</text>
+<text x="88335" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,870</text>
+<text x="90035" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">18,700</text>
+<text x="92135" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.00</text>
+<text x="65500" y="-17665" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">8</text>
+<text x="66015" y="-17665" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">入口玻璃幕墙（12mm 钢化+竖框）</text>
+<text x="76832" y="-17665" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">幕墙玻璃面积</text>
+<text x="85050" y="-17665" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">㎡</text>
+<text x="86635" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">17.64</text>
+<text x="88335" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">968</text>
+<text x="90035" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">17,076</text>
+<text x="92135" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.06</text>
+<text x="65500" y="-17430" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">9</text>
+<text x="66015" y="-17430" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">咨询室专项（隔断/软装/家具包）</text>
+<text x="76832" y="-17430" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">选装模块附加</text>
+<text x="85050" y="-17430" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项</text>
+<text x="86635" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">39,600</text>
+<text x="90035" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">39,600</text>
+<text x="92135" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.00</text>
+<text x="76702" y="-17195" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">小计</text>
+<text x="90035" y="-17195" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">197,718</text>
+<text x="92135" y="-17195" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">46.88</text>
+<text x="65115" y="-16960" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">机电与暖通</text>
+<text x="65500" y="-16725" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">10</text>
+<text x="66015" y="-16725" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">LED 平板灯/线条灯</text>
+<text x="76832" y="-16725" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">灯具数量</text>
+<text x="85050" y="-16725" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">套</text>
+<text x="86635" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">13.00</text>
+<text x="88335" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">330</text>
+<text x="90035" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,290</text>
+<text x="92135" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.04</text>
+<text x="65500" y="-16490" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">11</text>
+<text x="66015" y="-16490" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">天花嵌入式空调（风机盘管）</text>
+<text x="76832" y="-16490" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">空调数量</text>
+<text x="85050" y="-16490" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">台</text>
+<text x="86635" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7.00</text>
+<text x="88335" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,300</text>
+<text x="90035" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">16,100</text>
+<text x="92135" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.80</text>
+<text x="65500" y="-16255" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">12</text>
+<text x="66015" y="-16255" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">给水管路及点位（PPR）</text>
+<text x="76832" y="-16255" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">五类硬点 · 给水</text>
+<text x="85050" y="-16255" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">点</text>
+<text x="86635" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9.00</text>
+<text x="88335" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">900</text>
+<text x="90035" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8,100</text>
+<text x="92135" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.60</text>
+<text x="65500" y="-16020" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">13</text>
+<text x="66015" y="-16020" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">强电回路及点位（含配电箱）</text>
+<text x="76832" y="-16020" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">五类硬点 · 强电</text>
+<text x="85050" y="-16020" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">点</text>
+<text x="86635" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6.00</text>
+<text x="88335" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">640</text>
+<text x="90035" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,840</text>
+<text x="92135" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.80</text>
+<text x="65500" y="-15785" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">14</text>
+<text x="66015" y="-15785" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">气路工程（压缩空气+负压吸引管路）</text>
+<text x="76832" y="-15785" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">五类硬点 · 医用气体</text>
+<text x="85050" y="-15785" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">点</text>
+<text x="86635" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.00</text>
+<text x="88335" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="90035" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">10,000</text>
+<text x="92135" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.50</text>
+<text x="65500" y="-15550" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">15</text>
+<text x="66015" y="-15550" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">排水管路及点位（PVC）</text>
+<text x="76832" y="-15550" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">五类硬点 · 排水</text>
+<text x="85050" y="-15550" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">点</text>
+<text x="86635" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9.00</text>
+<text x="88335" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">850</text>
+<text x="90035" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,650</text>
+<text x="92135" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.60</text>
+<text x="65500" y="-15315" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">16</text>
+<text x="66015" y="-15315" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">弱电网络点位（网线+面板）</text>
+<text x="76832" y="-15315" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">五类硬点 · 弱电</text>
+<text x="85050" y="-15315" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">点</text>
+<text x="86635" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.00</text>
+<text x="88335" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">350</text>
+<text x="90035" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,750</text>
+<text x="92135" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.75</text>
+<text x="65500" y="-15080" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">17</text>
+<text x="66015" y="-15080" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">铅防护工程（含铅玻璃观察窗+硫酸钡墙体+铅门+防护屏）</text>
+<text x="76832" y="-15080" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">选装模块附加</text>
+<text x="85050" y="-15080" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项</text>
+<text x="86635" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">55,000</text>
+<text x="90035" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">55,000</text>
+<text x="92135" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6.00</text>
+<text x="65500" y="-14845" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">18</text>
+<text x="66015" y="-14845" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">系统联调与验收</text>
+<text x="76832" y="-14845" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">联调/培训/验收</text>
+<text x="85050" y="-14845" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项</text>
+<text x="86635" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5,500</text>
+<text x="90035" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5,500</text>
+<text x="92135" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="76702" y="-14610" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">小计</text>
+<text x="90035" y="-14610" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">112,230</text>
+<text x="92135" y="-14610" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">26.09</text>
+<text x="65115" y="-14375" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">家具与设备</text>
+<text x="65500" y="-14140" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">19</text>
+<text x="66015" y="-14140" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">宣传资料架</text>
+<text x="76832" y="-14140" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-14140" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">550</text>
+<text x="90035" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">550</text>
+<text x="92135" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-13905" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">20</text>
+<text x="66015" y="-13905" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">装饰花瓶</text>
+<text x="76832" y="-13905" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-13905" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="88335" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">220</text>
+<text x="90035" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">440</text>
+<text x="92135" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.44</text>
+<text x="65500" y="-13670" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">21</text>
+<text x="66015" y="-13670" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">激光打印机</text>
+<text x="76832" y="-13670" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-13670" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,200</text>
+<text x="90035" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,200</text>
+<text x="92135" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-13435" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">22</text>
+<text x="66015" y="-13435" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">27寸桌面显示器</text>
+<text x="76832" y="-13435" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-13435" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="88335" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,400</text>
+<text x="90035" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,800</text>
+<text x="92135" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.44</text>
+<text x="65500" y="-13200" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">23</text>
+<text x="66015" y="-13200" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">收银一体机</text>
+<text x="76832" y="-13200" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-13200" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="90035" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="92135" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-12965" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">24</text>
+<text x="66015" y="-12965" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">叫号显示屏</text>
+<text x="76832" y="-12965" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-12965" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,200</text>
+<text x="90035" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,200</text>
+<text x="92135" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.30</text>
+<text x="65500" y="-12730" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">25</text>
+<text x="66015" y="-12730" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台背景储物柜</text>
+<text x="76832" y="-12730" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-12730" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6,200</text>
+<text x="90035" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6,200</text>
+<text x="92135" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.40</text>
+<text x="65500" y="-12495" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">26</text>
+<text x="66015" y="-12495" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">弧形接待台</text>
+<text x="76832" y="-12495" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-12495" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">28,000</text>
+<text x="90035" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">28,000</text>
+<text x="92135" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.60</text>
+<text x="65500" y="-12260" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">27</text>
+<text x="66015" y="-12260" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台吊灯</text>
+<text x="76832" y="-12260" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-12260" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,200</text>
+<text x="90035" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,200</text>
+<text x="92135" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-12025" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">28</text>
+<text x="66015" y="-12025" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台绿植</text>
+<text x="76832" y="-12025" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-12025" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">380</text>
+<text x="90035" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">380</text>
+<text x="92135" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-11790" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">29</text>
+<text x="66015" y="-11790" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台工作椅</text>
+<text x="76832" y="-11790" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-11790" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-11790" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-11790" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,100</text>
+<text x="90035" y="-11790" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,100</text>
+<text x="92135" y="-11790" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-11555" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">30</text>
+<text x="66015" y="-11555" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">雨伞架</text>
+<text x="76832" y="-11555" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">前台接待</text>
+<text x="85050" y="-11555" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-11555" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-11555" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">150</text>
+<text x="90035" y="-11555" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">150</text>
+<text x="92135" y="-11555" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.22</text>
+<text x="65500" y="-11320" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">31</text>
+<text x="66015" y="-11320" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单人休闲沙发</text>
+<text x="76832" y="-11320" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-11320" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,300</text>
+<text x="90035" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,300</text>
+<text x="92135" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-11085" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">32</text>
+<text x="66015" y="-11085" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">圆形茶几</text>
+<text x="76832" y="-11085" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-11085" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,400</text>
+<text x="90035" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,400</text>
+<text x="92135" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-10850" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">33</text>
+<text x="66015" y="-10850" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">杂志架</text>
+<text x="76832" y="-10850" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-10850" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-10850" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-10850" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">700</text>
+<text x="90035" y="-10850" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">700</text>
+<text x="92135" y="-10850" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-10615" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">34</text>
+<text x="66015" y="-10615" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区地毯</text>
+<text x="76832" y="-10615" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-10615" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-10615" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-10615" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="90035" y="-10615" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="92135" y="-10615" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.10</text>
+<text x="65500" y="-10380" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">35</text>
+<text x="66015" y="-10380" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区大型绿植</text>
+<text x="76832" y="-10380" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-10380" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-10380" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-10380" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">700</text>
+<text x="90035" y="-10380" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">700</text>
+<text x="92135" y="-10380" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-10145" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">36</text>
+<text x="66015" y="-10145" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">双人候诊沙发</text>
+<text x="76832" y="-10145" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-10145" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-10145" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-10145" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,600</text>
+<text x="90035" y="-10145" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,600</text>
+<text x="92135" y="-10145" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-9910" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">37</text>
+<text x="66015" y="-9910" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">模块化候诊沙发</text>
+<text x="76832" y="-9910" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-9910" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-9910" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-9910" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,800</text>
+<text x="90035" y="-9910" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,800</text>
+<text x="92135" y="-9910" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-9675" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">38</text>
+<text x="66015" y="-9675" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">立式饮水机</text>
+<text x="76832" y="-9675" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">候诊区</text>
+<text x="85050" y="-9675" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-9675" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-9675" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,100</text>
+<text x="90035" y="-9675" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,100</text>
+<text x="92135" y="-9675" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.15</text>
+<text x="65500" y="-9440" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">39</text>
+<text x="66015" y="-9440" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">护士椅</text>
+<text x="76832" y="-9440" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-9440" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-9440" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-9440" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,100</text>
+<text x="90035" y="-9440" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,400</text>
+<text x="92135" y="-9440" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-9205" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">40</text>
+<text x="66015" y="-9205" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">椅旁显示器</text>
+<text x="76832" y="-9205" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-9205" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-9205" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-9205" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,000</text>
+<text x="90035" y="-9205" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">12,000</text>
+<text x="92135" y="-9205" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-8970" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">41</text>
+<text x="66015" y="-8970" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">牙科治疗推车</text>
+<text x="76832" y="-8970" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-8970" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-8970" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-8970" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,300</text>
+<text x="90035" y="-8970" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9,200</text>
+<text x="92135" y="-8970" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-8735" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">42</text>
+<text x="66015" y="-8735" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植专用牙椅</text>
+<text x="76832" y="-8735" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-8735" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-8735" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-8735" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">128,000</text>
+<text x="90035" y="-8735" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">512,000</text>
+<text x="92135" y="-8735" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.80</text>
+<text x="65500" y="-8500" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">43</text>
+<text x="66015" y="-8500" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊室电脑主机</text>
+<text x="76832" y="-8500" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-8500" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-8500" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-8500" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,400</text>
+<text x="90035" y="-8500" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9,600</text>
+<text x="92135" y="-8500" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-8265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">44</text>
+<text x="66015" y="-8265" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">医生工作台</text>
+<text x="76832" y="-8265" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-8265" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-8265" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-8265" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6,500</text>
+<text x="90035" y="-8265" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">26,000</text>
+<text x="92135" y="-8265" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.60</text>
+<text x="65500" y="-8030" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">45</text>
+<text x="66015" y="-8030" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">医生椅</text>
+<text x="76832" y="-8030" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-8030" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-8030" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-8030" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,300</text>
+<text x="90035" y="-8030" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5,200</text>
+<text x="92135" y="-8030" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-7795" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">46</text>
+<text x="66015" y="-7795" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">免洗手消毒液架</text>
+<text x="76832" y="-7795" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-7795" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-7795" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-7795" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">160</text>
+<text x="90035" y="-7795" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">640</text>
+<text x="92135" y="-7795" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-7560" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">47</text>
+<text x="66015" y="-7560" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植机</text>
+<text x="76832" y="-7560" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-7560" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-7560" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-7560" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">48,000</text>
+<text x="90035" y="-7560" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">192,000</text>
+<text x="92135" y="-7560" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.80</text>
+<text x="65500" y="-7325" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">48</text>
+<text x="66015" y="-7325" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">LED观片灯</text>
+<text x="76832" y="-7325" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-7325" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-7325" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-7325" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">800</text>
+<text x="90035" y="-7325" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="92135" y="-7325" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-7090" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">49</text>
+<text x="66015" y="-7090" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">医疗垃圾桶</text>
+<text x="76832" y="-7090" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-7090" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-7090" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-7090" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">220</text>
+<text x="90035" y="-7090" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">880</text>
+<text x="92135" y="-7090" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.12</text>
+<text x="65500" y="-6855" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">50</text>
+<text x="66015" y="-6855" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">洗手台柜</text>
+<text x="76832" y="-6855" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-6855" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-6855" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-6855" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,800</text>
+<text x="90035" y="-6855" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,200</text>
+<text x="92135" y="-6855" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="65500" y="-6620" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">51</text>
+<text x="66015" y="-6620" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">手术无影灯</text>
+<text x="76832" y="-6620" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">诊疗室</text>
+<text x="85050" y="-6620" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-6620" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4.00</text>
+<text x="88335" y="-6620" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">12,000</text>
+<text x="90035" y="-6620" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">48,000</text>
+<text x="92135" y="-6620" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.40</text>
+<text x="65500" y="-6385" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">52</text>
+<text x="66015" y="-6385" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">B类高压蒸汽灭菌器</text>
+<text x="76832" y="-6385" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-6385" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-6385" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-6385" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">42,000</text>
+<text x="90035" y="-6385" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">42,000</text>
+<text x="92135" y="-6385" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.80</text>
+<text x="65500" y="-6150" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">53</text>
+<text x="66015" y="-6150" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">双槽清洗槽</text>
+<text x="76832" y="-6150" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-6150" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-6150" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-6150" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8,000</text>
+<text x="90035" y="-6150" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8,000</text>
+<text x="92135" y="-6150" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.80</text>
+<text x="65500" y="-5915" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">54</text>
+<text x="66015" y="-5915" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">污物桶</text>
+<text x="76832" y="-5915" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-5915" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-5915" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-5915" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">300</text>
+<text x="90035" y="-5915" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">300</text>
+<text x="92135" y="-5915" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.35</text>
+<text x="65500" y="-5680" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">55</text>
+<text x="66015" y="-5680" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">器械干燥柜</text>
+<text x="76832" y="-5680" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-5680" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-5680" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-5680" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,500</text>
+<text x="90035" y="-5680" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,500</text>
+<text x="92135" y="-5680" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.60</text>
+<text x="65500" y="-5445" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">56</text>
+<text x="66015" y="-5445" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">器械篮架</text>
+<text x="76832" y="-5445" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-5445" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-5445" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-5445" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">400</text>
+<text x="90035" y="-5445" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">400</text>
+<text x="92135" y="-5445" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.35</text>
+<text x="65500" y="-5210" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">57</text>
+<text x="66015" y="-5210" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">封口机</text>
+<text x="76832" y="-5210" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="85050" y="-5210" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="86635" y="-5210" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="88335" y="-5210" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="90035" y="-5210" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="92135" y="-5210" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+</g>
+<g class="layer" data-layer="A-图例" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="65150" y="-750" font-size="175.56" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位：mm</text>
+<text x="65050" y="-4982.5" font-size="190.19" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">金额单位：元（含税）</text>
+<text x="92200" y="-4982.5" font-size="190.19" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">第 1 页 / 共 2 页</text>
+</g>
+<g class="layer" data-layer="TK-图框" stroke="#1a1a1a" fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="63400,0 93100,0 93100,-21000 63400,-21000"/>
+<polygon points="64650,-500 92600,-500 92600,-20500 64650,-20500"/>
+<polygon points="82600,-500 92600,-500 92600,-4450 82600,-4450"/>
+<line x1="82600" y1="-3650" x2="92600" y2="-3650"/>
+<line x1="82600" y1="-950" x2="92600" y2="-950"/>
+<line x1="82600" y1="-1400" x2="92600" y2="-1400"/>
+<line x1="82600" y1="-1850" x2="92600" y2="-1850"/>
+<line x1="82600" y1="-2300" x2="92600" y2="-2300"/>
+<line x1="82600" y1="-2750" x2="92600" y2="-2750"/>
+<line x1="82600" y1="-3200" x2="92600" y2="-3200"/>
+<line x1="87600" y1="-500" x2="87600" y2="-3650"/>
+<line x1="83900" y1="-500" x2="83900" y2="-3650"/>
+<line x1="88900" y1="-500" x2="88900" y2="-3650"/>
+<text x="87600" y="-4050" font-size="731.5" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">工程量与估价表</text>
+<text x="82700" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目名</text>
+<text x="84000" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">口腔诊所方案</text>
+<text x="87700" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门店类型</text>
+<text x="89000" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植旗舰店</text>
+<text x="82700" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">平台</text>
+<text x="84000" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">M 平台</text>
+<text x="87700" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">风格</text>
+<text x="89000" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">暖奶油</text>
+<text x="82700" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">面积</text>
+<text x="84000" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">150 ㎡</text>
+<text x="87700" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">椅位</text>
+<text x="89000" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">4 椅</text>
+<text x="82700" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">房间数</text>
+<text x="84000" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">11 间</text>
+<text x="87700" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">家具</text>
+<text x="89000" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">129 件</text>
+<text x="82700" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">图号</text>
+<text x="84000" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">ADS-03-01</text>
+<text x="87700" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">比例</text>
+<text x="89000" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1:50</text>
+<text x="82700" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">日期</text>
+<text x="84000" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">2026-11-13</text>
+<text x="87700" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">阶段</text>
+<text x="89000" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">方案设计</text>
+<text x="82700" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">估价（元）</text>
+<text x="84000" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,882,299</text>
+<text x="87700" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时（人天）</text>
+<text x="89000" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">133.0</text>
+<polygon points="65050,-5092.5 92200,-5092.5 92200,-20000 65050,-20000"/>
+<line x1="65050" y1="-19662.5" x2="92200" y2="-19662.5"/>
+<text x="65500" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">序号</text>
+<text x="71358.5" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目</text>
+<text x="80683.5" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">规格</text>
+<text x="85050" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位</text>
+<text x="86100" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">数量</text>
+<text x="87550" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">单价(元)</text>
+<text x="89250" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">合价(元)</text>
+<text x="91150" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时(人天)</text>
+<line x1="65950" y1="-19662.5" x2="65950" y2="-5092.5"/>
+<line x1="76767" y1="-19662.5" x2="76767" y2="-5092.5"/>
+<line x1="84600" y1="-19662.5" x2="84600" y2="-5092.5"/>
+<line x1="85500" y1="-19662.5" x2="85500" y2="-5092.5"/>
+<line x1="86700" y1="-19662.5" x2="86700" y2="-5092.5"/>
+<line x1="88400" y1="-19662.5" x2="88400" y2="-5092.5"/>
+<line x1="90100" y1="-19662.5" x2="90100" y2="-5092.5"/>
+<line x1="65050" y1="-19427.5" x2="92200" y2="-19427.5"/>
+<line x1="65050" y1="-19192.5" x2="92200" y2="-19192.5"/>
+<line x1="65050" y1="-18957.5" x2="92200" y2="-18957.5"/>
+<line x1="65050" y1="-18722.5" x2="92200" y2="-18722.5"/>
+<line x1="65050" y1="-18487.5" x2="92200" y2="-18487.5"/>
+<line x1="65050" y1="-18252.5" x2="92200" y2="-18252.5"/>
+<line x1="65050" y1="-18017.5" x2="92200" y2="-18017.5"/>
+<line x1="65050" y1="-17782.5" x2="92200" y2="-17782.5"/>
+<line x1="65050" y1="-17547.5" x2="92200" y2="-17547.5"/>
+<line x1="65050" y1="-17312.5" x2="92200" y2="-17312.5"/>
+<line x1="65050" y1="-17077.5" x2="92200" y2="-17077.5"/>
+<line x1="65050" y1="-16842.5" x2="92200" y2="-16842.5"/>
+<line x1="65050" y1="-16607.5" x2="92200" y2="-16607.5"/>
+<line x1="65050" y1="-16372.5" x2="92200" y2="-16372.5"/>
+<line x1="65050" y1="-16137.5" x2="92200" y2="-16137.5"/>
+<line x1="65050" y1="-15902.5" x2="92200" y2="-15902.5"/>
+<line x1="65050" y1="-15667.5" x2="92200" y2="-15667.5"/>
+<line x1="65050" y1="-15432.5" x2="92200" y2="-15432.5"/>
+<line x1="65050" y1="-15197.5" x2="92200" y2="-15197.5"/>
+<line x1="65050" y1="-14962.5" x2="92200" y2="-14962.5"/>
+<line x1="65050" y1="-14727.5" x2="92200" y2="-14727.5"/>
+<line x1="65050" y1="-14492.5" x2="92200" y2="-14492.5"/>
+<line x1="65050" y1="-14257.5" x2="92200" y2="-14257.5"/>
+<line x1="65050" y1="-14022.5" x2="92200" y2="-14022.5"/>
+<line x1="65050" y1="-13787.5" x2="92200" y2="-13787.5"/>
+<line x1="65050" y1="-13552.5" x2="92200" y2="-13552.5"/>
+<line x1="65050" y1="-13317.5" x2="92200" y2="-13317.5"/>
+<line x1="65050" y1="-13082.5" x2="92200" y2="-13082.5"/>
+<line x1="65050" y1="-12847.5" x2="92200" y2="-12847.5"/>
+<line x1="65050" y1="-12612.5" x2="92200" y2="-12612.5"/>
+<line x1="65050" y1="-12377.5" x2="92200" y2="-12377.5"/>
+<line x1="65050" y1="-12142.5" x2="92200" y2="-12142.5"/>
+<line x1="65050" y1="-11907.5" x2="92200" y2="-11907.5"/>
+<line x1="65050" y1="-11672.5" x2="92200" y2="-11672.5"/>
+<line x1="65050" y1="-11437.5" x2="92200" y2="-11437.5"/>
+<line x1="65050" y1="-11202.5" x2="92200" y2="-11202.5"/>
+<line x1="65050" y1="-10967.5" x2="92200" y2="-10967.5"/>
+<line x1="65050" y1="-10732.5" x2="92200" y2="-10732.5"/>
+<line x1="65050" y1="-10497.5" x2="92200" y2="-10497.5"/>
+<line x1="65050" y1="-10262.5" x2="92200" y2="-10262.5"/>
+<line x1="65050" y1="-10027.5" x2="92200" y2="-10027.5"/>
+<line x1="65050" y1="-9792.5" x2="92200" y2="-9792.5"/>
+<line x1="65050" y1="-9557.5" x2="92200" y2="-9557.5"/>
+<line x1="65050" y1="-9322.5" x2="92200" y2="-9322.5"/>
+<line x1="65050" y1="-9087.5" x2="92200" y2="-9087.5"/>
+<line x1="65050" y1="-8852.5" x2="92200" y2="-8852.5"/>
+<line x1="65050" y1="-8617.5" x2="92200" y2="-8617.5"/>
+<line x1="65050" y1="-8382.5" x2="92200" y2="-8382.5"/>
+<line x1="65050" y1="-8147.5" x2="92200" y2="-8147.5"/>
+<line x1="65050" y1="-7912.5" x2="92200" y2="-7912.5"/>
+<line x1="65050" y1="-7677.5" x2="92200" y2="-7677.5"/>
+<line x1="65050" y1="-7442.5" x2="92200" y2="-7442.5"/>
+<line x1="65050" y1="-7207.5" x2="92200" y2="-7207.5"/>
+<line x1="65050" y1="-6972.5" x2="92200" y2="-6972.5"/>
+<line x1="65050" y1="-6737.5" x2="92200" y2="-6737.5"/>
+<line x1="65050" y1="-6502.5" x2="92200" y2="-6502.5"/>
+<line x1="65050" y1="-6267.5" x2="92200" y2="-6267.5"/>
+<line x1="65050" y1="-6032.5" x2="92200" y2="-6032.5"/>
+<line x1="65050" y1="-5797.5" x2="92200" y2="-5797.5"/>
+<line x1="65050" y1="-5562.5" x2="92200" y2="-5562.5"/>
+<line x1="65050" y1="-5327.5" x2="92200" y2="-5327.5"/>
+<line x1="65050" y1="-5092.5" x2="92200" y2="-5092.5"/>
+</g>
+</g>
+<g id="sheet-boq-2" data-sheet-id="boq-2" data-sheet-name="工程量与估价表（续 2）" data-sheet-no="ADS-03-02" data-scale-den="50">
+<rect x="95100" y="-21000" width="29700" height="21000" fill="#ffffff" stroke="#c9ced6" stroke-width="5"/>
+<g class="layer" data-layer="A-家具" stroke="#7a7f87" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="96750,-11437.5 123900,-11437.5 123900,-11672.5 96750,-11672.5" fill="#7a7f87" fill-opacity="0.32" stroke="none"/>
+</g>
+<g class="layer" data-layer="A-文字" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="97200" y="-19545" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">58</text>
+<text x="97715" y="-19545" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">不锈钢工作台</text>
+<text x="108532" y="-19545" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="116750" y="-19545" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-19545" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-19545" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,600</text>
+<text x="121735" y="-19545" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,600</text>
+<text x="123835" y="-19545" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.50</text>
+<text x="97200" y="-19310" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">59</text>
+<text x="97715" y="-19310" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">无菌物品储物柜</text>
+<text x="108532" y="-19310" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="116750" y="-19310" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,600</text>
+<text x="121735" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,600</text>
+<text x="123835" y="-19310" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.30</text>
+<text x="97200" y="-19075" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">60</text>
+<text x="97715" y="-19075" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">超声波清洗机</text>
+<text x="108532" y="-19075" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="116750" y="-19075" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">12,000</text>
+<text x="121735" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">12,000</text>
+<text x="123835" y="-19075" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.30</text>
+<text x="97200" y="-18840" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">61</text>
+<text x="97715" y="-18840" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">清洗消毒机</text>
+<text x="108532" y="-18840" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">消毒供应室</text>
+<text x="116750" y="-18840" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">85,000</text>
+<text x="121735" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">85,000</text>
+<text x="123835" y="-18840" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.20</text>
+<text x="97200" y="-18605" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">62</text>
+<text x="97715" y="-18605" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">CBCT机</text>
+<text x="108532" y="-18605" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="116750" y="-18605" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">300,000</text>
+<text x="121735" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">300,000</text>
+<text x="123835" y="-18605" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.50</text>
+<text x="97200" y="-18370" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">63</text>
+<text x="97715" y="-18370" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">铅衣架</text>
+<text x="108532" y="-18370" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="116750" y="-18370" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="121735" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,200</text>
+<text x="123835" y="-18370" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-18135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">64</text>
+<text x="97715" y="-18135" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">铅防护门</text>
+<text x="108532" y="-18135" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="116750" y="-18135" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,500</text>
+<text x="121735" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">7,500</text>
+<text x="123835" y="-18135" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.60</text>
+<text x="97200" y="-17900" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">65</text>
+<text x="97715" y="-17900" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">移动铅屏风</text>
+<text x="108532" y="-17900" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="116750" y="-17900" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8,000</text>
+<text x="121735" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">8,000</text>
+<text x="123835" y="-17900" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.40</text>
+<text x="97200" y="-17665" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">66</text>
+<text x="97715" y="-17665" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">辐射警示灯</text>
+<text x="108532" y="-17665" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">影像室</text>
+<text x="116750" y="-17665" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,000</text>
+<text x="121735" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,000</text>
+<text x="123835" y="-17665" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.80</text>
+<text x="97200" y="-17430" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">67</text>
+<text x="97715" y="-17430" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间镜子</text>
+<text x="108532" y="-17430" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-17430" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">850</text>
+<text x="121735" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">850</text>
+<text x="123835" y="-17430" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-17195" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">68</text>
+<text x="97715" y="-17195" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间垃圾桶</text>
+<text x="108532" y="-17195" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-17195" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-17195" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-17195" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">200</text>
+<text x="121735" y="-17195" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">200</text>
+<text x="123835" y="-17195" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-16960" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">69</text>
+<text x="97715" y="-16960" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间洗手台柜</text>
+<text x="108532" y="-16960" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-16960" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-16960" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-16960" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,000</text>
+<text x="121735" y="-16960" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,000</text>
+<text x="123835" y="-16960" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-16725" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">70</text>
+<text x="97715" y="-16725" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">高速烘手机</text>
+<text x="108532" y="-16725" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-16725" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,500</text>
+<text x="121735" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,500</text>
+<text x="123835" y="-16725" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-16490" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">71</text>
+<text x="97715" y="-16490" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">落地马桶</text>
+<text x="108532" y="-16490" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-16490" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,600</text>
+<text x="121735" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,600</text>
+<text x="123835" y="-16490" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-16255" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">72</text>
+<text x="97715" y="-16255" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卷纸架</text>
+<text x="108532" y="-16255" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">卫生间</text>
+<text x="116750" y="-16255" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">160</text>
+<text x="121735" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">160</text>
+<text x="123835" y="-16255" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.20</text>
+<text x="97200" y="-16020" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">73</text>
+<text x="97715" y="-16020" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">书柜</text>
+<text x="108532" y="-16020" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-16020" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="120035" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,400</text>
+<text x="121735" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,800</text>
+<text x="123835" y="-16020" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.36</text>
+<text x="97200" y="-15785" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">74</text>
+<text x="97715" y="-15785" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">访客椅</text>
+<text x="108532" y="-15785" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-15785" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="120035" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,000</text>
+<text x="121735" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="123835" y="-15785" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.36</text>
+<text x="97200" y="-15550" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">75</text>
+<text x="97715" y="-15550" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">会议显示屏</text>
+<text x="108532" y="-15550" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-15550" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,500</text>
+<text x="121735" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,500</text>
+<text x="123835" y="-15550" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.30</text>
+<text x="97200" y="-15315" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">76</text>
+<text x="97715" y="-15315" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公椅</text>
+<text x="108532" y="-15315" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-15315" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.00</text>
+<text x="120035" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,300</text>
+<text x="121735" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6,500</text>
+<text x="123835" y="-15315" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.90</text>
+<text x="97200" y="-15080" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">77</text>
+<text x="97715" y="-15080" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公室茶几</text>
+<text x="108532" y="-15080" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-15080" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="121735" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,000</text>
+<text x="123835" y="-15080" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.18</text>
+<text x="97200" y="-14845" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">78</text>
+<text x="97715" y="-14845" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公桌</text>
+<text x="108532" y="-14845" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-14845" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="120035" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3,000</text>
+<text x="121735" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">6,000</text>
+<text x="123835" y="-14845" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.36</text>
+<text x="97200" y="-14610" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">79</text>
+<text x="97715" y="-14610" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公文件柜</text>
+<text x="108532" y="-14610" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-14610" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-14610" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-14610" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,200</text>
+<text x="121735" y="-14610" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,200</text>
+<text x="123835" y="-14610" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.18</text>
+<text x="97200" y="-14375" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">80</text>
+<text x="97715" y="-14375" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公显示器</text>
+<text x="108532" y="-14375" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-14375" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-14375" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.00</text>
+<text x="120035" y="-14375" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">950</text>
+<text x="121735" y="-14375" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,750</text>
+<text x="123835" y="-14375" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.90</text>
+<text x="97200" y="-14140" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">81</text>
+<text x="97715" y="-14140" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公室绿植</text>
+<text x="108532" y="-14140" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-14140" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">320</text>
+<text x="121735" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">320</text>
+<text x="123835" y="-14140" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.18</text>
+<text x="97200" y="-13905" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">82</text>
+<text x="97715" y="-13905" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公打印机</text>
+<text x="108532" y="-13905" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-13905" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,800</text>
+<text x="121735" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,800</text>
+<text x="123835" y="-13905" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.18</text>
+<text x="97200" y="-13670" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">83</text>
+<text x="97715" y="-13670" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公室沙发</text>
+<text x="108532" y="-13670" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">办公/院长室</text>
+<text x="116750" y="-13670" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,600</text>
+<text x="121735" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">4,600</text>
+<text x="123835" y="-13670" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.18</text>
+<text x="97200" y="-13435" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">84</text>
+<text x="97715" y="-13435" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">感应玻璃门</text>
+<text x="108532" y="-13435" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-13435" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">10,500</text>
+<text x="121735" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">10,500</text>
+<text x="123835" y="-13435" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="97200" y="-13200" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">85</text>
+<text x="97715" y="-13200" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">走廊绿植</text>
+<text x="108532" y="-13200" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-13200" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2.00</text>
+<text x="120035" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">380</text>
+<text x="121735" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">760</text>
+<text x="123835" y="-13200" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.12</text>
+<text x="97200" y="-12965" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">86</text>
+<text x="97715" y="-12965" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">走廊垃圾桶</text>
+<text x="108532" y="-12965" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-12965" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">270</text>
+<text x="121735" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">270</text>
+<text x="123835" y="-12965" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.06</text>
+<text x="97200" y="-12730" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">87</text>
+<text x="97715" y="-12730" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">走廊时钟</text>
+<text x="108532" y="-12730" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-12730" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">240</text>
+<text x="121735" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">240</text>
+<text x="123835" y="-12730" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.06</text>
+<text x="97200" y="-12495" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">88</text>
+<text x="97715" y="-12495" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">入口吸水地垫</text>
+<text x="108532" y="-12495" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-12495" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">650</text>
+<text x="121735" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">650</text>
+<text x="123835" y="-12495" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.06</text>
+<text x="97200" y="-12260" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">89</text>
+<text x="97715" y="-12260" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">灭火器</text>
+<text x="108532" y="-12260" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-12260" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">220</text>
+<text x="121735" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">220</text>
+<text x="123835" y="-12260" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.06</text>
+<text x="97200" y="-12025" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">90</text>
+<text x="97715" y="-12025" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">装饰挂画</text>
+<text x="108532" y="-12025" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">公共/走廊</text>
+<text x="116750" y="-12025" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">件</text>
+<text x="118335" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">5.00</text>
+<text x="120035" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">500</text>
+<text x="121735" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">2,500</text>
+<text x="123835" y="-12025" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">0.30</text>
+<text x="108402" y="-11790" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">小计</text>
+<text x="121735" y="-11790" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,442,560</text>
+<text x="123835" y="-11790" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">42.27</text>
+<text x="96815" y="-11555" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">设计与管理</text>
+<text x="97200" y="-11320" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">91</text>
+<text x="97715" y="-11320" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">方案设计费</text>
+<text x="108532" y="-11320" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">硬装+机电造价 4.5%</text>
+<text x="116750" y="-11320" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项</text>
+<text x="118335" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">13,948</text>
+<text x="121735" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">13,948</text>
+<text x="123835" y="-11320" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">14.15</text>
+<text x="97200" y="-11085" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">92</text>
+<text x="97715" y="-11085" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目管理费</text>
+<text x="108532" y="-11085" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">硬装+机电造价 3%</text>
+<text x="116750" y="-11085" font-size="263.34" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项</text>
+<text x="118335" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1.00</text>
+<text x="120035" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9,298</text>
+<text x="121735" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">9,298</text>
+<text x="123835" y="-11085" font-size="263.34" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">3.65</text>
+<text x="108402" y="-10850" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">小计</text>
+<text x="121735" y="-10850" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">23,246</text>
+<text x="123835" y="-10850" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">17.80</text>
+<text x="96815" y="-10615" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">合计（不含税）</text>
+<text x="123835" y="-10615" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,775,754</text>
+<text x="96815" y="-10380" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">税金</text>
+<text x="123835" y="-10380" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">106,545</text>
+<text x="96815" y="-10145" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">总计</text>
+<text x="123835" y="-10145" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,882,299</text>
+<text x="96815" y="-9910" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单方造价（元/㎡）</text>
+<text x="110260" y="-9910" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">12,549</text>
+<text x="110455" y="-9910" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">每椅造价（元/椅）</text>
+<text x="123835" y="-9910" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">470,575</text>
+<text x="96815" y="-9675" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">总工时（人天）</text>
+<text x="110260" y="-9675" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">133.0</text>
+<text x="110455" y="-9675" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">工期（天）</text>
+<text x="123835" y="-9675" font-size="277.97" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">37</text>
+<text x="96815" y="-9440" font-size="277.97" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">金额大写</text>
+<text x="98650" y="-9440" font-size="263.34" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">人民币壹佰捌拾捌万贰仟贰佰玖拾玖元整</text>
+</g>
+<g class="layer" data-layer="A-图例" stroke="#1a1a1a" fill="none" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+<text x="96850" y="-750" font-size="175.56" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位：mm</text>
+<text x="96750" y="-9212.5" font-size="190.19" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">金额单位：元（含税）</text>
+<text x="123900" y="-9212.5" font-size="190.19" text-anchor="end" dominant-baseline="central" fill="#1a1a1a" stroke="none">第 2 页 / 共 2 页</text>
+</g>
+<g class="layer" data-layer="TK-图框" stroke="#1a1a1a" fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="95100,0 124800,0 124800,-21000 95100,-21000"/>
+<polygon points="96350,-500 124300,-500 124300,-20500 96350,-20500"/>
+<polygon points="114300,-500 124300,-500 124300,-4450 114300,-4450"/>
+<line x1="114300" y1="-3650" x2="124300" y2="-3650"/>
+<line x1="114300" y1="-950" x2="124300" y2="-950"/>
+<line x1="114300" y1="-1400" x2="124300" y2="-1400"/>
+<line x1="114300" y1="-1850" x2="124300" y2="-1850"/>
+<line x1="114300" y1="-2300" x2="124300" y2="-2300"/>
+<line x1="114300" y1="-2750" x2="124300" y2="-2750"/>
+<line x1="114300" y1="-3200" x2="124300" y2="-3200"/>
+<line x1="119300" y1="-500" x2="119300" y2="-3650"/>
+<line x1="115600" y1="-500" x2="115600" y2="-3650"/>
+<line x1="120600" y1="-500" x2="120600" y2="-3650"/>
+<text x="119300" y="-4050" font-size="731.5" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">工程量与估价表</text>
+<text x="114400" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目名</text>
+<text x="115700" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">口腔诊所方案</text>
+<text x="119400" y="-3425" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">门店类型</text>
+<text x="120700" y="-3425" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">种植旗舰店</text>
+<text x="114400" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">平台</text>
+<text x="115700" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">M 平台</text>
+<text x="119400" y="-2975" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">风格</text>
+<text x="120700" y="-2975" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">暖奶油</text>
+<text x="114400" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">面积</text>
+<text x="115700" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">150 ㎡</text>
+<text x="119400" y="-2525" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">椅位</text>
+<text x="120700" y="-2525" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">4 椅</text>
+<text x="114400" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">房间数</text>
+<text x="115700" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">11 间</text>
+<text x="119400" y="-2075" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">家具</text>
+<text x="120700" y="-2075" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">129 件</text>
+<text x="114400" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">图号</text>
+<text x="115700" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">ADS-03-02</text>
+<text x="119400" y="-1625" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">比例</text>
+<text x="120700" y="-1625" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1:50</text>
+<text x="114400" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">日期</text>
+<text x="115700" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">2026-11-13</text>
+<text x="119400" y="-1175" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">阶段</text>
+<text x="120700" y="-1175" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">方案设计</text>
+<text x="114400" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">估价（元）</text>
+<text x="115700" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">1,882,299</text>
+<text x="119400" y="-725" font-size="168.245" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时（人天）</text>
+<text x="120700" y="-725" font-size="219.45" text-anchor="start" dominant-baseline="central" fill="#1a1a1a" stroke="none">133.0</text>
+<polygon points="96750,-9322.5 123900,-9322.5 123900,-20000 96750,-20000"/>
+<line x1="96750" y1="-19662.5" x2="123900" y2="-19662.5"/>
+<text x="97200" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">序号</text>
+<text x="103058.5" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">项目</text>
+<text x="112383.5" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">规格</text>
+<text x="116750" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">单位</text>
+<text x="117800" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">数量</text>
+<text x="119250" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">单价(元)</text>
+<text x="120950" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">合价(元)</text>
+<text x="122850" y="-19831.25" font-size="365.75" text-anchor="middle" dominant-baseline="central" fill="#1a1a1a" stroke="none">工时(人天)</text>
+<line x1="97650" y1="-19662.5" x2="97650" y2="-10732.5"/>
+<line x1="108467" y1="-19662.5" x2="108467" y2="-10732.5"/>
+<line x1="116300" y1="-19662.5" x2="116300" y2="-10732.5"/>
+<line x1="117200" y1="-19662.5" x2="117200" y2="-10732.5"/>
+<line x1="118400" y1="-19662.5" x2="118400" y2="-10732.5"/>
+<line x1="120100" y1="-19662.5" x2="120100" y2="-10732.5"/>
+<line x1="121800" y1="-19662.5" x2="121800" y2="-10732.5"/>
+<line x1="96750" y1="-19427.5" x2="123900" y2="-19427.5"/>
+<line x1="96750" y1="-19192.5" x2="123900" y2="-19192.5"/>
+<line x1="96750" y1="-18957.5" x2="123900" y2="-18957.5"/>
+<line x1="96750" y1="-18722.5" x2="123900" y2="-18722.5"/>
+<line x1="96750" y1="-18487.5" x2="123900" y2="-18487.5"/>
+<line x1="96750" y1="-18252.5" x2="123900" y2="-18252.5"/>
+<line x1="96750" y1="-18017.5" x2="123900" y2="-18017.5"/>
+<line x1="96750" y1="-17782.5" x2="123900" y2="-17782.5"/>
+<line x1="96750" y1="-17547.5" x2="123900" y2="-17547.5"/>
+<line x1="96750" y1="-17312.5" x2="123900" y2="-17312.5"/>
+<line x1="96750" y1="-17077.5" x2="123900" y2="-17077.5"/>
+<line x1="96750" y1="-16842.5" x2="123900" y2="-16842.5"/>
+<line x1="96750" y1="-16607.5" x2="123900" y2="-16607.5"/>
+<line x1="96750" y1="-16372.5" x2="123900" y2="-16372.5"/>
+<line x1="96750" y1="-16137.5" x2="123900" y2="-16137.5"/>
+<line x1="96750" y1="-15902.5" x2="123900" y2="-15902.5"/>
+<line x1="96750" y1="-15667.5" x2="123900" y2="-15667.5"/>
+<line x1="96750" y1="-15432.5" x2="123900" y2="-15432.5"/>
+<line x1="96750" y1="-15197.5" x2="123900" y2="-15197.5"/>
+<line x1="96750" y1="-14962.5" x2="123900" y2="-14962.5"/>
+<line x1="96750" y1="-14727.5" x2="123900" y2="-14727.5"/>
+<line x1="96750" y1="-14492.5" x2="123900" y2="-14492.5"/>
+<line x1="96750" y1="-14257.5" x2="123900" y2="-14257.5"/>
+<line x1="96750" y1="-14022.5" x2="123900" y2="-14022.5"/>
+<line x1="96750" y1="-13787.5" x2="123900" y2="-13787.5"/>
+<line x1="96750" y1="-13552.5" x2="123900" y2="-13552.5"/>
+<line x1="96750" y1="-13317.5" x2="123900" y2="-13317.5"/>
+<line x1="96750" y1="-13082.5" x2="123900" y2="-13082.5"/>
+<line x1="96750" y1="-12847.5" x2="123900" y2="-12847.5"/>
+<line x1="96750" y1="-12612.5" x2="123900" y2="-12612.5"/>
+<line x1="96750" y1="-12377.5" x2="123900" y2="-12377.5"/>
+<line x1="96750" y1="-12142.5" x2="123900" y2="-12142.5"/>
+<line x1="96750" y1="-11907.5" x2="123900" y2="-11907.5"/>
+<line x1="96750" y1="-11672.5" x2="123900" y2="-11672.5"/>
+<line x1="96750" y1="-11437.5" x2="123900" y2="-11437.5"/>
+<line x1="96750" y1="-11202.5" x2="123900" y2="-11202.5"/>
+<line x1="96750" y1="-10967.5" x2="123900" y2="-10967.5"/>
+<line x1="96750" y1="-10732.5" x2="123900" y2="-10732.5"/>
+<line x1="96750" y1="-10497.5" x2="123900" y2="-10497.5"/>
+<line x1="96750" y1="-10262.5" x2="123900" y2="-10262.5"/>
+<line x1="96750" y1="-10027.5" x2="123900" y2="-10027.5"/>
+<line x1="96750" y1="-9792.5" x2="123900" y2="-9792.5"/>
+<line x1="96750" y1="-9557.5" x2="123900" y2="-9557.5"/>
+<line x1="96750" y1="-9322.5" x2="123900" y2="-9322.5"/>
+</g>
+</g>
+</g>
+</svg>

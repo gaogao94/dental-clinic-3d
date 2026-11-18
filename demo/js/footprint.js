@@ -1,0 +1,147 @@
+// 资产平面尺寸（米）：[宽 w(x), 深 d(z), 高 h(y)]。
+// 已按 asset-tuning rotY 转正到「正面朝 +Z」，即 plan.items[].rotY=0 时的世界平面尺寸；
+// 由无头浏览器实测归一化 bbox 生成（dental/tools/dump-footprints.mjs，119 件），勿手改。
+export const FOOTPRINTS = {
+  'armchair-single': [0.9, 0.552, 0.734],
+  'assistant-stool': [0.44, 0.55, 0.695],
+  'autoclave-class-b': [0.674, 0.68, 1.452],
+  'autoclave-large': [0.7, 0.661, 1.752],
+  'baby-changing-station': [0.85, 0.719, 0.956],
+  'bathroom-mirror': [0.6, 0.053, 0.797],
+  'bathroom-trash-bin': [0.25, 0.188, 0.488],
+  'bathroom-vanity': [0.8, 0.387, 1.387],
+  'bookcase': [0.9, 0.108, 0.563],
+  'brochure-rack': [0.45, 0.296, 1.332],
+  'cabinet-base-run': [1.758, 1.8, 1.146],
+  'cbct-machine': [1.368, 1.6, 2.031],
+  'chairside-monitor': [0.53, 0.461, 0.526],
+  'cleaning-sink-double': [1.2, 0.322, 0.545],
+  'clinic-entrance-door': [2.25, 0.229, 2.095],
+  'coffee-bar-counter': [1.8, 0.724, 1.181],
+  'coffee-machine': [0.347, 0.35, 0.353],
+  'coffee-table-rect': [1.2, 0.492, 0.478],
+  'coffee-table-round': [0.8, 0.793, 0.653],
+  'contaminated-waste-bin': [0.379, 0.4, 0.447],
+  'corridor-planter': [0.7, 0.693, 0.71],
+  'corridor-trash-bin': [0.28, 0.21, 0.547],
+  'corridor-wall-clock': [0.4, 0.082, 0.4],
+  'curing-box': [0.35, 0.35, 0.385],
+  'decorative-vase': [0.242, 0.25, 0.431],
+  'dental-cart': [0.6, 0.526, 0.891],
+  'dental-chair-adult': [1.19, 2, 1.759],
+  'dental-chair-child': [1.115, 1.8, 1.539],
+  'dental-chair-deluxe': [1.184, 2, 1.804],
+  'dental-chair-implant': [1.19, 2, 1.761],
+  'dental-chair-orthodontic': [1.185, 2, 1.804],
+  'dental-computer-tower': [0.488, 0.5, 0.969],
+  'dental-workstation-desk': [1.2, 0.66, 0.686],
+  'dentist-stool': [0.55, 0.498, 0.561],
+  'desktop-scanner': [0.33, 0.5, 0.49],
+  'drying-cabinet': [0.6, 0.457, 1.622],
+  'dust-extractor': [0.457, 0.5, 0.584],
+  'entrance-floor-mat': [1.2, 0.727, 0.199],
+  'fire-extinguisher': [0.25, 0.113, 0.296],
+  'guest-chair': [0.55, 0.544, 0.833],
+  'hand-dryer': [0.3, 0.121, 0.248],
+  'hand-sanitizer-dispenser': [0.2, 0.171, 0.198],
+  'heavy-duty-shelf': [2, 0.592, 1.942],
+  'implant-motor': [0.35, 0.341, 0.28],
+  'instrument-basket-rack': [0.4, 0.289, 0.184],
+  'intraoral-scanner': [0.4, 0.363, 0.716],
+  'intraoral-xray-wall': [0.6, 0.085, 0.685],
+  'key-cabinet': [0.4, 0.175, 0.576],
+  'kids-indoor-slide': [0.653, 1.6, 1.159],
+  'kids-play-carpet': [1.8, 1.778, 1.385],
+  'kids-play-tent': [1, 0.962, 1.11],
+  'kids-sink': [0.8, 0.633, 1.02],
+  'kids-table-set': [1.2, 1.199, 0.526],
+  'kids-tv': [0.95, 0.193, 0.696],
+  'kids-waiting-bench': [1.4, 0.614, 0.819],
+  'lab-fume-hood': [1.2, 0.723, 1.677],
+  'lab-material-cabinet': [0.9, 0.375, 1.119],
+  'lab-workbench': [1.8, 0.999, 1.517],
+  'laser-printer': [0.45, 0.385, 0.325],
+  'lead-apron-rack': [0.659, 0.7, 2.027],
+  'lead-lined-door': [0.9, 0.279, 1.829],
+  'lead-shielding-screen': [1.2, 0.636, 1.174],
+  'led-xray-viewer': [0.9, 0.155, 0.391],
+  'locker-3door': [0.9, 0.376, 1.49],
+  'locker-room-bench': [1.2, 0.317, 0.391],
+  'magazine-rack': [0.45, 0.435, 1.479],
+  'material-supply-cart': [0.9, 0.531, 0.823],
+  'medical-waste-bin': [0.35, 0.294, 0.467],
+  'medicine-cabinet': [1.2, 0.303, 1.195],
+  'meeting-room-display': [1.44, 0.05, 1.093],
+  'microwave': [0.45, 0.367, 0.298],
+  'mobile-cabinet-two-drawer': [0.6, 0.232, 0.384],
+  'monitor-27': [0.62, 0.267, 0.514],
+  'office-chair': [0.65, 0.612, 1.022],
+  'office-coffee-table': [1.1, 0.557, 0.549],
+  'office-desk': [1.6, 1.262, 1.122],
+  'office-file-cabinet': [0.446, 0.5, 0.734],
+  'office-monitor': [0.62, 0.283, 0.608],
+  'office-potted-plant': [0.8, 0.792, 0.812],
+  'office-printer': [0.5, 0.445, 0.225],
+  'office-sofa': [1.6, 0.995, 0.946],
+  'packing-table': [1.8, 0.953, 1.22],
+  'panoramic-xray': [1.213, 1.5, 1.376],
+  'picture-book-rack': [0.9, 0.568, 0.752],
+  'plaster-mixer': [0.45, 0.328, 0.86],
+  'pos-terminal': [0.4, 0.17, 0.414],
+  'queue-display-screen': [0.71, 0.036, 0.439],
+  'radiation-warning-sign': [0.26, 0.3, 0.4],
+  'reception-back-cabinet': [2.4, 0.638, 1.275],
+  'reception-desk-curved': [2.4, 1.995, 0.398],
+  'reception-pendant-light': [1.2, 0.108, 0.733],
+  'reception-planter': [0.7, 0.693, 0.711],
+  'receptionist-chair': [0.65, 0.612, 1.022],
+  'refrigerator': [0.65, 0.533, 1.291],
+  'resin-3d-printer': [0.45, 0.332, 0.526],
+  'sealing-machine': [0.4, 0.199, 0.155],
+  'sink-cabinet': [1, 0.57, 0.938],
+  'staff-break-table': [0.8, 0.5, 0.47],
+  'staff-lounge-sofa': [1.6, 0.995, 0.946],
+  'staff-wall-clock': [0.35, 0.065, 0.597],
+  'stainless-worktable': [1.5, 0.681, 0.876],
+  'sterile-storage-cabinet': [0.9, 0.44, 1.624],
+  'surgical-light': [0.6, 0.316, 0.775],
+  'toilet-floor': [0.7, 0.7, 0.732],
+  'toilet-paper-holder': [0.3, 0.094, 0.13],
+  'toy-cabinet': [0.9, 0.339, 1.084],
+  'ultrasonic-cleaner': [0.4, 0.233, 0.315],
+  'umbrella-stand': [0.35, 0.105, 0.217],
+  'upper-wall-cabinet': [1, 0.535, 0.82],
+  'waiting-area-rug': [1.997, 2, 1.584],
+  'waiting-bench-3seat': [1.8, 0.91, 0.983],
+  'waiting-bench-4seat': [2.4, 0.759, 0.879],
+  'waiting-planter-large': [0.8, 0.388, 1.038],
+  'waiting-sofa-2seat': [1.6, 0.464, 0.593],
+  'waiting-sofa-3seat': [1.8, 0.522, 0.667],
+  'waiting-sofa-modular': [1.8, 0.522, 0.667],
+  'wall-art': [0.8, 0.041, 0.963],
+  'washer-disinfector': [0.75, 0.613, 1.489],
+  'water-dispenser-floor': [0.3, 0.269, 1.142],
+};
+
+// 兜底：按 id 关键词估平面尺寸（米），仅用于未实测的资产
+export function guessFootprint(id) {
+  const s = String(id || '').toLowerCase();
+  let w = 0.8, d = 0.6;
+  if (/dental-chair|chair-/.test(s)) { w = 2.0; d = 1.15; }
+  else if (/desk|workstation|cart|trolley/.test(s)) { w = 1.4; d = 0.7; }
+  else if (/cabinet|locker|shelf|bookcase|wardrobe/.test(s)) { w = 1.2; d = 0.55; }
+  else if (/sofa|bench|armchair/.test(s)) { w = 1.8; d = 0.8; }
+  else if (/table/.test(s)) { w = 1.1; d = 0.7; }
+  else if (/monitor|screen|tv|display|viewer/.test(s)) { w = 0.6; d = 0.12; }
+  else if (/sink|toilet|vanity|mirror/.test(s)) { w = 0.7; d = 0.55; }
+  else if (/plant|planter/.test(s)) { w = 0.8; d = 0.8; }
+  else if (/bin|box|container|holder|dispenser|tray|rack|sign/.test(s)) { w = 0.4; d = 0.35; }
+  return [w, d, 0.9];
+}
+
+export function footprintOf(id) {
+  const f = FOOTPRINTS[id];
+  if (f) return { w: f[0], d: f[1], h: f[2], exact: true };
+  const [w, d, h] = guessFootprint(id);
+  return { w, d, h, exact: false };
+}

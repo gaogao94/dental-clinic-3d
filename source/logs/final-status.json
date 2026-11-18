@@ -1,0 +1,38 @@
+﻿{
+    "schema":  "dental-clinic-final-status/v1",
+    "finishedAt":  "2026-11-12T04:55:00+08:00",
+    "goal":  "生成牙科诊所室内设计阶段所有肉眼可见物件（最便宜路线，尽可能多），完成或额度耗尽后交付并关机",
+    "result":  {
+                   "inventoryItems":  351,
+                   "modelsSucceeded":  351,
+                   "categories":  13,
+                   "qaChecked":  351,
+                   "qaBad":  0,
+                   "qaWatch":  7,
+                   "creditsAuthorized":  3200,
+                   "creditsUsed":  652,
+                   "creditsBalance":  2548,
+                   "reportSubmitted":  true,
+                   "reportId":  "report_923ffe19ea5cc4cc5829db8603243a89b92b4a1cbe78a115150e930f1b6b912c",
+                   "reportReceipt":  {
+                                         "status":  "ACCEPTED",
+                                         "checkResult":  "OK"
+                                     }
+               },
+    "deliverables":  {
+                         "gallery":  "D:\\coding\\qunhe_3d\\dental\\delivery\\gallery.html",
+                         "bundle":  "D:\\coding\\qunhe_3d\\dental\\delivery\\lux3d-bundle",
+                         "catalogCsv":  "D:\\coding\\qunhe_3d\\dental\\delivery\\catalog.csv",
+                         "catalogXlsx":  "D:\\coding\\qunhe_3d\\dental\\delivery\\catalog.xlsx",
+                         "models":  "D:\\coding\\qunhe_3d\\dental\\models\\\u003cid\u003e\\model.glb",
+                         "rawArchive":  "C:\\dental-models-raw\\\u003cid\u003e\\model_raw.glb"
+                     },
+    "shutdown":  {
+                     "state":  "scheduled_and_verified",
+                     "method":  "schtasks",
+                     "taskName":  "DSH_DentalClinic_Shutdown",
+                     "scheduledAtLocal":  "04:48",
+                     "cancelCommand":  "schtasks /Delete /TN \"DSH_DentalClinic_Shutdown\" /F",
+                     "verifiedBy":  "\"\\DSH_DentalClinic_Shutdown\",\"2026/11/12 4:48:00\",\"Ready\""
+                 }
+}

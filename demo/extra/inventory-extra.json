@@ -1,0 +1,114 @@
+{
+  "schema": "dental-clinic-inventory/v1",
+  "note": "诊所平台演示补充件：首批 351 件之外、场景需要但没有的物件",
+  "items": [
+    {
+      "id": "ceiling-cassette-ac",
+      "zh": "嵌入式天花空调",
+      "en": "ceiling cassette air conditioner",
+      "category": "公共/走廊",
+      "room": "通用",
+      "priority": 2,
+      "q_zh": "嵌入式天花空调 室内机 白底 产品图",
+      "q_en": "ceiling cassette air conditioner indoor unit product photo white background",
+      "prompt": "isolated product photo of a ceiling cassette air conditioner indoor unit, white square panel with four-way air outlet grille, pure white background, three-quarter downward view, studio lighting, photorealistic, high detail",
+      "note": "天花设备"
+    },
+    {
+      "id": "led-panel-light",
+      "zh": "LED 平板灯",
+      "en": "LED panel ceiling light",
+      "category": "公共/走廊",
+      "room": "通用",
+      "priority": 3,
+      "q_zh": "LED平板灯 集成吊顶 方形 白底",
+      "q_en": "square LED panel ceiling light product photo white background",
+      "prompt": "isolated product photo of a square LED panel ceiling light, thin white aluminum frame, uniform white diffuser, pure white background, three-quarter view, studio lighting, photorealistic",
+      "note": "天花灯具"
+    },
+    {
+      "id": "reception-pendant-light",
+      "zh": "前台吊灯",
+      "en": "reception pendant light",
+      "category": "前台接待",
+      "room": "前台接待区",
+      "priority": 3,
+      "q_zh": "现代简约 前台吊灯 长条 白底",
+      "q_en": "modern linear pendant light product photo white background",
+      "prompt": "isolated product photo of a modern linear pendant light, slim white metal bar with warm LED strip, pure white background, three-quarter view, studio lighting, photorealistic",
+      "note": "前台照明"
+    },
+    {
+      "id": "coffee-bar-counter",
+      "zh": "客户咖啡吧台",
+      "en": "coffee bar counter",
+      "category": "候诊区",
+      "room": "候诊区",
+      "priority": 2,
+      "q_zh": "茶水吧台 咖啡吧台 简约 白底 产品图",
+      "q_en": "modern coffee bar counter product photo white background",
+      "prompt": "isolated product photo of a modern coffee bar counter, white stone countertop with light wood front panel, small sink and shelf, pure white background, three-quarter front view, studio lighting, photorealistic",
+      "note": "候诊区服务台"
+    },
+    {
+      "id": "lead-lined-door",
+      "zh": "铅防护门",
+      "en": "lead lined protective door",
+      "category": "影像室",
+      "room": "影像室",
+      "priority": 2,
+      "q_zh": "铅防护门 医院 单开 白底",
+      "q_en": "lead lined radiation protection door hospital product photo white background",
+      "prompt": "isolated product photo of a lead lined radiation protection door, white steel door leaf with stainless handle and warning label, pure white background, three-quarter front view, studio lighting, photorealistic",
+      "note": "影像室防护门"
+    },
+    {
+      "id": "waiting-area-rug",
+      "zh": "候诊区地毯",
+      "en": "waiting area rug",
+      "category": "候诊区",
+      "room": "候诊区",
+      "priority": 3,
+      "q_zh": "客厅地毯 简约 灰色 白底 产品图",
+      "q_en": "modern rectangular area rug product photo white background",
+      "prompt": "isolated product photo of a modern rectangular area rug, soft grey short pile with subtle border, pure white background, three-quarter top view, studio lighting, photorealistic",
+      "note": "软装"
+    },
+    {
+      "id": "kids-play-tent",
+      "zh": "儿童游戏帐篷",
+      "en": "kids play tent",
+      "category": "儿童区",
+      "room": "儿童诊疗区",
+      "priority": 3,
+      "q_zh": "儿童游戏帐篷 室内 白底 产品图",
+      "q_en": "kids indoor play tent product photo white background",
+      "prompt": "isolated product photo of a kids indoor play tent, small pastel teepee with canvas fabric, pure white background, three-quarter front view, studio lighting, photorealistic",
+      "note": "儿童区"
+    },
+    {
+      "id": "lab-fume-hood",
+      "zh": "技工排风柜",
+      "en": "dental lab fume hood",
+      "category": "技工室",
+      "room": "技工室",
+      "priority": 3,
+      "q_zh": "实验室排风柜 台式 白底 产品图",
+      "q_en": "laboratory fume hood bench product photo white background",
+      "prompt": "isolated product photo of a laboratory fume hood, stainless steel and glass bench type, pure white background, three-quarter front view, studio lighting, photorealistic",
+      "note": "技工室排风"
+    },
+    {
+      "id": "clinic-entrance-door",
+      "zh": "感应玻璃门",
+      "en": "automatic glass entrance door",
+      "category": "公共/走廊",
+      "room": "入口",
+      "priority": 3,
+      "q_zh": "自动感应玻璃门 双开 白底 产品图",
+      "q_en": "automatic sliding glass entrance door product photo white background",
+      "prompt": "isolated product photo of a double sliding automatic glass entrance door with slim aluminum frame, pure white background, front view, studio lighting, photorealistic",
+      "note": "入口"
+    }
+  ]
+}

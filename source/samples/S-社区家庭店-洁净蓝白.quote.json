@@ -1,0 +1,134 @@
+{
+ "config": {
+  "platform": "S",
+  "platformLabel": "S",
+  "typeName": "社区家庭店",
+  "styleName": "洁净蓝白",
+  "modules": [],
+  "area": 90,
+  "chairs": 2,
+  "roomCount": 7
+ },
+ "totals": {
+  "subtotal": 609036,
+  "tax": 36542,
+  "total": 645578,
+  "low": 593932,
+  "high": 697224,
+  "perArea": 7173.09,
+  "perChair": 322789,
+  "amountInWords": "人民币陆拾肆万伍仟伍佰柒拾捌元整",
+  "rangePct": 0.08
+ },
+ "labor": {
+  "totalHours": 80.24,
+  "byTrade": [
+   {
+    "id": "design",
+    "name": "设计",
+    "hours": 13.8,
+    "share": 0.17198404785643073
+   },
+   {
+    "id": "build",
+    "name": "硬装",
+    "hours": 27.12,
+    "share": 0.33798604187437686
+   },
+   {
+    "id": "mep",
+    "name": "机电",
+    "hours": 9.87,
+    "share": 0.12300598205383849
+   },
+   {
+    "id": "install",
+    "name": "安装",
+    "hours": 26.45,
+    "share": 0.3296360917248255
+   },
+   {
+    "id": "commission",
+    "name": "调试",
+    "hours": 3,
+    "share": 0.03738783649052842
+   }
+  ],
+  "calendarDays": 24,
+  "phases": [
+   {
+    "id": "design",
+    "name": "设计",
+    "days": 5,
+    "hours": 13.8,
+    "crew": 3
+   },
+   {
+    "id": "build",
+    "name": "硬装施工",
+    "days": 5,
+    "hours": 27.12,
+    "crew": 6
+   },
+   {
+    "id": "mep",
+    "name": "机电安装",
+    "days": 3,
+    "hours": 9.87,
+    "crew": 4
+   },
+   {
+    "id": "install",
+    "name": "家具设备安装",
+    "days": 9,
+    "hours": 26.45,
+    "crew": 3
+   },
+   {
+    "id": "commission",
+    "name": "调试交付",
+    "days": 2,
+    "hours": 3,
+    "crew": 2
+   }
+  ],
+  "peakCrew": 6
+ },
+ "groups": [
+  {
+   "id": "hard",
+   "name": "硬装工程",
+   "amount": 93499,
+   "hours": 27.12,
+   "share": 0.1448299043647708
+  },
+  {
+   "id": "mep",
+   "name": "机电与暖通",
+   "amount": 38330,
+   "hours": 12.87,
+   "share": 0.059373150881845416
+  },
+  {
+   "id": "furn",
+   "name": "家具与设备",
+   "amount": 467320,
+   "hours": 26.45,
+   "share": 0.7238784469111401
+  },
+  {
+   "id": "design",
+   "name": "设计与管理",
+   "amount": 9887,
+   "hours": 13.8,
+   "share": 0.015314958068583502
+  },
+  {
+   "id": "tax",
+   "name": "税金",
+   "amount": 36542,
+   "hours": 0,
+   "share": 0.05660353977366019
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "startedAt": "2026-11-12T09:09:54.407Z",
+ "items": [
+  {
+   "id": "coffee-bar-counter",
+   "status": "ok",
+   "sizeBefore": 9426508,
+   "sizeAfter": 1668444,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\coffee-bar-counter\\model_raw.glb"
+  },
+  {
+   "id": "ceiling-cassette-ac",
+   "status": "ok",
+   "sizeBefore": 11464368,
+   "sizeAfter": 2894880,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\ceiling-cassette-ac\\model_raw.glb"
+  },
+  {
+   "id": "clinic-entrance-door",
+   "status": "ok",
+   "sizeBefore": 11272640,
+   "sizeAfter": 2752928,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\clinic-entrance-door\\model_raw.glb"
+  },
+  {
+   "id": "kids-play-tent",
+   "status": "ok",
+   "sizeBefore": 10415432,
+   "sizeAfter": 1992488,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\kids-play-tent\\model_raw.glb"
+  },
+  {
+   "id": "lab-fume-hood",
+   "status": "ok",
+   "sizeBefore": 13764136,
+   "sizeAfter": 3204104,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\lab-fume-hood\\model_raw.glb"
+  },
+  {
+   "id": "lead-lined-door",
+   "status": "ok",
+   "sizeBefore": 10148276,
+   "sizeAfter": 1453884,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\lead-lined-door\\model_raw.glb"
+  },
+  {
+   "id": "led-panel-light",
+   "status": "ok",
+   "sizeBefore": 8043472,
+   "sizeAfter": 804040,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\led-panel-light\\model_raw.glb"
+  },
+  {
+   "id": "reception-pendant-light",
+   "status": "ok",
+   "sizeBefore": 7387208,
+   "sizeAfter": 1125888,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\reception-pendant-light\\model_raw.glb"
+  },
+  {
+   "id": "waiting-area-rug",
+   "status": "ok",
+   "sizeBefore": 10113492,
+   "sizeAfter": 1485088,
+   "rawArchive": "C:\\dental-models-raw\\demo-extra\\waiting-area-rug\\model_raw.glb"
+  }
+ ],
+ "finishedAt": "2026-11-12T09:10:19.037Z",
+ "savedBytes": 74653788
+}

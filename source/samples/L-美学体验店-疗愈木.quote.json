@@ -1,0 +1,138 @@
+{
+ "config": {
+  "platform": "L",
+  "platformLabel": "L",
+  "typeName": "美学体验店",
+  "styleName": "疗愈木",
+  "modules": [
+   "consult",
+   "coffee",
+   "kids"
+  ],
+  "area": 240,
+  "chairs": 6,
+  "roomCount": 14
+ },
+ "totals": {
+  "subtotal": 1994660,
+  "tax": 119680,
+  "total": 2114340,
+  "low": 1945193,
+  "high": 2283487,
+  "perArea": 8809.75,
+  "perChair": 352390,
+  "amountInWords": "人民币贰佰壹拾壹万肆仟叁佰肆拾元整",
+  "rangePct": 0.08
+ },
+ "labor": {
+  "totalHours": 182.17,
+  "byTrade": [
+   {
+    "id": "design",
+    "name": "设计",
+    "hours": 21.2,
+    "share": 0.11637481473349072
+   },
+   {
+    "id": "build",
+    "name": "硬装",
+    "hours": 73.36,
+    "share": 0.4027007740023056
+   },
+   {
+    "id": "mep",
+    "name": "机电",
+    "hours": 24.13,
+    "share": 0.13245869243014768
+   },
+   {
+    "id": "install",
+    "name": "安装",
+    "hours": 58.48,
+    "share": 0.32101882856672337
+   },
+   {
+    "id": "commission",
+    "name": "调试",
+    "hours": 5,
+    "share": 0.027446890267332713
+   }
+  ],
+  "calendarDays": 51,
+  "phases": [
+   {
+    "id": "design",
+    "name": "设计",
+    "days": 8,
+    "hours": 21.2,
+    "crew": 3
+   },
+   {
+    "id": "build",
+    "name": "硬装施工",
+    "days": 13,
+    "hours": 73.36,
+    "crew": 6
+   },
+   {
+    "id": "mep",
+    "name": "机电安装",
+    "days": 7,
+    "hours": 24.13,
+    "crew": 4
+   },
+   {
+    "id": "install",
+    "name": "家具设备安装",
+    "days": 20,
+    "hours": 58.48,
+    "crew": 3
+   },
+   {
+    "id": "commission",
+    "name": "调试交付",
+    "days": 3,
+    "hours": 5,
+    "crew": 2
+   }
+  ],
+  "peakCrew": 6
+ },
+ "groups": [
+  {
+   "id": "hard",
+   "name": "硬装工程",
+   "amount": 298495,
+   "hours": 73.36,
+   "share": 0.14117644276701002
+  },
+  {
+   "id": "mep",
+   "name": "机电与暖通",
+   "amount": 88100,
+   "hours": 29.13,
+   "share": 0.041667849068740125
+  },
+  {
+   "id": "furn",
+   "name": "家具与设备",
+   "amount": 1579070,
+   "hours": 58.48,
+   "share": 0.7468382568555673
+  },
+  {
+   "id": "design",
+   "name": "设计与管理",
+   "amount": 28995,
+   "hours": 21.2,
+   "share": 0.013713499247992282
+  },
+  {
+   "id": "tax",
+   "name": "税金",
+   "amount": 119680,
+   "hours": 0,
+   "share": 0.056603952060690334
+  }
+ ]
+}

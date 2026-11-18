@@ -1,0 +1,1362 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>像配车一样，配一家口腔诊所 · 项目报告书 · 团队 GRZ</title>
+<meta name="description" content="351 件 Lux3D 生成的牙科诊所 3D 资产、平台化配置器、出图与报价引擎的项目报告书：过程、资产迭代对比与关键效果。">
+<meta name="author" content="GRZ">
+<meta property="og:title" content="像配车一样，配一家口腔诊所">
+<meta property="og:description" content="351 件 AI 诊所资产 · 平台化 3D 配置器 · 一键出图与报价">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e7490'/%3E%3Cpath d='M9 22V10h3.2v4.4h7.6V10H23v12h-3.2v-4.6h-7.6V22z' fill='%23f7f5f0'/%3E%3C/svg%3E">
+<style>
+/* ============================================================
+   口腔诊所平台 · 项目报告书
+   ============================================================ */
+:root{
+  --paper:#f7f5f0;
+  --surface:#fffdf8;
+  --ink:#15171b;
+  --ink-2:#3c4148;
+  --muted:#79808a;
+  --rule:#e2ded4;
+  --rule-2:#efece4;
+  --teal:#0e7490;
+  --teal-deep:#0b5668;
+  --teal-soft:#e6f0f3;
+  --amber:#b45309;
+  --amber-soft:#fbf1e4;
+  --green:#15803d;
+  --mono:"Cascadia Mono",Consolas,"SF Mono",Menlo,monospace;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+::selection{background:#cfe6ec;color:#0b3d4a}
+img{max-width:100%}
+a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid rgba(14,116,144,.28)}
+a:hover{border-bottom-color:var(--teal)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 48px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* ---------- nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);
+  background:rgba(247,245,240,.82);border-bottom:1px solid var(--rule);
+}
+.nav .wrap{display:flex;align-items:center;gap:26px;height:56px}
+.brand{font-weight:650;letter-spacing:-.01em;font-size:14px;white-space:nowrap}
+.brand span{color:var(--muted);font-weight:400}
+.nav-links{display:flex;gap:20px;margin-left:auto;font-size:13px}
+.nav-links a{color:var(--ink-2);border:0}
+.nav-links a:hover{color:var(--teal-deep)}
+.nav-cta{
+  border:1px solid var(--ink);border-radius:999px;padding:6px 14px;font-size:12.5px;
+  font-weight:600;color:var(--ink);white-space:nowrap;
+}
+.nav-cta:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+@media (max-width:900px){.nav-links{display:none}}
+
+/* ---------- cover ---------- */
+.cover{padding:92px 0 0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin:0 0 26px}
+h1{
+  font-size:clamp(42px,5.6vw,76px);line-height:1.06;letter-spacing:-.028em;
+  margin:0 0 26px;font-weight:700;max-width:15em;
+}
+.deck{font-size:clamp(17px,1.6vw,20px);line-height:1.72;color:var(--ink-2);max-width:44em;margin:0 0 34px}
+.byline{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-bottom:44px}
+.byline b{color:var(--ink);font-weight:600}
+.cover-fig{margin:0 0 6px;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:#fff}
+.cover-fig img{display:block;width:100%}
+.cover-note{display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted);margin:0;padding:10px 16px;border-top:1px solid var(--rule-2);background:var(--surface)}
+
+/* ---------- KPI band ---------- */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin:56px 0 0}
+.kpi{padding:22px 18px 24px;border-right:1px solid var(--rule-2)}
+.kpi:last-child{border-right:0}
+.kpi .n{font-family:var(--mono);font-size:clamp(24px,2.6vw,32px);line-height:1;letter-spacing:-.02em;font-weight:600;display:block}
+.kpi .n small{font-size:.55em;font-weight:500;color:var(--muted);margin-left:4px;letter-spacing:0}
+.kpi .l{display:block;margin-top:10px;font-size:12px;color:var(--muted);line-height:1.5}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(3,1fr)}.kpi:nth-child(3){border-right:0}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- summary ---------- */
+.summary{padding:72px 0 20px}
+.summary .wrap{display:grid;grid-template-columns:1fr;gap:34px}
+.answers{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule)}
+.answer{padding:24px 26px 26px 0;border-right:1px solid var(--rule-2)}
+.answer:last-child{border-right:0;padding-right:0}
+.answer h3{font-size:13px;letter-spacing:.04em;margin:0 0 10px;color:var(--teal);font-family:var(--mono);text-transform:uppercase;font-weight:600}
+.answer p{margin:0;font-size:14.5px;line-height:1.8;color:var(--ink-2)}
+.answer p b{color:var(--ink)}
+@media (max-width:820px){.answers{grid-template-columns:1fr}.answer{border-right:0;border-bottom:1px solid var(--rule-2);padding-right:0}}
+
+/* ---------- toc ---------- */
+.toc{padding:26px 0 78px}
+.toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 48px;border-top:1px solid var(--rule)}
+.toc li{border-bottom:1px solid var(--rule-2);padding:12px 0;display:flex;gap:14px;align-items:baseline;font-size:14px}
+.toc .no{font-family:var(--mono);font-size:11.5px;color:var(--muted);min-width:26px}
+.toc a{color:var(--ink);border:0;flex:1}
+.toc a:hover{color:var(--teal-deep)}
+.toc .pg{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+@media (max-width:760px){.toc ol{grid-template-columns:1fr}}
+
+/* ---------- sections ---------- */
+.sec{padding:74px 0 34px;border-top:1px solid var(--rule);scroll-margin-top:70px}
+.sec-head{display:grid;grid-template-columns:88px 1fr;gap:20px;align-items:start;margin-bottom:34px}
+.sec-no{font-family:var(--mono);font-size:12px;color:var(--teal);letter-spacing:.1em;padding-top:12px}
+.sec h2{font-size:clamp(28px,3.2vw,40px);line-height:1.18;letter-spacing:-.022em;margin:0 0 16px;font-weight:680}
+.lede{font-size:17px;line-height:1.8;color:var(--ink-2);max-width:46em;margin:0}
+.body{max-width:44em}
+.body p{margin:0 0 18px;font-size:15.5px;line-height:1.86;color:var(--ink-2)}
+.body p b,.body li b{color:var(--ink);font-weight:600}
+.body h3{font-size:19px;line-height:1.4;margin:38px 0 12px;letter-spacing:-.01em}
+.body ul,.body ol{margin:0 0 18px;padding-left:20px}
+.body li{font-size:15px;line-height:1.85;color:var(--ink-2);margin-bottom:6px}
+.small{font-size:13px;color:var(--muted);line-height:1.7}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr}.sec-no{padding-top:0}}
+.full{max-width:none}
+
+/* ---------- figures ---------- */
+.fig{margin:40px 0}
+.fig img{display:block;width:100%;border:1px solid var(--rule);border-radius:6px;background:#fff}
+.fig figcaption{margin-top:11px;display:flex;gap:12px;font-size:12.5px;line-height:1.7;color:var(--muted)}
+.fig figcaption .tag{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--teal);white-space:nowrap;padding-top:1px}
+.fig.strip img{border:0;border-radius:0;background:transparent}
+.fig-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:40px 0}
+.fig-row .fig{margin:0}
+@media (max-width:760px){.fig-row{grid-template-columns:1fr}}
+
+/* screenshot grid */
+.shots{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:38px 0}
+.shot{margin:0}
+.shot img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--rule);border-radius:5px;background:#fff}
+.shot figcaption{margin-top:9px;display:flex;gap:10px;font-size:12px;color:var(--muted);line-height:1.6}
+.shot figcaption .tag{font-family:var(--mono);font-size:10.5px;color:var(--teal);white-space:nowrap}
+.shots .wide{grid-column:span 2}
+.shots .wide img{aspect-ratio:16/9}
+@media (max-width:760px){.shots{grid-template-columns:1fr}.shots .wide{grid-column:span 1}}
+
+/* comparison: ref | model | scene */
+.cmp{display:grid;grid-template-columns:300px 1fr;gap:14px;margin:44px 0 8px;align-items:start}
+.cmp-ref{position:relative;grid-row:span 2;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:#fff}
+.cmp-ref img{width:100%;height:100%;object-fit:cover;display:block}
+.cmp-main img,.cmp-scene img{display:block;width:100%;border:1px solid var(--rule);border-radius:6px;background:#fff}
+.cmp-cap{display:grid;grid-template-columns:300px 1fr;gap:14px;margin:8px 0 0;font-size:12px;color:var(--muted)}
+.cmp-cap .r{line-height:1.6}
+.cmp-cap .m{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.cmp-cap b{font-family:var(--mono);font-size:11px;color:var(--teal);letter-spacing:.06em;font-weight:600}
+@media (max-width:820px){.cmp{grid-template-columns:1fr}.cmp-ref{grid-row:auto;max-height:420px}.cmp-cap{grid-template-columns:1fr}}
+
+/* asset trio: ref | 4-view | scene */
+.asset{margin:46px 0 0;padding-top:26px;border-top:1px solid var(--rule-2)}
+.asset:first-of-type{border-top:0;padding-top:0}
+.asset-head{display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:12px}
+.asset-head .nm{font-size:17px;font-weight:650;letter-spacing:-.01em}
+.asset-head .nm em{font-style:normal;font-family:var(--mono);font-size:11.5px;color:var(--muted);font-weight:400;margin-left:10px}
+.asset-head .mt{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+.trio{display:grid;grid-template-columns:0.85fr 2.15fr 1.25fr;gap:12px;height:306px}
+.trio figure{margin:0;position:relative;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:#fff}
+.trio img{display:block;width:100%;height:100%;object-fit:contain}
+.trio .lab{position:absolute;top:9px;left:10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--teal);background:rgba(255,253,248,.92);border:1px solid var(--rule);border-radius:3px;padding:2px 7px;line-height:1.5}
+.asset-note{font-size:13px;line-height:1.8;color:var(--ink-2);margin:12px 0 0;max-width:52em}
+.asset-note b{color:var(--ink)}
+@media (max-width:900px){
+  .trio{grid-template-columns:1fr 1fr;height:auto}
+  .trio figure{height:240px}
+  .trio figure:nth-child(2){grid-column:span 2}
+}
+@media (max-width:560px){.trio{grid-template-columns:1fr}.trio figure{height:220px}.trio figure:nth-child(2){grid-column:span 1}}
+
+/* early / late */
+.diptych{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:38px 0 0}
+.diptych figure{margin:0}
+.diptych .lbl{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+.diptych .lbl b{color:var(--ink);font-weight:600}
+.diptych img{display:block;width:100%;border:1px solid var(--rule);border-radius:6px;background:#fff}
+@media (max-width:760px){.diptych{grid-template-columns:1fr}}
+
+/* ---------- metrics / callouts ---------- */
+.callout{border-left:3px solid var(--teal);background:var(--surface);padding:20px 24px;margin:30px 0;font-size:15px;line-height:1.8;color:var(--ink-2)}
+.callout b{color:var(--ink)}
+.honest{border:1px solid #e6d6c2;background:var(--amber-soft);padding:24px 26px;margin:30px 0;border-radius:4px}
+.honest h3{margin:0 0 10px;font-size:15px;color:var(--amber);letter-spacing:.02em}
+.honest p{margin:0 0 10px;font-size:14.5px;line-height:1.8;color:#5b4526}
+.honest p:last-child{margin-bottom:0}
+.quote{font-size:20px;line-height:1.7;letter-spacing:-.01em;color:var(--ink);margin:34px 0;padding-left:22px;border-left:2px solid var(--ink);max-width:30em}
+.quote small{display:block;margin-top:10px;font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.04em}
+
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;margin:30px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.6}
+caption{caption-side:top;text-align:left;font-family:var(--mono);font-size:11px;letter-spacing:.07em;color:var(--muted);padding-bottom:9px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;padding:9px 14px 9px 0;border-bottom:1px solid var(--ink);white-space:nowrap}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule-2);vertical-align:top;color:var(--ink-2)}
+td b{color:var(--ink);font-weight:600}
+tr:last-child td{border-bottom:1px solid var(--rule)}
+.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+th.num{text-align:right}
+.tbl-note{font-size:12px;color:var(--muted);margin:10px 0 30px;line-height:1.7}
+
+/* ---------- pipeline ---------- */
+.pipe{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin:38px 0 10px;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}
+.pipe .st{padding:18px 16px 20px 0;border-right:1px solid var(--rule-2);position:relative}
+.pipe .st:last-child{border-right:0}
+.pipe .st .i{font-family:var(--mono);font-size:11px;color:var(--teal);display:block;margin-bottom:8px}
+.pipe .st .t{display:block;font-weight:650;font-size:14px;line-height:1.4;margin-bottom:6px}
+.pipe .st .d{display:block;font-size:11.5px;color:var(--muted);line-height:1.6}
+@media (max-width:900px){.pipe{grid-template-columns:repeat(3,1fr)}.pipe .st:nth-child(3n){border-right:0}}
+@media (max-width:560px){.pipe{grid-template-columns:1fr 1fr}.pipe .st{border-right:0}}
+
+/* ---------- architecture ---------- */
+.arch{margin:36px 0 10px;border-top:1px solid var(--ink)}
+.arch .lay{display:grid;grid-template-columns:170px 1fr;gap:22px;padding:15px 0;border-bottom:1px solid var(--rule-2);align-items:baseline}
+.arch .lay .k{font-size:12.5px;font-weight:650;letter-spacing:.01em}
+.arch .lay .k em{display:block;font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--muted);font-weight:400;margin-top:3px;letter-spacing:.06em}
+.arch .lay .v{font-size:12.5px;color:var(--ink-2);line-height:1.9}
+.arch .lay .v code{font-family:var(--mono);font-size:11.5px;color:var(--teal-deep);background:#eef4f5;padding:1px 5px;border-radius:3px;margin-right:4px;white-space:nowrap}
+.arch .lay .v .arrow{color:var(--muted);margin:0 6px}
+@media (max-width:700px){.arch .lay{grid-template-columns:1fr;gap:6px}}
+
+/* ---------- code block ---------- */
+.cmd{background:#111417;color:#dfe5ec;border-radius:7px;padding:18px 20px;font-family:var(--mono);font-size:12.5px;line-height:1.85;overflow-x:auto;margin:26px 0;white-space:pre}
+.cmd .c{color:#7e8b99}
+
+/* ---------- link cards ---------- */
+.links{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:34px 0}
+.lcard{border:1px solid var(--rule);border-radius:6px;padding:22px 24px;background:var(--surface);display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--rule)}
+.lcard:hover{border-color:var(--teal)}
+.lcard .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}
+.lcard .n{font-size:16px;font-weight:640;color:var(--ink)}
+.lcard .u{font-family:var(--mono);font-size:11.5px;color:var(--muted);word-break:break-all;line-height:1.6}
+@media (max-width:760px){.links{grid-template-columns:1fr}}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--rule);margin-top:60px;padding:40px 0 70px;font-size:12px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+
+/* ---------- print ---------- */
+@media print{
+  @page{size:A4;margin:15mm 13mm}
+  body{background:#fff;font-size:10pt;line-height:1.7}
+  .nav{display:none}
+  .sec{break-before:page;border-top:0;padding-top:0}
+  .sec:first-of-type{break-before:auto}
+  .cover{break-after:page;padding-top:0}
+  .cover h1{font-size:30pt;margin-bottom:16px}
+  .deck{font-size:10.5pt;margin-bottom:16px}
+  .byline{margin-bottom:18px}
+  .cover-fig img{max-height:98mm;width:auto;margin:0 auto}
+  .cover-fig{break-inside:avoid}
+  .kpis{grid-template-columns:repeat(6,1fr);margin-top:18px}
+  .kpi{padding:10px 8px}
+  .kpi .n{font-size:15pt}
+  .kpi .l{font-size:8pt}
+  .summary{padding:26px 0 8px}
+  .answers{grid-template-columns:repeat(3,1fr)}
+  .answer p{font-size:9pt}
+  .toc{padding:8px 0 20px}
+  .toc li{padding:7px 0;font-size:10pt}
+  .trio{grid-template-columns:0.85fr 2.15fr 1.25fr;height:56mm}
+  .trio figure{height:56mm}
+  .trio figure:nth-child(2){grid-column:auto}
+  .asset{break-inside:avoid}
+  .diptych{grid-template-columns:1fr 1fr}
+  .fig,.shots,.diptych,.cmp,.tw,.pipe,.links,.honest,.arch,.cmd{break-inside:avoid}
+  .fig img{max-height:150mm;width:auto;max-width:100%;margin:0 auto}
+  h1,h2,h3{break-after:avoid}
+  a{color:inherit;border:0}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+
+</style>
+</head>
+<body id="top">
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand">口腔诊所平台 <span>/ 项目报告书</span></div>
+    <div class="nav-links">
+      <a href="#idea">理念</a>
+      <a href="#make">生产</a>
+      <a href="#assets">资产</a>
+      <a href="#effect">效果</a>
+      <a href="#engineering">工程</a>
+      <a href="#review">评审</a>
+    </div>
+    <a class="nav-cta" href="https://dma.automed.cn/demo/index.html" target="_blank" rel="noopener">打开 Demo ↗</a>
+  </div>
+</nav>
+
+<header class="cover">
+  <div class="wrap">
+    <p class="eyebrow">群核科技 Aholo 全球 3D AI 黑客松 · 项目报告书</p>
+    <h1>像配车一样，<br>配一家口腔诊所</h1>
+    <p class="deck">
+      351 件 Lux3D 生成的诊所物件，被组织成一个可配置的平台：选档位、选门店类型、选风格、插模块，
+      30 秒得到一套 3D 空间、三张 A2 图和一份带工期的造价。
+      同一套硬点，长出不同的店。
+    </p>
+    <div class="byline">
+      <span>团队 <b>GRZ</b></span>
+      <span>报告 <b>v1.0</b></span>
+      <span>2026-11-18</span>
+      <span>资产 <b>351 + 9</b></span>
+      <span>Demo <b>dma.automed.cn</b></span>
+    </div>
+    <figure class="cover-fig">
+      <img src="assets/hero-L.jpg" alt="平台 L · 美学体验店 · 疗愈木：240㎡、6 椅、14 间房的 3D 配置结果" width="1500" height="1014">
+      <figcaption class="cover-note">
+        <span>平台 L · 美学体验店 · 疗愈木 · 240㎡ · 6 椅 · 14 间 · 1,050 种组合中的一种</span>
+        <span class="mono">FIG. 0</span>
+      </figcaption>
+    </figure>
+  </div>
+</header>
+
+<section class="kpis-wrap">
+  <div class="wrap">
+    <div class="kpis">
+      <div class="kpi"><span class="n">351<small>+9</small></span><span class="l">件诊所 3D 资产<br>13 类空间，全部 AI 生成</span></div>
+      <div class="kpi"><span class="n">440</span><span class="l">种门店组合<br>M 档；L 档 1,050 种</span></div>
+      <div class="kpi"><span class="n">3</span><span class="l">张 A2 图页<br>平面 / 点位 / 工程量表</span></div>
+      <div class="kpi"><span class="n">1,595</span><span class="l">组出图 × 报价组合校验<br>0 失败</span></div>
+      <div class="kpi"><span class="n">0</span><span class="l">坏件<br>351 件全检，7 件可用边界件</span></div>
+      <div class="kpi"><span class="n">652</span><span class="l">积分<br>授权 3,200，余额 2,548</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="summary">
+  <div class="wrap">
+    <div class="answers">
+      <div class="answer">
+        <h3>做了什么</h3>
+        <p>一套 <b>351 件牙科诊所 3D 资产库</b>、一个<b>平台化 3D 配置器</b>、一套<b>出图 / 算量 / 报价引擎</b>。三件东西串成一条链：配置 → 出图 → 报价，交付物是 DXF 与 CSV，不是渲染图。</p>
+      </div>
+      <div class="answer">
+        <h3>怎么做</h3>
+        <p>Lux3D 是资产生产线的唯一来源：<b>image-to-3D 批量生成</b> → 五轮质检与两轮返工 → 轻量化与尺寸标定 → three.js 组装成场景 → CAD 与报价引擎把场景变成图和钱。</p>
+      </div>
+      <div class="answer">
+        <h3>为什么值得体验</h3>
+        <p>30 秒换一次配置，房间、设备、<b>水电气排网点位</b>、造价、图纸同时变化；<b>平台件 / 差异件</b>的描边与复用率，把「这套设计能复制多少」第一次变成看得见的数字。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="toc">
+  <div class="wrap">
+    <ol>
+      <li><span class="no">01</span><a href="#problem">判断：瓶颈不在钱，在复制的一致性</a></li>
+      <li><span class="no">02</span><a href="#idea">理念：把汽车平台的方法搬进诊所</a></li>
+      <li><span class="no">03</span><a href="#works">作品：三件东西，一条链</a></li>
+      <li><span class="no">04</span><a href="#make">生产：Lux3D 是承重墙</a></li>
+      <li><span class="no">05</span><a href="#qa">质检：33 次返工与 0 坏件</a></li>
+      <li><span class="no">06</span><a href="#assets">资产：从参考图到场景</a></li>
+      <li><span class="no">07</span><a href="#effect">效果：像配车一样配诊所</a></li>
+      <li><span class="no">08</span><a href="#drawings">效果：一张图，一份报价</a></li>
+      <li><span class="no">09</span><a href="#engineering">工程：可复用、可校验、可运维</a></li>
+      <li><span class="no">10</span><a href="#limits">边界：我们没做的，和不敢说的</a></li>
+      <li><span class="no">11</span><a href="#review">评审：五个维度逐项对照</a></li>
+      <li><span class="no">12</span><a href="#links">链接与复现</a></li>
+      <li><span class="no">A</span><a href="#appendix">附录：数据表、工具链与日志</a></li>
+      <li><span class="no">B</span><a href="#files">附录：文件清单</a></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="problem">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">01</div>
+      <div>
+        <h2>瓶颈不在钱，在复制的一致性</h2>
+        <p class="lede">一家口腔诊所不大：90–240㎡、7–14 个房间、88–197 件家具设备、34 个机电点位。难的不是把一家店做好，而是把第十家店做得和第一家一样好。</p>
+      </div>
+    </div>
+    <div class="body">
+      <p>口腔诊所是标准化与差异化同时极高的空间。标准化在于：诊疗室永远需要牙椅、边柜、洗手台、医废桶；消毒室永远需要清洗、灭菌、干燥、封口四件事。差异化在于：社区店、儿童店、正畸、种植、美学，房间组合与设备等级完全不同。</p>
+      <p>行业里的现实做法是<b>一店一设计</b>：平面重画、设备重选、点位重排、工程量重算、报价重拍。连锁越扩张，设计产能越吃紧；一致性靠资深设计师盯，人一走，标准就散。于是出现一个反直觉的成本结构——<b>真正贵的不是多开一家店，而是多开一家店都要把设计重做一遍</b>。</p>
+      <p>我们的判断是：可复用的从来不是某一张平面图，而是三层可以被写成数据的东西——<b>空间的硬点带宽</b>、<b>房间与设备的配置规则</b>、<b>可被反复引用的 3D 资产</b>。这三层一旦成立，配一家诊所就从「从零设计」变成「一次参数选择」。</p>
+      <p>这也是我们选择口腔诊所而不是泛商业空间的原因：它的房间类型收敛、设备清单收敛、机电要求收敛，<b>足够窄，才可能被平台化</b>。</p>
+    </div>
+    <div class="callout">
+      <b>一句话：</b>我们要证明的不是「AI 能生成一个好看的牙椅」，而是「一套 AI 生成的资产，能不能支撑一家诊所从配置到出图到报价的完整交付」。
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="idea">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">02</div>
+      <div>
+        <h2>把汽车平台的方法，搬进诊所</h2>
+        <p class="lede">汽车工业的答案不是把一辆车做得更好，而是让同一套硬点与接口长出很多车型：冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证。</p>
+      </div>
+    </div>
+    <div class="body">
+      <p>但这套方法不能照抄。汽车的平台是「算力与硬件的归组」，降本靠 BOM 通用件；医院与诊所的域是「责任、流程与数据的归组」，降本只能靠<b>交付复用</b>——同一份图纸逻辑、同一套房间模板、同一批资产，在不同门店里被反复调用（见项目内研究底稿 <span class="mono">docs/platform-domain-analysis.md</span>）。所以我们只取方法，不取形式：不设域控制器，只冻结空间与机电的硬点。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 2-1 · 汽车平台的五个动作 → 本项目的落地物</caption>
+        <thead>
+          <tr><th style="width:20%">汽车平台的动作</th><th style="width:44%">换到口腔诊所</th><th>落地物</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>冻结硬点</b></td><td>建筑面积、开间进深、诊室数、椅位数、模块槽位；水 / 电 / 气 / 排 / 网五类点位</td><td>S / M / L 三档平台带宽；硬点视图；机电点位图</td></tr>
+          <tr><td><b>标准接口</b></td><td>房间模板、门洞 0.9×2.1m、走廊净宽、牙椅水电气接口</td><td>房间模板与布局算法；CAD 图层、图框与标题栏</td></tr>
+          <tr><td><b>通用化分层</b></td><td>平台件（每类店都用）与差异件（只服务个别门店）</td><td>差异件白名单；平台件 / 差异件描边；复用率指标</td></tr>
+          <tr><td><b>规模覆盖</b></td><td>5 类门店 × 5 种风格 × 6 个选装模块</td><td>M 档 440 种组合、L 档 1,050 种；平台矩阵户型图</td></tr>
+          <tr><td><b>复用验证</b></td><td>同一配置直接出图、算量、报价，并做全组合校验</td><td>平面 / 点位 / 工程量三张 A2 图页；1,595 组校验，0 失败</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="body">
+      <h3>三层变量：配一家诊所 = 选不变量 + 选受限变量 + 调自由量</h3>
+      <ul>
+        <li><b>不变量 · 平台带宽</b>：S 90㎡·2 椅·1 槽位 / M 150㎡·4 椅·2 槽位 / L 240㎡·6 椅·3 槽位。这是「硬点」，不允许在配置时被破坏。</li>
+        <li><b>受限变量 · 门店类型</b>：社区家庭、儿童诊疗、正畸中心、种植旗舰、美学体验。每类店有自己的必含房间、设备等级与差异件清单，且受平台档位约束（S 档开不出种植旗舰）。</li>
+        <li><b>自由量 · 内饰</b>：洁净蓝白 / 儿童糖果 / 极简黑白 / 疗愈木 / 暖奶油。墙、地、木作、灯光色温与软装变体随之变化，但不影响硬点与设备。</li>
+      </ul>
+      <p>这套分层带来的直接结果，是「复用」第一次可以被计量：在一套 L 档美学体验店的配置里，<b>平台件 143 件、差异件 55 件，平台件类型复用率 53%</b>。这个数字比任何「降本」话术都更接近采购方真正关心的问题——<b>这套设计里，有多少是可以复制的</b>。</p>
+    </div>
+
+    <p class="quote">平台不是更快的画图，而是把一次设计变成可复用的资产与规则。<small>本项目设计原则</small></p>
+  </div>
+</section>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">03</div>
+      <div>
+        <h2>三件东西，一条链</h2>
+        <p class="lede">资产库、配置器、出图报价引擎。任何一件单独拿出来都只是演示；串成一条链，它才是一次完整的诊所交付。</p>
+      </div>
+    </div>
+
+    <div class="pipe" style="grid-template-columns:repeat(5,1fr)">
+      <div class="st"><span class="i">01</span><span class="t">生成</span><span class="d">351 件 · 2h36m<br>G1-Turbo + PBR</span></div>
+      <div class="st"><span class="i">02</span><span class="t">质检</span><span class="d">5 轮全检<br>0 坏 · 7 边界件</span></div>
+      <div class="st"><span class="i">03</span><span class="t">标定</span><span class="d">119 件实测尺寸<br>朝向与基准点</span></div>
+      <div class="st"><span class="i">04</span><span class="t">配置</span><span class="d">3 档 × 5 类 × 5 风格<br>440 种组合</span></div>
+      <div class="st" style="border-right:0"><span class="i">05</span><span class="t">出图报价</span><span class="d">3 张 A2 图页<br>DXF / CSV / 工期</span></div>
+    </div>
+
+    <div class="body">
+      <p>这三个部件的边界很清楚：<b>资产库</b>回答「空间里有什么」；<b>配置器</b>回答「这些物件怎么按规则摆进一间店」；<b>出图报价</b>回答「这间店要花多少钱、多久、图长什么样」。前一个部件的输出，正好是后一个部件的输入——所以它们必须放在同一个仓库里，用同一份清单、同一套尺寸、同一套单价。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 3-1 · 交付物</caption>
+        <thead><tr><th style="width:16%">交付物</th><th style="width:40%">规模</th><th>形态</th></tr></thead>
+        <tbody>
+          <tr><td><b>3D 资产库</b></td><td>351 件诊所物件 + 9 件场景补充件，覆盖 13 类空间；每件独立 GLB，带 PBR 贴图</td><td>交付件 683.7 MB · 演示 LOD 113.4 MB · 清单 CSV / XLSX</td></tr>
+          <tr><td><b>平台配置器</b></td><td>3 档平台 × 5 类门店 × 5 种风格 × 6 个选装模块；M 档 440 种、L 档 1,050 种组合</td><td>单页 three.js 应用；硬点视图、平台件视图、平台矩阵、指标面板</td></tr>
+          <tr><td><b>出图报价引擎</b></td><td>平面布置图 / 机电点位图 / 工程量与估价表，各一张 A2；5 组造价 + 工时工期</td><td>DXF R2007 · SVG · 报价 CSV · 可打印 PDF；浏览器内实时生成</td></tr>
+          <tr><td><b>工程与交付</b></td><td>10 件工具链脚本、3 套校验、自托管服务器（零依赖 Node + 对象存储代理缓存）</td><td>物件浏览页、Lux3D 交付包、部署包、全量日志</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <b>为什么强调「一条链」：</b>只做资产，是素材包；只做配置器，是看房 Demo；只做出图，是 CAD 插件。把三者接起来，才能回答评审真正会问的那句——<b>这东西能不能替代一次真实的诊所设计交付</b>。
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="make">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">04</div>
+      <div>
+        <h2>Lux3D 是承重墙</h2>
+        <p class="lede">351 件、2 小时 36 分、652 积分。这个规模的诊所资产库，过去意味着数月的外包建模；Lux3D 让它在一天之内成立。但真正的工作量不在「生成」，而在让生成结果可用。</p>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>资产是这个平台的地基：没有资产，配置器只是一个空房间；没有 351 件的「量」，就谈不上平台件、差异件与复用率。所以 Lux3D 在这件作品里不是一个「用了一下」的工具，而是<b>唯一的资产来源</b>——库里每一件 GLB 都由它生成，没有一件是买来或手工建的。</p>
+      <p>我们没有在网页上逐件点「生成」，而是走 <b>OpenAPI + 官方计费链路</b>：每一次提交前先做一次滚动报价（quote），报价 5 分钟过期；每次创建任务绑定一个未过期的 quote；任务完成后立即下载 —— 因为输出链接只有 <b>2 小时</b>有效期。整条链路留下三类可复核的落盘证据：报价记录、任务记录、平台回执。</p>
+    </div>
+
+    <div class="pipe">
+      <div class="st"><span class="i">01</span><span class="t">清单</span><span class="d">13 类空间<br>351 件 · 中英名/尺寸/检索词</span></div>
+      <div class="st"><span class="i">02</span><span class="t">参考图</span><span class="d">公开产品图检索<br>上传换公网 URL</span></div>
+      <div class="st"><span class="i">03</span><span class="t">生成</span><span class="d">图生 3D 为主<br>无图走文生 3D</span></div>
+      <div class="st"><span class="i">04</span><span class="t">质检</span><span class="d">缩略图全检<br>坏件进返工队列</span></div>
+      <div class="st"><span class="i">05</span><span class="t">轻量化</span><span class="d">1024 贴图 + 量化<br>→ LOD</span></div>
+      <div class="st" style="border-right:0"><span class="i">06</span><span class="t">入库</span><span class="d">标定尺寸/朝向<br>清单与目录</span></div>
+    </div>
+
+    <div class="body">
+      <h3>四条工程决策</h3>
+      <ul>
+        <li><b>最便宜路线优先，先覆盖「量」。</b>全库统一 G1-Turbo（图生 3D 1 积分/件），只在没有可用参考图时才走文生 3D（77 次，单价更高）。先用最低成本把 13 类空间铺满，再把预算花在返工上，而不是一开始就追求单件精品。</li>
+        <li><b>滚动报价 + 预算台账。</b>37 组报价，每一组都记录 quoteId、金额、余额与过期时间；预算写入台账（授权 3,200 / 已用 652 / 余额 2,548）。任何一次「超预算」都会在提交前被拦住。</li>
+        <li><b>即下即存 + 断点续跑。</b>输出链接 2 小时过期，所以下载与提交解耦；失败件进入重试队列（<span class="mono">--retry-failed</span>），进程中断也不会重复计费。</li>
+        <li><b>5 并发，不追求极限。</b>官方免费档的并发上限是 5。压满会比「更快的失败」更慢，因为限流重试会把整组报价拖过期。</li>
+      </ul>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 4-1 · 生成结果（数据来自 dental/logs）</caption>
+        <thead><tr><th style="width:34%">指标</th><th>结果</th></tr></thead>
+        <tbody>
+          <tr><td>清单件数</td><td><b>351 件</b>，覆盖 13 类空间；优先级 1/2/3 = 73/135/143</td></tr>
+          <tr><td>生成窗口</td><td>2026-11-12 <b>02:03 → 04:39</b>（UTC+8，2 小时 36 分）</td></tr>
+          <tr><td>任务记录</td><td><b>1,160 条</b>：图生 3D 1,083 次、文生 3D 77 次（含重试与返工）</td></tr>
+          <tr><td>成功 / 失败</td><td><b>351 / 351 成功</b>，最终失败 0；单件均带 PBR 贴图</td></tr>
+          <tr><td>积分</td><td>授权 <b>3,200</b> · 消耗 <b>652</b> · 余额 <b>2,548</b>（含样片与两轮返工）</td></tr>
+          <tr><td>计费链路</td><td>37 组滚动报价；平台 REPORT 回执 <b>ACCEPTED · checkResult OK</b></td></tr>
+          <tr><td>生成参数</td><td>G1-Turbo · <span class="mono">enablePbr: true</span> · <span class="mono">aiPredictSize: true</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <figure class="fig strip">
+      <svg viewBox="0 0 1000 400" role="img" aria-label="351 件资产的生成时间轴" xmlns="http://www.w3.org/2000/svg" class="chart">
+<title>351 件资产的生成时间轴</title>
+<rect width="1000" height="400" fill="#fbfaf7"/>
+<text x="64" y="26" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="13" fill="#1a1c20" text-anchor="start" font-weight="600" letter-spacing="0">累计完成 351 / 351 件</text>
+<text x="960" y="26" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">02:03 开工 → 04:39 最后一批提交 → 04:43 全量质检通过</text>
+<line x1="64" y1="324.0" x2="960" y2="324.0" stroke="#c9c5bb" stroke-width="1"/>
+<text x="52" y="328.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">0</text>
+<line x1="64" y1="259.0" x2="960" y2="259.0" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="263.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">90</text>
+<line x1="64" y1="194.0" x2="960" y2="194.0" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="198.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">180</text>
+<line x1="64" y1="129.0" x2="960" y2="129.0" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="133.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">270</text>
+<line x1="64" y1="64.0" x2="960" y2="64.0" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="68.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">360</text>
+<line x1="64.0" y1="324" x2="64.0" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="64.0" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">02:00</text>
+<line x1="213.33333333333331" y1="324" x2="213.33333333333331" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="213.33333333333331" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">02:30</text>
+<line x1="362.66666666666663" y1="324" x2="362.66666666666663" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="362.66666666666663" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">03:00</text>
+<line x1="512.0" y1="324" x2="512.0" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="512.0" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">03:30</text>
+<line x1="661.3333333333333" y1="324" x2="661.3333333333333" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="661.3333333333333" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">04:00</text>
+<line x1="810.6666666666667" y1="324" x2="810.6666666666667" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="810.6666666666667" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">04:30</text>
+<line x1="960.0" y1="324" x2="960.0" y2="329" stroke="#c9c5bb" stroke-width="1"/>
+<text x="960.0" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">05:00</text>
+<path d="M 78.93333333333334 324.0 L 188.44444444444446 324.0 L 188.44444444444446 304.5 L 452.26666666666665 304.5 L 452.26666666666665 202.66666666666669 L 656.3555555555555 202.66666666666669 L 656.3555555555555 122.5 L 845.5111111111112 122.5 L 845.5111111111112 71.22222222222223 L 875.3777777777777 71.22222222222223 L 875.3777777777777 70.5 L 935.1111111111111 70.5 L 935.1111111111111 70.5 L 935.1111111111111 70.5 L 935.1111111111111 324.0 L 78.93333333333334 324.0 Z" fill="#d7e9ee" opacity=".55"/>
+<path d="M 78.93333333333334 324.0 L 188.44444444444446 324.0 L 188.44444444444446 304.5 L 452.26666666666665 304.5 L 452.26666666666665 202.66666666666669 L 656.3555555555555 202.66666666666669 L 656.3555555555555 122.5 L 845.5111111111112 122.5 L 845.5111111111112 71.22222222222223 L 875.3777777777777 71.22222222222223 L 875.3777777777777 70.5 L 935.1111111111111 70.5 L 935.1111111111111 70.5 L 935.1111111111111 70.5" fill="none" stroke="#0e7490" stroke-width="2.2"/>
+<circle cx="188.44444444444446" cy="304.5" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<text x="180.44444444444446" y="290.5" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#0e7490" text-anchor="end" font-weight="700" letter-spacing="0">27</text>
+<circle cx="452.26666666666665" cy="202.66666666666669" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<text x="452.26666666666665" y="188.66666666666669" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#0e7490" text-anchor="middle" font-weight="700" letter-spacing="0">168</text>
+<circle cx="656.3555555555555" cy="122.5" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<text x="656.3555555555555" y="108.5" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#0e7490" text-anchor="middle" font-weight="700" letter-spacing="0">279</text>
+<circle cx="845.5111111111112" cy="71.22222222222223" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<text x="835.5111111111112" y="55.22222222222223" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#0e7490" text-anchor="end" font-weight="700" letter-spacing="0">350</text>
+<circle cx="875.3777777777777" cy="70.5" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<text x="885.3777777777777" y="92.5" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">351</text>
+<circle cx="935.1111111111111" cy="70.5" r="4.2" fill="#fbfaf7" stroke="#0e7490" stroke-width="2"/>
+<line x1="875.3777777777777" y1="64" x2="875.3777777777777" y2="324" stroke="#0e7490" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="512.0" y="384" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">2026-11-12（UTC+8）· 5 并发提交 · 即下即存（输出链接 2 小时过期）</text>
+</svg>
+      <figcaption><span class="tag">图 4-1</span><span>351 件资产的完成曲线。02:25 的首批 27 件来自预热样片；03:18 与 03:59 两个台阶对应两批各约 120 件的批量提交；04:43 全量质检通过。数据取自五轮质检日志的 modelsPresent 字段。</span></figcaption>
+    </figure>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/terminal-1.jpg" alt="终端记录：final-status.json 中 351 件成功、652 积分、0 坏件与 REPORT 回执" loading="lazy">
+        <figcaption><span class="tag">图 4-2 · 日志回放</span><span>收尾状态：351 件成功、0 坏件、652 积分、回执 ACCEPTED。图片按仓库内真实 JSON 键值与数值渲染（非拍照），原始文件 <span class="mono">dental/logs/final-status.json</span>。</span></figcaption>
+      </figure>
+      <figure class="shot wide">
+        <img src="assets/terminal-3.jpg" alt="终端记录：1160 条任务记录、352 个物件 id、37 组报价、2 小时 36 分窗口" loading="lazy">
+        <figcaption><span class="tag">图 4-3 · 日志回放</span><span>任务与报价：1,160 条记录、352 个物件 id、37 组报价、窗口 2h36m。原始文件 <span class="mono">attempts.jsonl</span> 与 <span class="mono">quotes.jsonl</span>。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="body">
+      <h3>成本为什么重要</h3>
+      <p>一个平台的最小可行资产库不是「几件好看的样板」，而是<b>覆盖所有空间类型的全量清单</b>——缺一张消毒室的工作台，那一间就配不出来。用最便宜的档位把 351 件铺满、再对 33 件返工，比一开始用 10 倍单价生成 35 件精品更接近可用。这套「先全量、后返工」的预算分配，是这次能在 652 积分内交付出一个完整库的直接原因。</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="qa">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">05</div>
+      <div>
+        <h2>33 次返工，换来 0 坏件</h2>
+        <p class="lede">AI 生成的失败模式很固定：碎片漂浮、多件粘连、尺度离谱、朝向相反。质检不是给资产打分，而是把它们拦在入库之前。</p>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>我们没有「生成完就收货」。每一轮批量作业结束后，用无头浏览器把新完成的模型渲染成 320px 缩略图（本机没有 GPU，走软件渲染也可跑），逐件看三件事：<b>能不能看出是什么</b>、<b>画面里是不是只有这一件</b>、<b>比例与朝向是否合理</b>。不合格的进返工队列，重写提示词后重新生成，再复核。</p>
+      <p>五轮下来，坏件数先从 2 涨到 14、再到 26，然后被压回 5、最后归零。这个曲线不是失误，而是<b>每一轮都在扩大检查面</b>：27 件时只发现 2 个问题，不代表质量好，只代表看得少。</p>
+    </div>
+
+    <figure class="fig strip">
+      <svg viewBox="0 0 1000 420" role="img" aria-label="五轮质检的坏件数变化" xmlns="http://www.w3.org/2000/svg" class="chart">
+<title>五轮质检的坏件数变化</title>
+<rect width="1000" height="420" fill="#fbfaf7"/>
+<line x1="64" y1="328.0" x2="970" y2="328.0" stroke="#c9c5bb" stroke-width="1"/>
+<text x="52" y="332.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">0</text>
+<line x1="64" y1="237.33333333333334" x2="970" y2="237.33333333333334" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="241.33333333333334" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">10</text>
+<line x1="64" y1="146.66666666666669" x2="970" y2="146.66666666666669" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="150.66666666666669" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">20</text>
+<line x1="64" y1="56.0" x2="970" y2="56.0" stroke="#e4e1d9" stroke-width="1"/>
+<text x="52" y="60.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">30</text>
+<rect x="125.6" y="309.8666666666667" width="58" height="18.133333333333326" fill="#b45309" opacity="0.9" rx="3"/>
+<text x="154.6" y="300.8666666666667" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="14" fill="#b45309" text-anchor="middle" font-weight="700" letter-spacing="0">2</text>
+<text x="154.6" y="350" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#1a1c20" text-anchor="middle" font-weight="600" letter-spacing="0">02:25</text>
+<text x="154.6" y="368" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">预热</text>
+<text x="154.6" y="388" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">已检 22 · 新坏 2</text>
+<text x="154.6" y="404" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">累计成品 27</text>
+<rect x="306.79999999999995" y="201.06666666666666" width="58" height="126.93333333333334" fill="#b45309" opacity="0.9" rx="3"/>
+<text x="335.79999999999995" y="192.06666666666666" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="14" fill="#b45309" text-anchor="middle" font-weight="700" letter-spacing="0">14</text>
+<text x="335.79999999999995" y="350" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#1a1c20" text-anchor="middle" font-weight="600" letter-spacing="0">03:18</text>
+<text x="335.79999999999995" y="368" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">第 1 轮</text>
+<text x="335.79999999999995" y="388" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">已检 145 · 新坏 12</text>
+<text x="335.79999999999995" y="404" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">累计成品 168</text>
+<rect x="488.0" y="92.26666666666665" width="58" height="235.73333333333335" fill="#b45309" opacity="0.9" rx="3"/>
+<text x="517.0" y="83.26666666666665" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="14" fill="#b45309" text-anchor="middle" font-weight="700" letter-spacing="0">26</text>
+<text x="517.0" y="350" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#1a1c20" text-anchor="middle" font-weight="600" letter-spacing="0">03:59</text>
+<text x="517.0" y="368" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">第 2 轮</text>
+<text x="517.0" y="388" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">已检 111 · 新坏 12</text>
+<text x="517.0" y="404" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">累计成品 279</text>
+<rect x="669.1999999999999" y="282.6666666666667" width="58" height="45.333333333333314" fill="#b45309" opacity="0.9" rx="3"/>
+<text x="698.1999999999999" y="273.6666666666667" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="14" fill="#b45309" text-anchor="middle" font-weight="700" letter-spacing="0">5</text>
+<text x="698.1999999999999" y="350" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#1a1c20" text-anchor="middle" font-weight="600" letter-spacing="0">04:37</text>
+<text x="698.1999999999999" y="368" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">第 3 轮</text>
+<text x="698.1999999999999" y="388" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">已检 71 · 新坏 5</text>
+<text x="698.1999999999999" y="404" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">累计成品 350</text>
+<rect x="850.4" y="328.0" width="58" height="0.0" fill="#15803d" opacity="0.85" rx="3"/>
+<text x="879.4" y="319.0" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="14" fill="#15803d" text-anchor="middle" font-weight="700" letter-spacing="0">0</text>
+<text x="879.4" y="350" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="13" fill="#1a1c20" text-anchor="middle" font-weight="600" letter-spacing="0">04:43</text>
+<text x="879.4" y="368" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">第 4 轮</text>
+<text x="879.4" y="388" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">已检 2 · 新坏 0</text>
+<text x="879.4" y="404" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="middle" font-weight="400" letter-spacing="0">累计成品 351</text>
+<text x="64" y="34" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="start" font-weight="600" letter-spacing="0">累计坏件数 · 每轮全量复检后归零才算过</text>
+<text x="970" y="34" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#15803d" text-anchor="end" font-weight="600" letter-spacing="0">第 3 轮返工 33 件 → 26 件复核 PASS · 7 件抽查 PASS</text>
+</svg>
+      <figcaption><span class="tag">图 5-1</span><span>五轮质检的累计坏件数。第 3 轮把 33 件返工件中的 26 件复核通过，余下 5 件并入第 4 轮；第 4 轮 7 件抽查全部通过，累计坏件归零。数据取自 <span class="mono">dental/logs/qa-findings.json</span>。</span></figcaption>
+    </figure>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/terminal-4.jpg" alt="终端记录：qa-findings.json 的五轮统计、返工 33 件、351 全检 0 坏 7 watch" loading="lazy">
+        <figcaption><span class="tag">图 5-2 · 日志回放</span><span>质检台账：五轮统计、返工 33 件、351 件全检、0 坏件、7 件边界件。原始文件 <span class="mono">dental/logs/qa-findings.json</span>。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="body">
+      <h3>返工是怎么发生的</h3>
+      <p>返工不是「再点一次生成」。每一件坏件都会先被写成一句可执行的问题描述，再改写对应的生成提示词：是主体不明确，就补主体与视角；是多件粘连，就明确「single object, isolated」；是尺度离谱，就在清单的 <span class="mono">note</span> 里补真实尺寸再生成。两轮返工共 33 件（第一轮 28 件、第二轮 5 件），26 件复核通过。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 5-1 · 第 4 轮抽查：7 件「重生成后可用」的原文判定（摘自 qa-findings.json）</caption>
+        <thead><tr><th style="width:22%">物件</th><th style="width:30%">问题</th><th>重生成后的判定</th></tr></thead>
+        <tbody>
+          <tr><td><b>clean-gown-rack</b><br><span class="small">洁净服挂架</span></td><td>主体不明、附着物过多</td><td>regenerated as a rolling rack with white gowns hanging</td></tr>
+          <tr><td><b>lead-collar</b><br><span class="small">铅围领</span></td><td>与铅衣等混在一起</td><td>regenerated as a standalone blue lead collar (thyroid shield)</td></tr>
+          <tr><td><b>lab-monitor</b><br><span class="small">技工室显示器</span></td><td>多件粘连</td><td>regenerated as a single monitor on stand</td></tr>
+          <tr><td><b>pharmacy-computer</b><br><span class="small">药房电脑</span></td><td>只有主机、没有使用场景</td><td>regenerated as a desk with computer/monitor/keyboard</td></tr>
+          <tr><td><b>staff-dining-chair</b><br><span class="small">员工餐椅</span></td><td>与餐桌粘连</td><td>regenerated as a single white dining chair</td></tr>
+          <tr><td><b>low-speed-handpiece</b><br><span class="small">低速手机</span></td><td>与马达等混为一件</td><td>regenerated as dental low-speed handpieces + motor</td></tr>
+          <tr><td><b>mop-sink</b><br><span class="small">拖把池</span></td><td>形态不可识别</td><td>regenerated as a floor mop sink with faucet</td></tr>
+        </tbody>
+      </table>
+      <p class="tbl-note">这 7 件是第 3 轮返工后仍被标为坏件的一批，第 4 轮抽查确认全部可用。完整 33 件返工清单见附录 A。</p>
+    </div>
+
+    <div class="honest">
+      <h3>7 件「可用但不完美」的边界件</h3>
+      <p>我们没有把它们藏起来：这 7 件在场景里可用，但形态或比例与真实产品有差距。<b>imaging-positioning-chair</b>（影像定位椅）仍偏碎片；<b>intraoral-camera</b>（口内窥镜）有 2 个小配件悬浮；<b>shoe-change-bench</b>（换鞋凳）上方有手提包悬浮；<b>emergency-exit-sign</b>（安全出口牌）更像一面标牌墙；<b>digital-signage-kiosk</b>（立式标牌）缺屏幕；<b>dental-computer-tower</b>（电脑主机）像显示器推车；<b>corridor-handrail</b>（走廊扶手）由坏件降级——形态连贯但长度与材质偏短。</p>
+      <p>这 7 件的存在，是「0 坏件」这个数字可信的原因：我们区分「坏」与「不够好」，而不是把所有东西都说成好。</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="assets">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">06</div>
+      <div>
+        <h2>从一张产品图，到一组场景家具</h2>
+        <p class="lede">同一件资产要经过三段旅程：一张公开产品图 → 一个带 PBR 的 GLB（四视图可验）→ 场景里的一个可用家具。中间是尺寸标定、朝向标定，和最多一次返工。</p>
+      </div>
+    </div>
+
+    <div class="asset">
+      <div class="asset-head">
+        <div class="nm">成人牙科综合治疗椅 <em>dental-chair-adult</em></div>
+        <div class="mt">诊疗室 · 优先级 1 · 交付 1.16 MB · 场景基准 2.0 m · 朝向 270°</div>
+      </div>
+      <div class="trio">
+        <figure><span class="lab">参考图</span><img src="assets/ref-dental-chair-adult.jpg" alt="成人牙科综合治疗椅的产品参考图" loading="lazy"></figure>
+        <figure><span class="lab">Lux3D · 四视图 0° / 90° / 180° / 270°</span><img src="assets/fit-dental-chair-adult.jpg" alt="生成的成人牙科综合治疗椅四视图，标注 bbox 2×2×1m" loading="lazy"></figure>
+        <figure><span class="lab">场景实装</span><img src="assets/crop-chair.jpg" alt="成人牙科综合治疗椅在配置器场景中的实装特写" loading="lazy"></figure>
+      </div>
+      <p class="asset-note">参考图是一张产品目录照：青蓝布面、落地基座、四手操作器械盘、手术灯。生成件保留了<b>落地基座、器械盘与灯臂</b>这三件决定「这是一台牙椅」的结构，代价是头枕与扶手细节被简化。它在场景里以 2.0m 为基准落地、按正面朝向标定，所以换到任何一间诊疗室都不需要再手工摆正。</p>
+    </div>
+
+    <div class="asset">
+      <div class="asset-head">
+        <div class="nm">CBCT 机 <em>cbct-machine</em></div>
+        <div class="mt">影像室 · 优先级 1 · 差异件（种植旗舰店专用） · 交付 1.81 MB · 场景基准 1.6 m（高 2.03 m）</div>
+      </div>
+      <div class="trio">
+        <figure><span class="lab">参考图</span><img src="assets/ref-cbct-machine.jpg" alt="CBCT 机的产品参考图" loading="lazy"></figure>
+        <figure><span class="lab">Lux3D · 四视图</span><img src="assets/fit-cbct-machine.jpg" alt="生成的 CBCT 机四视图" loading="lazy"></figure>
+        <figure><span class="lab">场景实装</span><img src="assets/crop-cbct.jpg" alt="CBCT 机在影像室场景中的实装特写" loading="lazy"></figure>
+      </div>
+      <p class="asset-note">CBCT 是典型的「三合一立式」设备：立柱、旋转臂、患者定位台、控制面板。生成件把立柱与臂的<b>空间关系</b>保住了，这也是配置器里真正要紧的部分——它决定了影像室需要多大的净空、铅防护门开在哪一侧。</p>
+    </div>
+
+    <div class="asset">
+      <div class="asset-head">
+        <div class="nm">弧形接待台 <em>reception-desk-curved</em></div>
+        <div class="mt">前台接待 · 优先级 1 · 交付 2.98 MB · 尺寸 2400×800×1100 mm · 朝向 180°</div>
+      </div>
+      <div class="trio">
+        <figure><span class="lab">参考图</span><img src="assets/ref-reception-desk-curved.jpg" alt="弧形接待台的产品参考图" loading="lazy"></figure>
+        <figure><span class="lab">Lux3D · 四视图</span><img src="assets/fit-reception-desk-curved.jpg" alt="生成的弧形接待台四视图" loading="lazy"></figure>
+        <figure><span class="lab">场景实装</span><img src="assets/crop-reception.jpg" alt="弧形接待台在前台场景中的实装特写" loading="lazy"></figure>
+      </div>
+      <p class="asset-note">接待台是「平台件」里最挑形体的一件：弧形台面决定了前台的观感，也决定了平面图里的一段弧线。生成件保留了双弧造型与人造石台面的材质分区；<b>尺寸</b>在清单里被写成 2400×800×1100mm，进场景后按这个尺寸归一，出图时直接变成图上的一段弧。</p>
+    </div>
+
+    <div class="body" style="margin-top:52px">
+      <h3>尺寸与朝向：让生成的模型能进平面图</h3>
+      <p>生成件只有形体，没有「这是 2.4 米」这种知识。如果直接摆进场景，牙椅会和沙发一样高，平面图上的家具会互相穿模。所以我们补了两件事：<b>平面尺寸实测</b>——用无头 Chrome 逐件渲染、读归一化后的世界包围盒、按 rotY 转正，实测了 <b>119 件</b>资产的平面占位，写进 <span class="mono">js/footprint.js</span>；<b>朝向与基准</b>——为牙椅、前台、沙发、工作台等关键件标定正面朝向与落地基准（<span class="mono">demo/data/asset-tuning.json</span>）。这张标定表，是 3D 场景能直接长出 1:50 平面图的前提。</p>
+      <p>至于「AI 生成件到底有多大」这件事，我们给的是可核对的口径，而不是一句「比例正确」：每件在清单里都写了参考尺寸（<span class="mono">note</span> 字段），场景基准与实测 footprint 两套数据同时存在，出图用的是实测值，人工核对时看的是参考尺寸。</p>
+    </div>
+
+    <div class="body">
+      <h3>体量：从 9.9MB 到 0.75MB</h3>
+      <p>原始生成件平均 <b>9.9 MB</b>（2K 贴图、未压缩），一个 197 件家具的配置要下载近 2GB —— 网页里不可能跑。我们做了两级轻量化：交付件降到 <b>1.95 MB</b>（1024 JPEG + 几何量化），演示用 LOD 再降到 <b>0.75 MB</b>（meshopt 简化 + 512 贴图）。单件体积下降 <b>92%</b>，全库从 3.48 GB 降到 113 MB。</p>
+    </div>
+
+    <figure class="fig strip">
+      <svg viewBox="0 0 1000 300" role="img" aria-label="单件模型的体量阶梯" xmlns="http://www.w3.org/2000/svg" class="chart">
+<title>单件模型的体量阶梯</title>
+<rect width="1000" height="300" fill="#fbfaf7"/>
+<text x="152" y="69" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="13" fill="#1a1c20" text-anchor="end" font-weight="600" letter-spacing="0">原始件 · model_raw.glb</text>
+<text x="152" y="86" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">361 件 · 3.48 GB</text>
+<rect x="168" y="52" width="582" height="44" fill="#eeece5" rx="3"/>
+<rect x="168" y="52" width="582.0" height="44" fill="#b45309" rx="3"/>
+<text x="766" y="71" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="15" fill="#b45309" text-anchor="start" font-weight="700" letter-spacing="0">9.9 MB / 件</text>
+<text x="766" y="88" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">2048 贴图 · 未压缩</text>
+<text x="152" y="139" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="13" fill="#1a1c20" text-anchor="end" font-weight="600" letter-spacing="0">交付件 · model.glb</text>
+<text x="152" y="156" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">351 件 · 683.7 MB</text>
+<rect x="168" y="122" width="582" height="44" fill="#eeece5" rx="3"/>
+<rect x="168" y="122" width="114.63636363636363" height="44" fill="#0e7490" rx="3"/>
+<text x="766" y="141" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="15" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">1.95 MB / 件</text>
+<text x="766" y="158" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">1024 JPEG · 几何量化</text>
+<text x="152" y="209" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="13" fill="#1a1c20" text-anchor="end" font-weight="600" letter-spacing="0">演示 LOD · model.glb</text>
+<text x="152" y="226" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="11" fill="#7b828c" text-anchor="end" font-weight="400" letter-spacing="0">152 件 · 113.4 MB</text>
+<rect x="168" y="192" width="582" height="44" fill="#eeece5" rx="3"/>
+<rect x="168" y="192" width="44.09090909090909" height="44" fill="#15803d" rx="3"/>
+<text x="766" y="211" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="15" fill="#15803d" text-anchor="start" font-weight="700" letter-spacing="0">0.75 MB / 件</text>
+<text x="766" y="228" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">meshopt 简化 · 512 贴图</text>
+<text x="16" y="282" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">线性比例 · 以单件平均体积计</text>
+</svg>
+      <figcaption><span class="tag">图 6-1</span><span>同一批模型的三级体量。数据为逐文件统计：原始件 361 件 / 3.48 GB；交付件 351 件 / 683.7 MB；演示 LOD 152 件 / 113.4 MB。</span></figcaption>
+    </figure>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/gallery-top.jpg" alt="物件库浏览页：13 类空间、351 件资产、按分类与优先级筛选" loading="lazy">
+        <figcaption><span class="tag">图 6-2</span><span>资产库浏览页：13 类空间、351 件、按分类与优先级筛选，每件带中英文名与缩略图。</span></figcaption>
+      </figure>
+      <figure class="shot wide">
+        <img src="assets/gallery-band.jpg" alt="资产库中的前台与候诊区物件缩略图带" loading="lazy">
+        <figcaption><span class="tag">图 6-3</span><span>同一页的资产带：装饰花瓶、服务铃、钥匙柜、无线网由器等小件也在库内——它们是场景可信度的来源。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="body">
+      <h3>产品层迭代：提交前最后一小时</h3>
+      <p>资产质量之外，配置器本身也经过一轮肉眼可见的修正。下面是同一个配置（M 档 · 社区家庭店 · 150㎡ · 4 椅）在两个时间点的画面：左边是 17:19 的首版，右边是 18:05 的版本。</p>
+    </div>
+
+    <div class="diptych">
+      <figure>
+        <div class="lbl"><b>首版 · 17:19</b><span>加载 34/70</span></div>
+        <img src="assets/early-qa1.jpg" alt="早期版本截图：加载卡在 34/70，平台件复用率显示 99%，配置清单 135 件" loading="lazy">
+      </figure>
+      <figure>
+        <div class="lbl"><b>当前 · 18:05</b><span>完整加载</span></div>
+        <img src="assets/demo-01-overview.jpg" alt="当前版本截图：完整加载的 M 档社区家庭店，复用率 53%，配置清单 113 件" loading="lazy">
+      </figure>
+    </div>
+
+    <div class="body" style="margin-top:22px">
+      <p>三处差异都值得记：<b>加载</b>从卡在 34/70 变成一次加载完成；<b>家具数</b>从 135 收敛到 113，是布局去重与房间模板修正的结果；<b>复用率</b>从 99% 修正到 53%——按实际使用到的资产类型去重统计后，这个数字才回答了「有多少是可以复制的」。同一天里，配置器还补上了造价与工时的指标卡：<b>配置器不再只是「看」，开始「算」</b>。</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="effect">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">07</div>
+      <div>
+        <h2>像配车一样配诊所</h2>
+        <p class="lede">左边是车型，上边是平台，下边是内饰，右边是这台「车」的配置单与指标。改任何一个，3D 场景、房间清单、复用率与组合数同时变。</p>
+      </div>
+    </div>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/demo-01-overview.jpg" alt="配置器总览：M 档社区家庭店、洁净蓝白风格，150㎡、4 椅、9 间、113 件家具" loading="lazy">
+        <figcaption><span class="tag">图 7-1</span><span>M 档 · 社区家庭店 · 洁净蓝白：150㎡ / 4 椅 / 9 间 / 113 件家具 / 复用率 53% / 440 种组合。</span></figcaption>
+      </figure>
+      <figure class="shot wide">
+        <img src="assets/demo-06-platform-parts.jpg" alt="平台件与差异件描边视图：L 档美学体验店，平台件 143、差异件 55" loading="lazy">
+        <figcaption><span class="tag">图 7-2</span><span>平台件（青绿描边，143 件）与差异件（琥珀描边，55 件）。同一套 L 档配置，切到美学体验店后房间从 9 间增加到 14 间，组合数从 440 变成 1,050。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="shots">
+      <figure class="shot">
+        <img src="assets/demo-05-hardpoints.jpg" alt="硬点视图：打开硬点开关后的五类点位图例" loading="lazy">
+        <figcaption><span class="tag">图 7-3</span><span>硬点视图：水 / 电 / 气 / 排 / 网五类点位按设备落在地面，图例常驻左上；这些点位会原样进入机电点位图。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/demo-08-S-kids.jpg" alt="S 档儿童诊疗店：90㎡、2 椅、7 间、儿童糖果风格" loading="lazy">
+        <figcaption><span class="tag">图 7-4</span><span>S 档 · 儿童诊疗店 · 儿童糖果：90㎡ / 2 椅 / 7 间 / 91 件 / 105 种组合。S 档开不出种植旗舰店——平台带宽先于门店类型。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/demo-07-L-aesthetic.jpg" alt="L 档美学体验店：240㎡、6 椅、14 间、疗愈木风格" loading="lazy">
+        <figcaption><span class="tag">图 7-5</span><span>L 档 · 美学体验店 · 疗愈木：240㎡ / 6 椅 / 14 间 / 198 件 / 1,050 种组合。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/demo-10-info-card.jpg" alt="点选弧形接待台后弹出的信息卡：名称、分类、平台件" loading="lazy">
+        <figcaption><span class="tag">图 7-6</span><span>点选物件：信息卡显示中文名、分类与「平台件 / 差异件」。这件弧形接待台是平台件，5 类门店都会用到。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="body">
+      <h3>能改什么</h3>
+      <ul>
+        <li><b>平台档位</b>：S / M / L 三档，决定面积、开间进深、诊室数、椅位与模块槽位。降到放不下的档位时，门店类型与模块会自动禁用。</li>
+        <li><b>门店类型</b>：5 类，决定必含房间、牙椅等级与差异件清单（儿童椅、正畸椅、种植椅、高端椅；CBCT、铅防护、咖啡吧、儿童角）。</li>
+        <li><b>选装模块</b>：影像室、技工室、儿童区、咨询室、咖啡吧、消毒升级；模块槽位 1 / 2 / 3，超槽位直接禁用而不是悄悄叠加。</li>
+        <li><b>风格</b>：5 套墙地木作与灯光色温，切换时软装变体同步替换，但不改变硬点与设备。</li>
+        <li><b>视角</b>：总览 / 前台 / 候诊 / 诊疗 / 消毒，相机 600ms 飞入；点房间标签也能飞。</li>
+        <li><b>两个视图</b>：硬点、平台件 / 差异件描边；另有一个天花开关，程序化生成 LED 平板灯与空调风口。</li>
+      </ul>
+      <h3>指标面板回答什么</h3>
+      <p>面积、诊室、椅位、房间数是配置的「物理结果」；<b>平台件复用率</b>是配置的「经济结果」；<b>衍生组合数</b>是平台的「规模上限」。右下角的配置清单按房间分组列出家具件数——它是出图与算量的直接输入，不是另算一遍。</p>
+      <h3>怎么做到在无 GPU 的机器上能跑</h3>
+      <p>three.js 与全部依赖本地化，没有任何 CDN；建筑壳体（地面、2.8m 墙、门洞、玻璃隔断）由程序生成，不占模型体积；同一资产在场景里只加载一次、其余 clone；只加载当前配置用得到的资产（约 50–70 个），并按需渲染。本机没有显卡、走 SwiftShader 软件渲染也能完成截图与交互验证；真实 GPU 下的目标是 45 fps 以上。</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="drawings">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">08</div>
+      <div>
+        <h2>一张图，一份报价</h2>
+        <p class="lede">配置器的终点不是好看，是能交出去的三张图和一份报价：DXF 能进 CAD，SVG 能进汇报，CSV 能进 Excel。</p>
+      </div>
+    </div>
+
+    <div class="shots">
+      <figure class="shot wide">
+        <img src="assets/sheet-M.jpg" alt="出图浮层：M 档社区家庭店的三张图页预览、估算造价 923,258 元与五组造价构成" loading="lazy">
+        <figcaption><span class="tag">图 8-1</span><span>出图浮层（M 档 · 社区家庭店 · 洁净蓝白）：平面布置图 / 机电点位图 / 工程量与估价表（含续页）四个图页；右侧是估算造价、五组构成、总工日与分工种工时；右上角是 DXF / SVG / 报价 CSV / 打印四个出口。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="shots">
+      <figure class="shot">
+        <img src="assets/plan-M.jpg" alt="M 档平面布置图：A2 图框、1:50、房间与家具、尺寸标注与标题栏" loading="lazy">
+        <figcaption><span class="tag">图 8-2</span><span>平面布置图：A2 横向、1:50、单位 mm；房间名 + 开间 × 进深 + 面积；右下角标题栏带图号 ADS-01-01、阶段、造价与工时。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/mep-M.jpg" alt="M 档机电点位图：水/电/气/排/网五类点位与数量表 34 个" loading="lazy">
+        <figcaption><span class="tag">图 8-3</span><span>机电点位图：水 9 / 电 6 / 气 5 / 排 9 / 网 5，共 34 个点位，按房间落位，附符号数量表。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/boq-M.jpg" alt="工程量与估价表：按硬装、机电、家具分组的分项、规格、数量、单价、合价与工时" loading="lazy">
+        <figcaption><span class="tag">图 8-4</span><span>工程量与估价表：分项、规格、单位、数量、单价、合价、工时逐行列项，按专业分组小计，自动分页。</span></figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/render-dxf-M.jpg" alt="DXF 文件被 ezdxf 独立读取后渲染出的平面图" loading="lazy">
+        <figcaption><span class="tag">图 8-5</span><span>DXF 的独立校验：用 ezdxf（非本项目代码）读回 .dxf 并渲染。能读出来、画得对，才算「能进 CAD」。</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 8-1 · 出图规格</caption>
+        <thead><tr><th style="width:26%">项</th><th>规格</th></tr></thead>
+        <tbody>
+          <tr><td>图幅 / 比例</td><td>A2 横向（594 × 420 mm）；比例按平面自适应 <b>1:50 / 1:100</b>，同一张纸面观感一致</td></tr>
+          <tr><td>图页</td><td>平面布置图、机电点位图、工程量与估价表（按内容自动续页，M 档样板共 4 页）</td></tr>
+          <tr><td>DXF</td><td><b>R2007 / AC1021</b>，<span class="mono">INSUNITS=4</span>（毫米），中文图层区分墙、门、家具、点位、标注、图框</td></tr>
+          <tr><td>图号 / 标题栏</td><td>ADS-01-01 / ADS-02-01 / ADS-03-01；标题栏含平台、门店类型、风格、面积、椅位、家具件数、比例、阶段、造价、工时</td></tr>
+          <tr><td>出口</td><td>DXF · SVG · 报价 CSV · 浏览器打印 A2 PDF</td></tr>
+          <tr><td>报价口径</td><td>方案估算，<b>含税、±8% 区间</b>；工期为<b>净施工工期</b>（不含设备采购、报建审批）</td></tr>
+          <tr><td>单价来源</td><td><span class="mono">js/price-book.js</span>：面积规则、五类点位、模块附加、资产覆盖价 / 分类兜底价、风格系数、税率、班组人数——商务直接改数，不改公式</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 8-2 · 三档样板配置的造价与工期（来自交付样例）</caption>
+        <thead>
+          <tr><th style="width:26%">项</th><th class="num">S · 社区家庭店</th><th class="num">M · 种植旗舰店</th><th class="num">L · 美学体验店</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>风格</td><td class="num">洁净蓝白</td><td class="num">暖奶油</td><td class="num">疗愈木</td></tr>
+          <tr><td>面积 / 椅位 / 房间</td><td class="num">90㎡ · 2 椅 · 7 间</td><td class="num">150㎡ · 4 椅 · 11 间</td><td class="num">240㎡ · 6 椅 · 14 间</td></tr>
+          <tr><td>家具件数</td><td class="num">88</td><td class="num">129</td><td class="num">197</td></tr>
+          <tr><td>造价（元）</td><td class="num"><b>645,578</b></td><td class="num"><b>1,882,299</b></td><td class="num"><b>2,114,340</b></td></tr>
+          <tr><td>单方（元/㎡）</td><td class="num">7,173</td><td class="num">12,549</td><td class="num">8,810</td></tr>
+          <tr><td>工时（人天）</td><td class="num">80.24</td><td class="num">133.04</td><td class="num">182.17</td></tr>
+          <tr><td>工期（天）</td><td class="num">24</td><td class="num">37</td><td class="num">51</td></tr>
+          <tr><td>出图比例</td><td class="num">1:50</td><td class="num">1:50</td><td class="num">1:100</td></tr>
+        </tbody>
+      </table>
+      <p class="tbl-note">同一份引擎在浏览器里对任意配置实时计算；上表三档是按交付样例固定的取数点，便于横向对比。M 档社区家庭店（图 8-1）的造价为 923,258 元，五组构成为硬装 135,298 / 机电与暖通 56,570 / 家具与设备 664,740 / 设计与管理 14,390 / 税金 52,260，合计与总额一致。</p>
+    </div>
+
+    <div class="body">
+      <h3>怎么证明它不是「算得好看」</h3>
+      <p>出图与报价最容易出的问题不是算错，而是<b>算得不自洽</b>：同一配置两次点开金额不同、DXF 与 SVG 的图元对不上、报价明细加起来不等于总额。我们写了三套相互独立的校验：</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 8-3 · 三套校验与 2026-11-18 复跑结果</caption>
+        <thead><tr><th style="width:30%">校验</th><th style="width:34%">做什么</th><th>结果</th></tr></thead>
+        <tbody>
+          <tr><td><b>verify-drawing-quote.mjs</b></td><td>遍历三档平台合计 <b>1,595</b> 种组合（S 105 + M 440 + L 1,050），逐项断言金额自洽、单调、可复现，DXF / SVG 结构一致</td><td><b>1,595 / 1,595 组合通过</b>；11,957,003 条断言，0 失败；57 秒</td></tr>
+          <tr><td><b>validate_dxf.py</b></td><td>用第三方库 ezdxf 独立读回 DXF，检查版本、单位、实体数与可渲染性</td><td>AC1021（R2007）、INSUNITS=4；4 个典型配置实体 1,319–1,855；<b>0 错误</b></td></tr>
+          <tr><td><b>shot-sheet.mjs</b></td><td>浏览器端 E2E：打开出图浮层、断言图页与金额、真实点击 DXF / SVG / CSV 下载</td><td><b>110 条断言 0 失败</b>，console 0 报错；3/3 下载文件名与内容正确</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <b>为什么值得反复强调：</b>出图与报价是这份作品里唯一「错了会被真金白银发现」的部分。1,595 组组合全过，意味着评委随便换一个平台、一个门店、一套模块，看到的都是同一套自洽的规则——这就是「可交付」和「能动」的区别。
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="engineering">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">09</div>
+      <div>
+        <h2>可复用、可校验、可运维</h2>
+        <p class="lede">一件作品能不能被别人接着用，取决于三件事：数据是不是显式的、错误是不是可拦的、部署是不是不依赖人。</p>
+      </div>
+    </div>
+
+    <div class="arch">
+      <div class="lay"><div class="k">交付层<em>DELIVERY</em></div><div class="v"><code>gallery.html</code> 物件浏览 <span class="arrow">·</span> <code>catalog.csv / xlsx</code> 目录 <span class="arrow">·</span> <code>lux3d-bundle</code> 交付包 <span class="arrow">·</span> <code>server/</code> 自托管服务</div></div>
+      <div class="lay"><div class="k">出图层<em>CAD / QUOTE</em></div><div class="v"><code>cad.js</code> 图框、图层、墙门家具、点位、标注、DXF / SVG <span class="arrow">·</span> <code>quote.js</code> 工程量、五组造价、工时工期、CSV <span class="arrow">·</span> <code>sheet.js</code> 浮层、打印</div></div>
+      <div class="lay"><div class="k">场景层<em>THREE.JS</em></div><div class="v"><code>scene.js</code> 壳体与渲染 <span class="arrow">·</span> <code>plan.js</code> 房间与家具布局 <span class="arrow">·</span> <code>config.js</code> 平台 / 门店 / 风格 / 模块 <span class="arrow">·</span> <code>assets.js</code> 加载与 LOD 回退 <span class="arrow">·</span> <code>ui.js</code> 面板与指标</div></div>
+      <div class="lay"><div class="k">数据层<em>DATA</em></div><div class="v"><code>inventory.json</code> 351 件清单 <span class="arrow">·</span> <code>asset-tuning.json</code> 尺寸与朝向 <span class="arrow">·</span> <code>footprint.js</code> 119 件实测平面占位 <span class="arrow">·</span> <code>price-book.js</code> 单价与工效</div></div>
+      <div class="lay"><div class="k">资产层<em>LUX3D</em></div><div class="v"><code>models/</code> 351 件交付 GLB（PBR）<span class="arrow">·</span> <code>lod-models/</code> 152 件演示 LOD <span class="arrow">·</span> <code>extra/</code> 9 件场景补充件</div></div>
+    </div>
+
+    <div class="body">
+      <h3>工具链：每一步都有脚本，不靠手点</h3>
+      <p>从「清单」到「交付包」，全流程是可重跑的脚本；每个脚本都只做一件事，输出落盘可查。这也是为什么报告里能给出报价记录、回执、质检台账这种细粒度的证据——它们本来就是流程的副产物。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 9-1 · 工具链（dental/tools/，节选 10 件）</caption>
+        <thead><tr><th style="width:34%">脚本</th><th>作用</th><th style="width:18%">产物</th></tr></thead>
+        <tbody>
+          <tr><td><span class="mono">fetch_refs.py</span> / <span class="mono">upload_refs.py</span></td><td>按检索词抓公开产品参考图，上传到资产服务换公网 URL</td><td>refs / URL</td></tr>
+          <tr><td><span class="mono">generate_all.py</span></td><td>滚动报价 + 5 并发 + 轮询 + 即下即存 + 失败重试</td><td>GLB / attempts.jsonl</td></tr>
+          <tr><td><span class="mono">optimize_models.mjs</span></td><td>1024 JPEG 贴图 + 几何量化，原始件归档</td><td>交付 GLB</td></tr>
+          <tr><td><span class="mono">build_demo_lod.mjs</span></td><td>meshopt 简化 + 512 贴图，生成演示 LOD</td><td>113.4 MB</td></tr>
+          <tr><td><span class="mono">thumb_render.mjs</span> / <span class="mono">contact_sheet.py</span></td><td>无头浏览器渲染缩略图与分类拼图，供质检</td><td>缩略图 / 拼图</td></tr>
+          <tr><td><span class="mono">dump-footprints.mjs</span></td><td>逐件渲染读世界包围盒、按 rotY 转正</td><td>footprint.js（119 件）</td></tr>
+          <tr><td><span class="mono">verify-drawing-quote.mjs</span></td><td>1,595 组组合的金额 / 几何自洽校验</td><td>0 失败</td></tr>
+          <tr><td><span class="mono">validate_dxf.py</span></td><td>第三方 ezdxf 独立读回 DXF 并渲染</td><td>0 错误</td></tr>
+          <tr><td><span class="mono">shot-sheet.mjs</span></td><td>浏览器 E2E：图页、金额、三个下载</td><td>110 断言 / 0 失败</td></tr>
+          <tr><td><span class="mono">build_gallery.mjs</span> / <span class="mono">build_delivery.py</span></td><td>生成物件浏览页、Lux3D 交付包与目录</td><td>gallery / bundle</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="body">
+      <h3>部署：不让页面依赖一张会过期的签名链接</h3>
+      <p>演示站由自托管服务器提供（Node ≥ 18，零依赖，只用内置模块）：浏览器请求模型时，服务器用 OSS 凭据去对象存储取，首次落盘缓存，之后本地命中（实测 3–12 ms / 件）。这样做的三个结果：页面<b>同源</b>、没有 CORS、没有签名 URL 过期；对象桶保持私有，不需要开 public-read；页面永远不因为链接过期而失效。这是「评审任何时候点开都能用」的技术前提。</p>
+      <p>维护上也有据可查：提交 <span class="mono">48188eb</span> 修掉了缓存导致的空房间与前台布局问题；<span class="mono">3629c0b</span> 把出图与报价接进演示页；<span class="mono">b63beb8</span> 落地了自托管服务器包。作品不是一次截图，是一条能继续往前走的分支。</p>
+    </div>
+
+    <div class="body">
+      <h3>别人能拿走什么</h3>
+      <ul>
+        <li><b>清单与目录</b>：<span class="mono">inventory.json</span> 的字段结构（id / 中英文名 / 分类 / 优先级 / 检索词 / 生成提示词 / 参考尺寸）可以直接换成另一个行业。</li>
+        <li><b>单价与工效</b>：<span class="mono">price-book.js</span> 是数据文件，商务可以改数而不碰公式；出图与报价的接口契约写在 <span class="mono">drawing-quote-contract.md</span>。</li>
+        <li><b>生成与质检脚本</b>：批量生成、滚动报价、即下即存、缩略图质检，这一套与行业无关，换清单即可复用。</li>
+        <li><b>交付包</b>：<span class="mono">lux3d-delivery.json</span> + 内嵌预览页，是 Lux3D 体系里可直接交付的形态。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="limits">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">10</div>
+      <div>
+        <h2>我们没做的，和不敢说的</h2>
+        <p class="lede">评审要判断的是可信度，不是声量。所以这一节只写限制，不写愿景。</p>
+      </div>
+    </div>
+
+    <div class="honest">
+      <h3>六条边界</h3>
+      <p><b>1 · 资产精度。</b>351 件由 G1-Turbo（1 积分/件）生成，形体与贴图整体可用，但局部细节与真实产品的比例不保证一致。清单 <span class="mono">note</span> 里的尺寸是可核对的参考值，不是产品参数表；要用于工程设计与施工，必须按实物核对。</p>
+      <p><b>2 · 出图定位。</b>这是<b>方案阶段</b>的平面布置图与机电点位图：A2、1:50 / 1:100、DXF R2007，可作 CAD 二次设计的底图，不是结构图、节点图或施工图。</p>
+      <p><b>3 · 报价口径。</b>造价是估算，含税、±8% 区间；单价与工效来自 <span class="mono">price-book.js</span> 的假设，不是投标价。工期是净施工工期，不含设备采购与报建审批。</p>
+      <p><b>4 · 7 件边界件。</b>imaging-positioning-chair、intraoral-camera、shoe-change-bench、emergency-exit-sign、digital-signage-kiosk、dental-computer-tower、corridor-handrail 可用但不完美，已在第 5 章逐件说明。</p>
+      <p><b>5 · 场景是程序化摆放。</b>房间与家具由布局算法生成，不是对真实建筑的测绘；开间、机电、给排水需按实际条件与规范深化。天花 GLB 件因体积与姿态问题没有放进 3D 场景，天花以程序化灯具与风口代替。</p>
+      <p><b>6 · 没覆盖的部分。</b>结构、暖通负荷计算、消防报审、设备品牌选型、软装深化，都不在本作品范围内；演示页在无 GPU 的机器上以软件渲染验证，真实 GPU 帧率未实测（目标 45 fps 以上）。</p>
+    </div>
+
+    <div class="body">
+      <p>把这些写出来，不是为了显得谦虚，而是因为<b>边界本身就是交付物的一部分</b>：一个设计工具如果不说清「图能用到哪一步」，它就在把风险转嫁给使用者。我们更愿意让评委看到：哪些数字是实测的（119 件 footprint、1,595 组校验、351 件全检），哪些是假设的（单价、工效、风格系数）。</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="review">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">11</div>
+      <div>
+        <h2>五个维度，逐项对照</h2>
+        <p class="lede">不猜评审标准，只按官方公布的权重，把证据摆到对应的位置上。</p>
+      </div>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 11-1 · 评审维度与证据对应</caption>
+        <thead><tr><th style="width:20%">维度（权重）</th><th style="width:22%">评审在找什么</th><th>我们的证据</th><th style="width:12%">位置</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>群核技术栈应用</b><br><span class="small">30%</span></td>
+            <td>Lux3D 是不是「承重墙」，而不是点缀</td>
+            <td>351 件资产<b>全部</b>由 Lux3D 生成（图生 3D 1,083 次、文生 3D 77 次），无外购、无手工建模；PBR 贴图；官方滚动报价与 REPORT 回执；生成 → 质检 → 返工闭环；Lux3D 交付包。</td>
+            <td>§4 §5 §6</td>
+          </tr>
+          <tr>
+            <td><b>有趣程度</b><br><span class="small">25%</span></td>
+            <td>有没有「想点一下」的冲动</td>
+            <td>像配车一样配诊所：左选车型、上选平台、下选内饰、右看配置单；440 / 1,050 种组合；硬点与平台件描边；点一下「出图」，三张 A2 图和一份造价一起出来。</td>
+            <td>§7 §8</td>
+          </tr>
+          <tr>
+            <td><b>创新</b><br><span class="small">20%</span></td>
+            <td>有没有新方法，而不是新皮肤</td>
+            <td>把汽车平台五步（冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证）完整映射到诊所空间与机电；用「平台件复用率」把「能复制多少」变成指标；把 AI 资产库当作平台的地基而不是素材库。</td>
+            <td>§1 §2</td>
+          </tr>
+          <tr>
+            <td><b>完成度</b><br><span class="small">20%</span></td>
+            <td>能不能真的用起来</td>
+            <td>351 / 351 成功、0 坏件、3 张 A2 图页、DXF R2007、1,595 组校验 0 失败、E2E 110 断言、自托管部署、工具链与契约文档齐全。</td>
+            <td>§3 §8 §9</td>
+          </tr>
+          <tr>
+            <td><b>社媒传播</b><br><span class="small">5%</span></td>
+            <td>是否形成传播</td>
+            <td>本报告不含传播数据；社媒链接由团队在提交页面另行提交。</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="quote">我们想被记住的不是「生成了 351 个模型」，而是「把一次诊所设计，变成了一套可复用、可计量、可出图的规则」。<small>团队 GRZ</small></p>
+  </div>
+</section>
+
+<section class="sec" id="links">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">12</div>
+      <div>
+        <h2>链接与复现</h2>
+        <p class="lede">报告、资产库、演示、代码在同一个仓库里；模型不随仓库分发，演示站也不暴露对象存储直链。</p>
+      </div>
+    </div>
+
+    <div class="links">
+      <a class="lcard" href="https://gaogao94.github.io/dental-clinic-3d/" target="_blank" rel="noopener">
+        <span class="k">Report</span><span class="n">项目报告书（本页）</span><span class="u">gaogao94.github.io/dental-clinic-3d</span>
+      </a>
+      <a class="lcard" href="https://gaogao94.github.io/dental-clinic-3d/catalog/" target="_blank" rel="noopener">
+        <span class="k">Asset Library</span><span class="n">3D 资产库 · 351 件目录</span><span class="u">gaogao94.github.io/dental-clinic-3d/catalog</span>
+      </a>
+      <a class="lcard" href="https://dma.automed.cn/demo/index.html" target="_blank" rel="noopener">
+        <span class="k">Live Demo</span><span class="n">平台配置器 · 在线体验</span><span class="u">dma.automed.cn/demo/index.html</span>
+      </a>
+      <a class="lcard" href="https://github.com/gaogao94/dental-clinic-3d" target="_blank" rel="noopener">
+        <span class="k">Source</span><span class="n">开源代码 · 报告 / 资产库 / 演示</span><span class="u">github.com/gaogao94/dental-clinic-3d</span>
+      </a>
+    </div>
+
+    <div class="body">
+      <h3>仓库里有什么</h3>
+      <ul>
+        <li><span class="mono">index.html</span> — 本报告；<span class="mono">report.pdf</span> — 同一份报告的 PDF 版。</li>
+        <li><span class="mono">catalog/</span> — 351 件资产的表：编号、中英文名、分类、优先级、参考尺寸、交付体积、积分、缩略图；附 <span class="mono">inventory.json</span>、<span class="mono">catalog.csv</span>、<span class="mono">catalog.xlsx</span>。</li>
+        <li><span class="mono">demo/</span> — 配置器源码（three.js 场景、布局、CAD、报价、UI），与线上演示同源。</li>
+        <li><span class="mono">source/tools/</span> — 生成、质检、轻量化、标定、校验的工具链脚本。</li>
+      </ul>
+
+      <h3>本地运行</h3>
+      <div class="cmd">
+<span class="c"># 需要 Node 18+；three.js 已本地化，无 npm install</span>
+node demo/serve.mjs
+<span class="c"># → http://127.0.0.1:&lt;port&gt;/demo/index.html</span>
+
+<span class="c"># 出图与报价的全组合校验（不需浏览器）</span>
+node source/tools/verify-drawing-quote.mjs
+      </div>
+      <p class="small">本地运行需要模型文件：<span class="mono">demo/lod-models/</span>（152 件 LOD）与 <span class="mono">demo/extra/models/</span>（9 件补充件）。模型约 113 MB，因体积与保存成本未随仓库分发；线上演示由自托管服务器按需供给，页面只访问自己的服务器，<b>不暴露对象存储地址，也没有签名链接</b>。</p>
+
+      <h3>数据怎么核</h3>
+      <ul>
+        <li>清单与目录：<span class="mono">catalog/inventory.json</span>、<span class="mono">catalog/catalog.csv</span>。</li>
+        <li>三档样板配置的图纸与报价：<span class="mono">source/samples/</span>（DXF / SVG / CSV / 报价 JSON）。</li>
+        <li>生成与质检记录：<span class="mono">source/logs/</span>（attempts、quotes、budget、qa-findings、final-status；不含密钥）。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="appendix">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">A</div>
+      <div>
+        <h2>附录 · 数据表</h2>
+        <p class="lede">报告里出现的每个数字，都能在这些表里找到出处或核对口径。</p>
+      </div>
+    </div>
+
+    <figure class="fig strip">
+      <svg viewBox="0 0 1000 470" role="img" aria-label="13 类空间的物件分布" xmlns="http://www.w3.org/2000/svg" class="chart">
+<title>13 类空间的物件分布</title>
+<rect width="1000" height="470" fill="#fbfaf7"/>
+<text x="118" y="44" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">诊疗室</text>
+<rect x="132" y="33" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="33" width="727.2" height="16" fill="#0e7490" opacity="0.85" rx="2"/>
+<text x="869.2" y="46" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">54</text>
+<text x="118" y="74" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">小型器械/耗材</text>
+<rect x="132" y="63" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="63" width="700.2666666666667" height="16" fill="#0e7490" opacity="0.85" rx="2"/>
+<text x="842.2666666666667" y="76" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">52</text>
+<text x="118" y="104" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">前台接待</text>
+<rect x="132" y="93" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="93" width="350.1333333333333" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="492.1333333333333" y="106" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">26</text>
+<text x="118" y="134" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">消毒供应室</text>
+<rect x="132" y="123" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="123" width="350.1333333333333" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="492.1333333333333" y="136" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">26</text>
+<text x="118" y="164" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">公共/走廊</text>
+<rect x="132" y="153" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="153" width="350.1333333333333" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="492.1333333333333" y="166" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">26</text>
+<text x="118" y="194" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">办公/院长室</text>
+<rect x="132" y="183" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="183" width="350.1333333333333" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="492.1333333333333" y="196" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">26</text>
+<text x="118" y="224" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">候诊区</text>
+<rect x="132" y="213" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="213" width="336.6666666666667" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="478.6666666666667" y="226" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">25</text>
+<text x="118" y="254" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">技工室</text>
+<rect x="132" y="243" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="243" width="323.20000000000005" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="465.20000000000005" y="256" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">24</text>
+<text x="118" y="284" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">员工区</text>
+<rect x="132" y="273" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="273" width="282.79999999999995" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="424.79999999999995" y="286" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">21</text>
+<text x="118" y="314" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">儿童区</text>
+<rect x="132" y="303" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="303" width="269.3333333333333" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="411.3333333333333" y="316" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">20</text>
+<text x="118" y="344" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">材料/药房</text>
+<rect x="132" y="333" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="333" width="242.39999999999998" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="384.4" y="346" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">18</text>
+<text x="118" y="374" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">影像室</text>
+<rect x="132" y="363" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="363" width="228.93333333333334" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="370.93333333333334" y="376" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">17</text>
+<text x="118" y="404" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#1a1c20" text-anchor="end" font-weight="400" letter-spacing="0">卫生间</text>
+<rect x="132" y="393" width="808" height="16" fill="#eeece5" rx="2"/>
+<rect x="132" y="393" width="215.46666666666667" height="16" fill="#0e7490" opacity="0.62" rx="2"/>
+<text x="357.4666666666667" y="406" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">16</text>
+<text x="132" y="442" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="start" font-weight="600" letter-spacing="0">合计 351 件 · 优先级 1/2/3 = 73/135/143</text>
+</svg>
+      <figcaption><span class="tag">图 A-1</span><span>13 类空间的物件分布。诊疗室（54）与小型器械/耗材（52）占近三分之一——它们是配置器里出现频率最高的资产。</span></figcaption>
+    </figure>
+
+    <div class="tw">
+      <table>
+        <caption>表 A-1 · 平台三档的硬点带宽</caption>
+        <thead><tr><th>平台</th><th class="num">建筑面积</th><th class="num">平面尺寸</th><th class="num">诊室</th><th class="num">椅位</th><th class="num">模块槽位</th><th class="num">可用门店类型</th><th class="num">衍生组合</th></tr></thead>
+        <tbody>
+          <tr><td><b>S</b></td><td class="num">90 ㎡</td><td class="num">9 × 10 m</td><td class="num">2</td><td class="num">2</td><td class="num">1</td><td class="num">3</td><td class="num">105</td></tr>
+          <tr><td><b>M</b></td><td class="num">150 ㎡</td><td class="num">12 × 12.5 m</td><td class="num">4</td><td class="num">4</td><td class="num">2</td><td class="num">4</td><td class="num">440</td></tr>
+          <tr><td><b>L</b></td><td class="num">240 ㎡</td><td class="num">15 × 16 m</td><td class="num">6</td><td class="num">6</td><td class="num">3</td><td class="num">5</td><td class="num">1,050</td></tr>
+        </tbody>
+      </table>
+      <p class="tbl-note">衍生组合数 = 可用门店类型数 × 风格数（5） × Σ<sub>k=0..槽位</sub> C(6, k)。三档合计 1,595 种，正是出图与报价校验的组合总数。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 A-2 · 13 类空间的物件数</caption>
+        <thead><tr><th>空间</th><th class="num">件</th><th>空间</th><th class="num">件</th><th>空间</th><th class="num">件</th></tr></thead>
+        <tbody>
+          <tr><td>诊疗室</td><td class="num">54</td><td>候诊区</td><td class="num">25</td><td>员工区</td><td class="num">21</td></tr>
+          <tr><td>小型器械/耗材</td><td class="num">52</td><td>技工室</td><td class="num">24</td><td>儿童区</td><td class="num">20</td></tr>
+          <tr><td>前台接待</td><td class="num">26</td><td>办公/院长室</td><td class="num">26</td><td>材料/药房</td><td class="num">18</td></tr>
+          <tr><td>消毒供应室</td><td class="num">26</td><td>公共/走廊</td><td class="num">26</td><td>影像室</td><td class="num">17</td></tr>
+          <tr><td>卫生间</td><td class="num">16</td><td colspan="2">合计 <b>351</b>；优先级 1 / 2 / 3 = 73 / 135 / 143</td><td colspan="2">另补充件 9 件</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 A-3 · 33 件返工清单（两轮）</caption>
+        <thead><tr><th style="width:34%">第一轮 28 件（第 3 轮复核）</th><th style="width:34%">第二轮 5 件</th><th>第 4 轮抽查 7 件</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="small">bathroom-mirror · bonding-agent-bottle · chairside-monitor · clinic-photo-wall · corridor-handrail · curing-light · dental-workstation-desk · dentist-stool · film-storage-cabinet · fire-extinguisher · fire-hydrant-cabinet · headrest-cushion · implant-motor · impression-tray · kids-indoor-slide · kids-sink · kids-waiting-armchair · lab-material-cabinet · lead-apron · matrix-band · medical-hand-sink · office-monitor · patient-bib · periodontal-probe · staff-break-table · wall-art（26 件复核通过）</span></td>
+            <td><span class="small">clean-gown-rack · lead-collar · lab-monitor · pharmacy-computer · staff-dining-chair（并入第 4 轮）</span></td>
+            <td><span class="small">clean-gown-rack · lead-collar · lab-monitor · pharmacy-computer · staff-dining-chair · low-speed-handpiece · mop-sink（7/7 PASS）</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="tbl-note">第一轮 28 件中 26 件复核通过，corridor-handrail 降级为「可用边界件」；第二轮 5 件与另 2 件在第 4 轮抽查中确认可用。</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 A-4 · 7 件可用边界件（watch）</caption>
+        <thead><tr><th style="width:26%">物件</th><th style="width:14%">分类</th><th>判定</th></tr></thead>
+        <tbody>
+          <tr><td><b>imaging-positioning-chair</b> 影像定位椅</td><td>影像室</td><td>碎片状柱体与板件，椅形仍难辨识</td></tr>
+          <tr><td><b>intraoral-camera</b> 口内窥镜</td><td>诊疗室</td><td>手柄正确，但有 2 个屏幕/照片框悬浮</td></tr>
+          <tr><td><b>shoe-change-bench</b> 换鞋凳</td><td>员工区</td><td>柜凳可信，上方 2 个手提包悬浮</td></tr>
+          <tr><td><b>emergency-exit-sign</b> 安全出口牌</td><td>公共/走廊</td><td>更像一面标牌墙，不是单个 LED 出口牌</td></tr>
+          <tr><td><b>digital-signage-kiosk</b> 立式数字标牌</td><td>候诊区</td><td>白色立牌可信，但没有屏幕</td></tr>
+          <tr><td><b>dental-computer-tower</b> 诊室电脑主机</td><td>诊疗室</td><td>圆角显示器推车，不是迷你主机</td></tr>
+          <tr><td><b>corridor-handrail</b> 走廊扶手</td><td>公共/走廊</td><td>形态连贯但偏短，材质偏离；由坏件降级</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 A-5 · 账本（dental/logs）</caption>
+        <thead><tr><th style="width:36%">项</th><th>数值</th></tr></thead>
+        <tbody>
+          <tr><td>授权积分</td><td>3,200（报名 300 / 团队 3,000，取整后实际可用 3,200）</td></tr>
+          <tr><td>已用 / 余额</td><td><b>652 / 2,548</b>（含样片与两轮返工）</td></tr>
+          <tr><td>滚动报价</td><td>37 组；报价合计 750 积分；最早余额 3,176，收尾余额 2,548</td></tr>
+          <tr><td>平台回执</td><td>REPORT <b>ACCEPTED</b> · <span class="mono">checkResult: OK</span> · reviewId <span class="mono">review_4142b2f9…</span></td></tr>
+          <tr><td>生成窗口</td><td>2026-11-12 02:03:48 → 04:39:29（UTC+8）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="files">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-no">B</div>
+      <div>
+        <h2>附录 · 文件清单</h2>
+        <p class="lede">仓库里每个关键文件的作用，以及它在报告里对应的证据。</p>
+      </div>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 B-1 · 关键文件</caption>
+        <thead><tr><th style="width:34%">文件</th><th>作用</th><th style="width:20%">对应证据</th></tr></thead>
+        <tbody>
+          <tr><td><span class="mono">catalog/inventory.json</span></td><td>351 件清单：id / 中英文名 / 分类 / 优先级 / 检索词 / 生成提示词 / 参考尺寸</td><td>§6 资产</td></tr>
+          <tr><td><span class="mono">catalog/catalog.csv / xlsx</span></td><td>物件目录：状态、taskId、积分、文件体积、参考图来源</td><td>表 A-2</td></tr>
+          <tr><td><span class="mono">demo/js/config.js</span></td><td>平台、门店类型、风格、模块、差异件白名单</td><td>§2 §7</td></tr>
+          <tr><td><span class="mono">demo/js/plan.js</span></td><td>房间与家具布局算法</td><td>§7</td></tr>
+          <tr><td><span class="mono">demo/js/cad.js</span></td><td>图框、图层、墙门家具、点位、标注，DXF / SVG</td><td>§8</td></tr>
+          <tr><td><span class="mono">demo/js/quote.js</span> · <span class="mono">price-book.js</span></td><td>工程量、五组造价、工时工期；单价与工效数据</td><td>表 8-2</td></tr>
+          <tr><td><span class="mono">demo/js/footprint.js</span></td><td>119 件资产的实测平面占位</td><td>§6</td></tr>
+          <tr><td><span class="mono">source/samples/</span></td><td>S / M / L 三档样板配置的 DXF、SVG、报价 CSV、报价 JSON</td><td>图 8-2–8-5</td></tr>
+          <tr><td><span class="mono">source/logs/</span></td><td>生成任务、报价、预算、质检、收尾状态（不含密钥）</td><td>§4 §5 附录 A</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tw">
+      <table>
+        <caption>表 B-2 · 日志文件与用途</caption>
+        <thead><tr><th style="width:34%">日志</th><th>内容</th></tr></thead>
+        <tbody>
+          <tr><td><span class="mono">attempts.jsonl</span></td><td>1,160 条任务记录：id、taskId、quoteId、op、版本、状态、时间</td></tr>
+          <tr><td><span class="mono">quotes.jsonl</span></td><td>37 组滚动报价：金额、余额、过期时间</td></tr>
+          <tr><td><span class="mono">budget.json</span></td><td>预算台账：授权 / 已用 / 余额</td></tr>
+          <tr><td><span class="mono">qa-findings.json</span></td><td>五轮质检：检查数、坏件、返工、7 件边界件、逐件判定</td></tr>
+          <tr><td><span class="mono">final-status.json</span></td><td>收尾状态：351 件、0 坏件、652 积分、回执</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>口腔诊所平台 · 项目报告书 · 团队 GRZ · 2026-11-18</span>
+    <span>数据截至 2026-11-18 · 校验复跑于当日 · <a href="#top">回到顶部</a></span>
+  </div>
+</footer>

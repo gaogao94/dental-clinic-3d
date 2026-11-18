@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>口腔诊所平台</title>
+<link rel="stylesheet" href="./css/styles.css" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "./lib/three.module.js",
+    "three/addons/": "./lib/addons/"
+  }
+}
+</script>
+</head>
+<body>
+<script>
+/* 线上演示由自托管服务器提供；此处仅为源码副本，非本机访问时引导到正式演示。 */
+(function () {
+  var h = location.hostname;
+  if (location.protocol === 'file:') return;
+  if (h === 'localhost' || h === '127.0.0.1' || h === 'dma.automed.cn') return;
+  location.replace('https://dma.automed.cn/demo/index.html' + location.search + location.hash);
+})();
+</script>
+
+<div id="app">
+  <header id="topbar">
+    <h1 class="brand">口腔诊所平台</h1>
+    <div id="platformSeg" class="seg platform-seg"></div>
+    <div class="top-spacer"></div>
+    <div id="viewSeg" class="seg view-seg"></div>
+    <button id="toggleSheet" class="toggle" type="button" aria-expanded="false"><i class="dots-sheet"></i>出图</button>
+    <button id="toggleHard" class="toggle" type="button"><i class="dots-hard"></i>硬点</button>
+    <button id="toggleShared" class="toggle" type="button"><i class="dots-shared"></i>平台件</button>
+    <button id="toggleCeiling" class="toggle" type="button"><i class="dots-ceil"></i>天花</button>
+  </header>
+
+  <main id="main">
+    <aside id="left">
+      <section class="panel grow">
+        <div class="panel-head"><span>门店类型</span><em id="typeHint"></em></div>
+        <div id="typeList" class="type-list"></div>
+      </section>
+      <section class="panel">
+        <div class="panel-head"><span>选装模块</span><em id="slotHint" class="slot-hint"></em></div>
+        <div id="moduleList" class="module-list"></div>
+      </section>
+    </aside>
+
+    <section id="stage">
+      <div id="legendHard" class="legend hidden"></div>
+      <div id="legendShared" class="legend hidden"></div>
+      <div id="infoCard" class="info-card hidden"></div>
+      <div id="loader" class="loader hidden">
+        <div class="loader-count" id="loadCount">加载 0/0</div>
+        <div class="loader-bar"><i id="loadBar"></i></div>
+      </div>
+    </section>
+
+    <aside id="right">
+      <section class="panel">
+        <div class="panel-head"><span>配置指标</span></div>
+        <div id="metrics" class="metrics"></div>
+      </section>
+      <section class="panel grow">
+        <div class="panel-head"><span>本次配置清单</span><em id="itemTotal"></em></div>
+        <div id="configList" class="config-list"></div>
+      </section>
+    </aside>
+  </main>
+
+  <footer id="bottom">
+    <section class="panel style-panel">
+      <div class="panel-head"><span>风格</span></div>
+      <div id="styleList" class="style-list"></div>
+    </section>
+    <section class="panel grow matrix-panel">
+      <div class="panel-head"><span>平台矩阵</span><em id="matrixHint"></em></div>
+      <div id="matrix" class="matrix"></div>
+    </section>
+  </footer>
+</div>
+
+<div id="sheetPanel" class="sheet-panel hidden" role="dialog" aria-modal="true" aria-label="出图与报价" tabindex="-1">
+  <section class="sheet-card">
+    <header class="sheet-head">
+      <h2 class="sheet-title">出图与报价</h2>
+      <div class="sheet-config" id="sheetConfig"></div>
+      <div class="sheet-actions">
+        <button type="button" class="sheet-btn" data-dl="dxf">DXF</button>
+        <button type="button" class="sheet-btn" data-dl="svg">SVG</button>
+        <button type="button" class="sheet-btn" data-dl="csv">报价 CSV</button>
+        <button type="button" class="sheet-btn" data-dl="print">打印</button>
+        <button type="button" class="sheet-btn sheet-btn-ghost" data-dl="close">关闭</button>
+      </div>
+    </header>
+    <div class="sheet-body">
+      <div class="sheet-preview" id="sheetPreview">
+        <div class="preview-nav" id="sheetNav"></div>
+        <div class="preview-pages" id="sheetPages"></div>
+      </div>
+      <aside class="sheet-side" id="sheetSide"></aside>
+    </div>
+  </section>
+</div>
+<script type="module" src="./js/main.js?v=20261113-8"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+ "schema": "lux3d.budget-ledger/v1",
+ "conversation": "dental-clinic-object-library-2026-11-12",
+ "authorizedTotalCredits": 3200,
+ "authorization": {
+  "source": "user message 2026-11-12 (original wording, condensed): 用最便宜的方法生成尽可能多的物件；给自己设 goal：要么所有想到的物件都生成了，要么额度用完了；做完了就直接关机，不用问我。",
+  "interpretation": "用户授权把账户剩余积分（3200）全部用于本任务：最便宜路线批量生成，直到物件清单全部完成或积分耗尽。不设数字细项审批。",
+  "authorizedAt": "2026-11-12T01:33:26+08:00",
+  "decidedBy": "user"
+ },
+ "totals": {
+  "committedCredits": 652,
+  "reservedCredits": 0,
+  "remainingCredits": 2548,
+  "authorizedTotalCredits": 3200
+ },
+ "notes": [
+  "记账口径 = quote 估价（BEFORE_ACCOUNT_BENEFITS）；实际扣费以平台为准。",
+  "最便宜路线：image-to-3D + version=G1-Turbo + outputFormat=glb，报价 1 积分/次（待实测确认）。",
+  "每次提交前：先记 reserved，create 调用开始时转 committed，并记录 taskId。",
+  "实际消耗 652 积分（含样片/质量对照/两轮重生成），账户余额 2548（2026-11-12 04:52 查询）。"
+ ],
+ "_note": "已移除账户引用（account/uniqueId），保留授权、台账与口径。"
+}
