@@ -171,6 +171,7 @@ h1{
 .trio .lab{position:absolute;top:9px;left:10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--teal);background:rgba(255,253,248,.92);border:1px solid var(--rule);border-radius:3px;padding:2px 7px;line-height:1.5}
 .asset-note{font-size:13px;line-height:1.8;color:var(--ink-2);margin:12px 0 0;max-width:52em}
 .asset-note b{color:var(--ink)}
+.fig-no{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--teal);margin-right:8px;white-space:nowrap}
 @media (max-width:900px){
   .trio{grid-template-columns:1fr 1fr;height:auto}
   .trio figure{height:240px}
@@ -409,7 +410,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </div>
     </div>
     <div class="body">
-      <p>但这套方法不能照抄。汽车的平台是「算力与硬件的归组」，降本靠 BOM 通用件；医院与诊所的域是「责任、流程与数据的归组」，降本只能靠<b>交付复用</b>——同一份图纸逻辑、同一套房间模板、同一批资产，在不同门店里被反复调用（见项目内研究底稿 <span class="mono">docs/platform-domain-analysis.md</span>）。所以我们只取方法，不取形式：不设域控制器，只冻结空间与机电的硬点。</p>
+      <p>但这套方法不能照抄。汽车的平台是「算力与硬件的归组」，降本靠 BOM 通用件；医院与诊所的域是「责任、流程与数据的归组」，降本只能靠<b>交付复用</b>——同一份图纸逻辑、同一套房间模板、同一批资产，在不同门店里被反复调用（见项目研究底稿：汽车平台 → 医疗平台的域架构分析）。所以我们只取方法，不取形式：不设域控制器，只冻结空间与机电的硬点。</p>
     </div>
 
     <div class="tw">
@@ -519,7 +520,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="tw">
       <table>
-        <caption>表 4-1 · 生成结果（数据来自 dental/logs）</caption>
+        <caption>表 4-1 · 生成结果（数据来自 source/logs）</caption>
         <thead><tr><th style="width:34%">指标</th><th>结果</th></tr></thead>
         <tbody>
           <tr><td>清单件数</td><td><b>351 件</b>，覆盖 13 类空间；优先级 1/2/3 = 73/135/143</td></tr>
@@ -585,7 +586,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="shots">
       <figure class="shot wide">
         <img src="assets/terminal-1.jpg" alt="终端记录：final-status.json 中 351 件成功、652 积分、0 坏件与 REPORT 回执" loading="lazy">
-        <figcaption><span class="tag">图 4-2 · 日志回放</span><span>收尾状态：351 件成功、0 坏件、652 积分、回执 ACCEPTED。图片按仓库内真实 JSON 键值与数值渲染（非拍照），原始文件 <span class="mono">dental/logs/final-status.json</span>。</span></figcaption>
+        <figcaption><span class="tag">图 4-2 · 日志回放</span><span>收尾状态：351 件成功、0 坏件、652 积分、回执 ACCEPTED。图片按仓库内真实 JSON 键值与数值渲染（非拍照），原始文件 <span class="mono">source/logs/final-status.json</span>。</span></figcaption>
       </figure>
       <figure class="shot wide">
         <img src="assets/terminal-3.jpg" alt="终端记录：1160 条任务记录、352 个物件 id、37 组报价、2 小时 36 分窗口" loading="lazy">
@@ -666,7 +667,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="shots">
       <figure class="shot wide">
         <img src="assets/terminal-4.jpg" alt="终端记录：qa-findings.json 的五轮统计、返工 33 件、351 全检 0 坏 7 watch" loading="lazy">
-        <figcaption><span class="tag">图 5-2 · 日志回放</span><span>质检台账：五轮统计、返工 33 件、351 件全检、0 坏件、7 件边界件。原始文件 <span class="mono">dental/logs/qa-findings.json</span>。</span></figcaption>
+        <figcaption><span class="tag">图 5-2 · 日志回放</span><span>质检台账：五轮统计、返工 33 件、351 件全检、0 坏件、7 件边界件。原始文件 <span class="mono">source/logs/qa-findings.json</span>。</span></figcaption>
       </figure>
     </div>
 
@@ -720,7 +721,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <figure><span class="lab">Lux3D · 四视图 0° / 90° / 180° / 270°</span><img src="assets/fit-dental-chair-adult.jpg" alt="生成的成人牙科综合治疗椅四视图，标注 bbox 2×2×1m" loading="lazy"></figure>
         <figure><span class="lab">场景实装</span><img src="assets/crop-chair.jpg" alt="成人牙科综合治疗椅在配置器场景中的实装特写" loading="lazy"></figure>
       </div>
-      <p class="asset-note">参考图是一张产品目录照：青蓝布面、落地基座、四手操作器械盘、手术灯。生成件保留了<b>落地基座、器械盘与灯臂</b>这三件决定「这是一台牙椅」的结构，代价是头枕与扶手细节被简化。它在场景里以 2.0m 为基准落地、按正面朝向标定，所以换到任何一间诊疗室都不需要再手工摆正。</p>
+      <p class="asset-note"><span class="fig-no">图 6-1</span>参考图是一张产品目录照：青蓝布面、落地基座、四手操作器械盘、手术灯。生成件保留了<b>落地基座、器械盘与灯臂</b>这三件决定「这是一台牙椅」的结构，代价是头枕与扶手细节被简化。它在场景里以 2.0m 为基准落地、按正面朝向标定，所以换到任何一间诊疗室都不需要再手工摆正。</p>
     </div>
 
     <div class="asset">
@@ -733,7 +734,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <figure><span class="lab">Lux3D · 四视图</span><img src="assets/fit-cbct-machine.jpg" alt="生成的 CBCT 机四视图" loading="lazy"></figure>
         <figure><span class="lab">场景实装</span><img src="assets/crop-cbct.jpg" alt="CBCT 机在影像室场景中的实装特写" loading="lazy"></figure>
       </div>
-      <p class="asset-note">CBCT 是典型的「三合一立式」设备：立柱、旋转臂、患者定位台、控制面板。生成件把立柱与臂的<b>空间关系</b>保住了，这也是配置器里真正要紧的部分——它决定了影像室需要多大的净空、铅防护门开在哪一侧。</p>
+      <p class="asset-note"><span class="fig-no">图 6-2</span>CBCT 是典型的「三合一立式」设备：立柱、旋转臂、患者定位台、控制面板。生成件把立柱与臂的<b>空间关系</b>保住了，这也是配置器里真正要紧的部分——它决定了影像室需要多大的净空、铅防护门开在哪一侧。</p>
     </div>
 
     <div class="asset">
@@ -746,12 +747,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <figure><span class="lab">Lux3D · 四视图</span><img src="assets/fit-reception-desk-curved.jpg" alt="生成的弧形接待台四视图" loading="lazy"></figure>
         <figure><span class="lab">场景实装</span><img src="assets/crop-reception.jpg" alt="弧形接待台在前台场景中的实装特写" loading="lazy"></figure>
       </div>
-      <p class="asset-note">接待台是「平台件」里最挑形体的一件：弧形台面决定了前台的观感，也决定了平面图里的一段弧线。生成件保留了双弧造型与人造石台面的材质分区；<b>尺寸</b>在清单里被写成 2400×800×1100mm，进场景后按这个尺寸归一，出图时直接变成图上的一段弧。</p>
+      <p class="asset-note"><span class="fig-no">图 6-3</span>接待台是「平台件」里最挑形体的一件：弧形台面决定了前台的观感，也决定了平面图里的一段弧线。生成件保留了双弧造型与人造石台面的材质分区；<b>尺寸</b>在清单里被写成 2400×800×1100mm，进场景后按这个尺寸归一，出图时直接变成图上的一段弧。</p>
     </div>
 
     <div class="body" style="margin-top:52px">
       <h3>尺寸与朝向：让生成的模型能进平面图</h3>
-      <p>生成件只有形体，没有「这是 2.4 米」这种知识。如果直接摆进场景，牙椅会和沙发一样高，平面图上的家具会互相穿模。所以我们补了两件事：<b>平面尺寸实测</b>——用无头 Chrome 逐件渲染、读归一化后的世界包围盒、按 rotY 转正，实测了 <b>119 件</b>资产的平面占位，写进 <span class="mono">js/footprint.js</span>；<b>朝向与基准</b>——为牙椅、前台、沙发、工作台等关键件标定正面朝向与落地基准（<span class="mono">demo/data/asset-tuning.json</span>）。这张标定表，是 3D 场景能直接长出 1:50 平面图的前提。</p>
+      <p>生成件只有形体，没有「这是 2.4 米」这种知识。如果直接摆进场景，牙椅会和沙发一样高，平面图上的家具会互相穿模。所以我们补了两件事：<b>平面尺寸实测</b>——用无头 Chrome 逐件渲染、读归一化后的世界包围盒、按 rotY 转正，实测了 <b>119 件</b>资产的平面占位，写进 <span class="mono">demo/js/footprint.js</span>；<b>朝向与基准</b>——为牙椅、前台、沙发、工作台等关键件标定正面朝向与落地基准（<span class="mono">demo/data/asset-tuning.json</span>）。这张标定表，是 3D 场景能直接长出 1:50 平面图的前提。</p>
       <p>至于「AI 生成件到底有多大」这件事，我们给的是可核对的口径，而不是一句「比例正确」：每件在清单里都写了参考尺寸（<span class="mono">note</span> 字段），场景基准与实测 footprint 两套数据同时存在，出图用的是实测值，人工核对时看的是参考尺寸。</p>
     </div>
 
@@ -784,17 +785,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 <text x="766" y="228" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">meshopt 简化 · 512 贴图</text>
 <text x="16" y="282" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="11" fill="#7b828c" text-anchor="start" font-weight="400" letter-spacing="0">线性比例 · 以单件平均体积计</text>
 </svg>
-      <figcaption><span class="tag">图 6-1</span><span>同一批模型的三级体量。数据为逐文件统计：原始件 361 件 / 3.48 GB；交付件 351 件 / 683.7 MB；演示 LOD 152 件 / 113.4 MB。</span></figcaption>
+      <figcaption><span class="tag">图 6-4</span><span>同一批模型的三级体量。数据为逐文件统计：原始件 361 件 / 3.48 GB；交付件 351 件 / 683.7 MB；演示 LOD 152 件 / 113.4 MB。</span></figcaption>
     </figure>
 
     <div class="shots">
       <figure class="shot wide">
         <img src="assets/gallery-top.jpg" alt="物件库浏览页：13 类空间、351 件资产、按分类与优先级筛选" loading="lazy">
-        <figcaption><span class="tag">图 6-2</span><span>资产库浏览页：13 类空间、351 件、按分类与优先级筛选，每件带中英文名与缩略图。</span></figcaption>
+        <figcaption><span class="tag">图 6-5</span><span>资产库浏览页：13 类空间、351 件、按分类与优先级筛选，每件带中英文名与缩略图。</span></figcaption>
       </figure>
       <figure class="shot wide">
         <img src="assets/gallery-band.jpg" alt="资产库中的前台与候诊区物件缩略图带" loading="lazy">
-        <figcaption><span class="tag">图 6-3</span><span>同一页的资产带：装饰花瓶、服务铃、钥匙柜、无线网由器等小件也在库内——它们是场景可信度的来源。</span></figcaption>
+        <figcaption><span class="tag">图 6-6</span><span>同一页的资产带：装饰花瓶、服务铃、钥匙柜、无线路由器等小件也在库内——它们是场景可信度的来源。</span></figcaption>
       </figure>
     </div>
 
@@ -815,7 +816,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="body" style="margin-top:22px">
-      <p>三处差异都值得记：<b>加载</b>从卡在 34/70 变成一次加载完成；<b>家具数</b>从 135 收敛到 113，是布局去重与房间模板修正的结果；<b>复用率</b>从 99% 修正到 53%——按实际使用到的资产类型去重统计后，这个数字才回答了「有多少是可以复制的」。同一天里，配置器还补上了造价与工时的指标卡：<b>配置器不再只是「看」，开始「算」</b>。</p>
+      <p><span class="fig-no">图 6-7</span>三处差异都值得记：<b>加载</b>从卡在 34/70 变成一次加载完成；<b>家具数</b>从 135 收敛到 113，是布局去重与房间模板修正的结果；<b>复用率</b>从 99% 修正到 53%——按实际使用到的资产类型去重统计后，这个数字才回答了「有多少是可以复制的」。同一天里，配置器还补上了造价与工时的指标卡：<b>配置器不再只是「看」，开始「算」</b>。</p>
     </div>
   </div>
 </section>
@@ -837,14 +838,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </figure>
       <figure class="shot wide">
         <img src="assets/demo-06-platform-parts.jpg" alt="平台件与差异件描边视图：L 档美学体验店，平台件 143、差异件 55" loading="lazy">
-        <figcaption><span class="tag">图 7-2</span><span>平台件（青绿描边，143 件）与差异件（琥珀描边，55 件）。同一套 L 档配置，切到美学体验店后房间从 9 间增加到 14 间，组合数从 440 变成 1,050。</span></figcaption>
+        <figcaption><span class="tag">图 7-2</span><span>平台件（青绿描边，143 件）与差异件（琥珀描边，55 件）。这套 L 档美学体验店：14 间、198 件、1,050 种组合；对比 M 档社区家庭店（9 间、440 种）——档位决定组合上限，门店类型决定房间构成。</span></figcaption>
       </figure>
     </div>
 
     <div class="shots">
       <figure class="shot">
         <img src="assets/demo-05-hardpoints.jpg" alt="硬点视图：打开硬点开关后的五类点位图例" loading="lazy">
-        <figcaption><span class="tag">图 7-3</span><span>硬点视图：水 / 电 / 气 / 排 / 网五类点位按设备落在地面，图例常驻左上；这些点位会原样进入机电点位图。</span></figcaption>
+        <figcaption><span class="tag">图 7-3</span><span>硬点视图：开启后进入点位图层（左上为水 / 电 / 气 / 排 / 网五类图例）。点位数据与第 8 章的机电点位图同源，出图时直接落到纸上。</span></figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/demo-08-S-kids.jpg" alt="S 档儿童诊疗店：90㎡、2 椅、7 间、儿童糖果风格" loading="lazy">
@@ -925,7 +926,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
           <tr><td>图号 / 标题栏</td><td>ADS-01-01 / ADS-02-01 / ADS-03-01；标题栏含平台、门店类型、风格、面积、椅位、家具件数、比例、阶段、造价、工时</td></tr>
           <tr><td>出口</td><td>DXF · SVG · 报价 CSV · 浏览器打印 A2 PDF</td></tr>
           <tr><td>报价口径</td><td>方案估算，<b>含税、±8% 区间</b>；工期为<b>净施工工期</b>（不含设备采购、报建审批）</td></tr>
-          <tr><td>单价来源</td><td><span class="mono">js/price-book.js</span>：面积规则、五类点位、模块附加、资产覆盖价 / 分类兜底价、风格系数、税率、班组人数——商务直接改数，不改公式</td></tr>
+          <tr><td>单价来源</td><td><span class="mono">demo/js/price-book.js</span>：面积规则、五类点位、模块附加、资产覆盖价 / 分类兜底价、风格系数、税率、班组人数——商务直接改数，不改公式</td></tr>
         </tbody>
       </table>
     </div>
@@ -991,11 +992,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="arch">
-      <div class="lay"><div class="k">交付层<em>DELIVERY</em></div><div class="v"><code>gallery.html</code> 物件浏览 <span class="arrow">·</span> <code>catalog.csv / xlsx</code> 目录 <span class="arrow">·</span> <code>lux3d-bundle</code> 交付包 <span class="arrow">·</span> <code>server/</code> 自托管服务</div></div>
+      <div class="lay"><div class="k">交付层<em>DELIVERY</em></div><div class="v"><code>gallery.html</code> 物件浏览 <span class="arrow">·</span> <code>catalog.csv / xlsx</code> 目录 <span class="arrow">·</span> <code>lux3d-delivery.json</code> 交付包 <span class="arrow">·</span> 自托管服务器（Node 零依赖 + 对象存储代理缓存）</div></div>
       <div class="lay"><div class="k">出图层<em>CAD / QUOTE</em></div><div class="v"><code>cad.js</code> 图框、图层、墙门家具、点位、标注、DXF / SVG <span class="arrow">·</span> <code>quote.js</code> 工程量、五组造价、工时工期、CSV <span class="arrow">·</span> <code>sheet.js</code> 浮层、打印</div></div>
       <div class="lay"><div class="k">场景层<em>THREE.JS</em></div><div class="v"><code>scene.js</code> 壳体与渲染 <span class="arrow">·</span> <code>plan.js</code> 房间与家具布局 <span class="arrow">·</span> <code>config.js</code> 平台 / 门店 / 风格 / 模块 <span class="arrow">·</span> <code>assets.js</code> 加载与 LOD 回退 <span class="arrow">·</span> <code>ui.js</code> 面板与指标</div></div>
       <div class="lay"><div class="k">数据层<em>DATA</em></div><div class="v"><code>inventory.json</code> 351 件清单 <span class="arrow">·</span> <code>asset-tuning.json</code> 尺寸与朝向 <span class="arrow">·</span> <code>footprint.js</code> 119 件实测平面占位 <span class="arrow">·</span> <code>price-book.js</code> 单价与工效</div></div>
-      <div class="lay"><div class="k">资产层<em>LUX3D</em></div><div class="v"><code>models/</code> 351 件交付 GLB（PBR）<span class="arrow">·</span> <code>lod-models/</code> 152 件演示 LOD <span class="arrow">·</span> <code>extra/</code> 9 件场景补充件</div></div>
+      <div class="lay"><div class="k">资产层<em>LUX3D</em></div><div class="v"><code>models/</code> 351 件交付 GLB（PBR）<span class="arrow">·</span> <code>lod-models/</code> 152 件演示 LOD <span class="arrow">·</span> <code>extra/</code> 9 件场景补充件<span class="arrow">·</span> 模型因体积不入库，由线上演示供给</div></div>
     </div>
 
     <div class="body">
@@ -1005,7 +1006,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="tw">
       <table>
-        <caption>表 9-1 · 工具链（dental/tools/，节选 10 件）</caption>
+        <caption>表 9-1 · 工具链（source/tools/，节选 10 件）</caption>
         <thead><tr><th style="width:34%">脚本</th><th>作用</th><th style="width:18%">产物</th></tr></thead>
         <tbody>
           <tr><td><span class="mono">fetch_refs.py</span> / <span class="mono">upload_refs.py</span></td><td>按检索词抓公开产品参考图，上传到资产服务换公网 URL</td><td>refs / URL</td></tr>
@@ -1032,7 +1033,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <h3>别人能拿走什么</h3>
       <ul>
         <li><b>清单与目录</b>：<span class="mono">inventory.json</span> 的字段结构（id / 中英文名 / 分类 / 优先级 / 检索词 / 生成提示词 / 参考尺寸）可以直接换成另一个行业。</li>
-        <li><b>单价与工效</b>：<span class="mono">price-book.js</span> 是数据文件，商务可以改数而不碰公式；出图与报价的接口契约写在 <span class="mono">drawing-quote-contract.md</span>。</li>
+        <li><b>单价与工效</b>：<span class="mono">price-book.js</span> 是数据文件，商务可以改数而不碰公式；出图与报价的接口契约写在 <span class="mono">source/drawing-quote-contract.md</span>。</li>
         <li><b>生成与质检脚本</b>：批量生成、滚动报价、即下即存、缩略图质检，这一套与行业无关，换清单即可复用。</li>
         <li><b>交付包</b>：<span class="mono">lux3d-delivery.json</span> + 内嵌预览页，是 Lux3D 体系里可直接交付的形态。</li>
       </ul>
@@ -1054,7 +1055,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <h3>六条边界</h3>
       <p><b>1 · 资产精度。</b>351 件由 G1-Turbo（1 积分/件）生成，形体与贴图整体可用，但局部细节与真实产品的比例不保证一致。清单 <span class="mono">note</span> 里的尺寸是可核对的参考值，不是产品参数表；要用于工程设计与施工，必须按实物核对。</p>
       <p><b>2 · 出图定位。</b>这是<b>方案阶段</b>的平面布置图与机电点位图：A2、1:50 / 1:100、DXF R2007，可作 CAD 二次设计的底图，不是结构图、节点图或施工图。</p>
-      <p><b>3 · 报价口径。</b>造价是估算，含税、±8% 区间；单价与工效来自 <span class="mono">price-book.js</span> 的假设，不是投标价。工期是净施工工期，不含设备采购与报建审批。</p>
+      <p><b>3 · 报价口径。</b>造价是估算，含税、±8% 区间；单价与工效来自 <span class="mono">demo/js/price-book.js</span> 的假设，不是投标价。工期是净施工工期，不含设备采购与报建审批。</p>
       <p><b>4 · 7 件边界件。</b>imaging-positioning-chair、intraoral-camera、shoe-change-bench、emergency-exit-sign、digital-signage-kiosk、dental-computer-tower、corridor-handrail 可用但不完美，已在第 5 章逐件说明。</p>
       <p><b>5 · 场景是程序化摆放。</b>房间与家具由布局算法生成，不是对真实建筑的测绘；开间、机电、给排水需按实际条件与规范深化。天花 GLB 件因体积与姿态问题没有放进 3D 场景，天花以程序化灯具与风口代替。</p>
       <p><b>6 · 没覆盖的部分。</b>结构、暖通负荷计算、消防报审、设备品牌选型、软装深化，都不在本作品范围内；演示页在无 GPU 的机器上以软件渲染验证，真实 GPU 帧率未实测（目标 45 fps 以上）。</p>
@@ -1162,7 +1163,7 @@ node demo/serve.mjs
 <span class="c"># 出图与报价的全组合校验（不需浏览器）</span>
 node source/tools/verify-drawing-quote.mjs
       </div>
-      <p class="small">本地运行需要模型文件：<span class="mono">demo/lod-models/</span>（152 件 LOD）与 <span class="mono">demo/extra/models/</span>（9 件补充件）。模型约 113 MB，因体积与保存成本未随仓库分发；线上演示由自托管服务器按需供给，页面只访问自己的服务器，<b>不暴露对象存储地址，也没有签名链接</b>。</p>
+      <p class="small">本地运行需要模型文件：<span class="mono">demo/lod-models/</span>（152 件 LOD）与 <span class="mono">demo/extra/models/</span>（9 件补充件），合计约 130 MB。模型因体积与保存成本未随仓库分发；线上演示由自托管服务器按需供给，页面只访问自己的服务器，<b>不暴露对象存储地址，也没有签名链接</b>。</p>
 
       <h3>数据怎么核</h3>
       <ul>
@@ -1305,7 +1306,7 @@ node source/tools/verify-drawing-quote.mjs
 
     <div class="tw">
       <table>
-        <caption>表 A-5 · 账本（dental/logs）</caption>
+        <caption>表 A-5 · 账本（source/logs）</caption>
         <thead><tr><th style="width:36%">项</th><th>数值</th></tr></thead>
         <tbody>
           <tr><td>授权积分</td><td>3,200（报名 300 / 团队 3,000，取整后实际可用 3,200）</td></tr>
@@ -1335,7 +1336,7 @@ node source/tools/verify-drawing-quote.mjs
         <thead><tr><th style="width:34%">文件</th><th>作用</th><th style="width:20%">对应证据</th></tr></thead>
         <tbody>
           <tr><td><span class="mono">catalog/inventory.json</span></td><td>351 件清单：id / 中英文名 / 分类 / 优先级 / 检索词 / 生成提示词 / 参考尺寸</td><td>§6 资产</td></tr>
-          <tr><td><span class="mono">catalog/catalog.csv / xlsx</span></td><td>物件目录：状态、taskId、积分、文件体积、参考图来源</td><td>表 A-2</td></tr>
+          <tr><td><span class="mono">catalog/catalog.csv / xlsx</span></td><td>物件目录：状态、taskId、积分、交付体积、参考尺寸</td><td>表 A-2</td></tr>
           <tr><td><span class="mono">demo/js/config.js</span></td><td>平台、门店类型、风格、模块、差异件白名单</td><td>§2 §7</td></tr>
           <tr><td><span class="mono">demo/js/plan.js</span></td><td>房间与家具布局算法</td><td>§7</td></tr>
           <tr><td><span class="mono">demo/js/cad.js</span></td><td>图框、图层、墙门家具、点位、标注，DXF / SVG</td><td>§8</td></tr>

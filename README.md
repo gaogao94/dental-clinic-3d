@@ -25,6 +25,7 @@
   - `source/tools/`：`generate_all.py`（滚动报价 + 5 并发 + 即下即存）、`optimize_models.mjs`、`build_demo_lod.mjs`、`dump-footprints.mjs`、`verify-drawing-quote.mjs`、`validate_dxf.py`、`shot-sheet.mjs` 等。
   - `source/samples/`：S / M / L 三档的 DXF、SVG、报价 CSV 与报价 JSON。
   - `source/logs/`：任务记录、滚动报价、预算台账、五轮质检、收尾状态（不含密钥）。
+  - `source/drawing-quote-contract.md`：出图 / 算量 / 估价的接口契约（图页、DXF 规格、报价数据结构、验收口径）。
 
 ## 关键数字
 
