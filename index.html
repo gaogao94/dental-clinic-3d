@@ -660,7 +660,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 <text x="64" y="34" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="start" font-weight="600" letter-spacing="0">累计坏件数 · 每轮全量复检后归零才算过</text>
 <text x="970" y="34" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#15803d" text-anchor="end" font-weight="600" letter-spacing="0">第 3 轮返工 33 件 → 26 件复核 PASS · 7 件抽查 PASS</text>
 </svg>
-      <figcaption><span class="tag">图 5-1</span><span>五轮质检的累计坏件数。第 3 轮把 33 件返工件中的 26 件复核通过，余下 5 件并入第 4 轮；第 4 轮 7 件抽查全部通过，累计坏件归零。数据取自 <span class="mono">dental/logs/qa-findings.json</span>。</span></figcaption>
+      <figcaption><span class="tag">图 5-1</span><span>五轮质检的累计坏件数。第 3 轮 28 件返工中 26 件复核通过；余下 low-speed-handpiece、mop-sink 两件与第二轮 5 件一起，在第 4 轮抽查中 7/7 通过，累计坏件归零。数据取自 <span class="mono">dental/logs/qa-findings.json</span>。</span></figcaption>
     </figure>
 
     <div class="shots">
@@ -672,7 +672,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body">
       <h3>返工是怎么发生的</h3>
-      <p>返工不是「再点一次生成」。每一件坏件都会先被写成一句可执行的问题描述，再改写对应的生成提示词：是主体不明确，就补主体与视角；是多件粘连，就明确「single object, isolated」；是尺度离谱，就在清单的 <span class="mono">note</span> 里补真实尺寸再生成。两轮返工共 33 件（第一轮 28 件、第二轮 5 件），26 件复核通过。</p>
+      <p>返工不是「再点一次生成」。每一件坏件都会先被写成一句可执行的问题描述，再改写对应的生成提示词：是主体不明确，就补主体与视角；是多件粘连，就明确「single object, isolated」；是尺度离谱，就在清单的 <span class="mono">note</span> 里补真实尺寸再生成。两轮返工共 33 件（第一轮 28 件、第二轮 5 件）：<b>26 件在第 3 轮直接复核通过，其余 7 件在第 4 轮抽查中全部通过</b>。</p>
     </div>
 
     <div class="tw">
@@ -689,7 +689,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
           <tr><td><b>mop-sink</b><br><span class="small">拖把池</span></td><td>形态不可识别</td><td>regenerated as a floor mop sink with faucet</td></tr>
         </tbody>
       </table>
-      <p class="tbl-note">这 7 件是第 3 轮返工后仍被标为坏件的一批，第 4 轮抽查确认全部可用。完整 33 件返工清单见附录 A。</p>
+      <p class="tbl-note">这 7 件 = 第一轮未通过的 2 件（low-speed-handpiece、mop-sink）+ 第二轮返工的 5 件；第 4 轮抽查 7/7 通过。完整 33 件返工清单见附录 A。</p>
     </div>
 
     <div class="honest">
@@ -1277,7 +1277,7 @@ node source/tools/verify-drawing-quote.mjs
           </tr>
         </tbody>
       </table>
-      <p class="tbl-note">第一轮 28 件中 26 件复核通过，corridor-handrail 降级为「可用边界件」；第二轮 5 件与另 2 件在第 4 轮抽查中确认可用。</p>
+      <p class="tbl-note">第一轮 28 件中 26 件在第 3 轮复核通过；余下 low-speed-handpiece、mop-sink 两件与第二轮 5 件，在第 4 轮抽查中 7/7 通过。corridor-handrail 复核后由坏件降级为「可用边界件」。</p>
     </div>
 
     <div class="tw">
