@@ -251,31 +251,48 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
   @page{size:A4;margin:15mm 13mm}
   body{background:#fff;font-size:10pt;line-height:1.7}
   .nav{display:none}
-  .sec{break-before:page;border-top:0;padding-top:0}
+  .sec{break-before:auto;border-top:1px solid var(--rule);padding-top:9mm;margin-top:0}
   .sec:first-of-type{break-before:auto}
+  .sec-head{break-inside:avoid;margin-bottom:4mm}
   .cover{break-after:page;padding-top:0}
   .cover h1{font-size:30pt;margin-bottom:16px}
   .deck{font-size:10.5pt;margin-bottom:16px}
   .byline{margin-bottom:18px}
   .cover-fig img{max-height:98mm;width:auto;margin:0 auto}
   .cover-fig{break-inside:avoid}
-  .kpis{grid-template-columns:repeat(6,1fr);margin-top:18px}
+  .kpis{grid-template-columns:repeat(6,1fr);margin-top:16px;break-inside:avoid}
   .kpi{padding:10px 8px}
   .kpi .n{font-size:15pt}
   .kpi .l{font-size:8pt}
-  .summary{padding:26px 0 8px}
+  .summary{padding:22px 0 6px;break-inside:avoid}
   .answers{grid-template-columns:repeat(3,1fr)}
   .answer p{font-size:9pt}
-  .toc{padding:8px 0 20px}
-  .toc li{padding:7px 0;font-size:10pt}
-  .trio{grid-template-columns:0.85fr 2.15fr 1.25fr;height:56mm}
-  .trio figure{height:56mm}
+  .toc{padding:6px 0 14px}
+  .toc ol{grid-template-columns:1fr 1fr;gap:0 24px}
+  .toc li{padding:6px 0;font-size:9.5pt}
+  .trio{grid-template-columns:0.85fr 2.15fr 1.25fr;height:46mm}
+  .trio figure{height:46mm}
+  .asset-note{font-size:9.2pt;line-height:1.65}
   .trio figure:nth-child(2){grid-column:auto}
   .asset{break-inside:avoid}
   .diptych{grid-template-columns:1fr 1fr}
-  .fig,.shots,.diptych,.cmp,.tw,.pipe,.links,.honest,.arch,.cmd{break-inside:avoid}
-  .fig img{max-height:150mm;width:auto;max-width:100%;margin:0 auto}
+  .fig,.tw,.links,.honest,.arch,.cmd,.pipe{break-inside:auto}
+  .fig{break-inside:avoid}
+  .fig img{max-height:112mm;width:auto;max-width:100%;margin:0 auto}
+  .shots{display:block;margin:6mm 0}
+  .shot{break-inside:avoid;margin:0 0 4mm}
+  .shot img{max-height:72mm;width:auto;max-width:100%;border:1px solid var(--rule)}
+  .tw{break-inside:auto}
+  tr,.diptych figure,.lcard{break-inside:avoid}
+  table{font-size:9pt}
+  th{padding:5px 8px 5px 0}
+  td{padding:6px 8px 6px 0}
+  .tw{margin:5mm 0}
+  caption{padding-bottom:4px}
+  caption{break-after:avoid}
+  thead{display:table-header-group}
   h1,h2,h3{break-after:avoid}
+  footer{margin-top:6mm;padding:6mm 0 0;break-before:avoid}
   a{color:inherit;border:0}
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
@@ -329,12 +346,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 <section class="kpis-wrap">
   <div class="wrap">
     <div class="kpis">
-      <div class="kpi"><span class="n">351<small>+9</small></span><span class="l">件诊所 3D 资产<br>13 类空间，全部 AI 生成</span></div>
-      <div class="kpi"><span class="n">440</span><span class="l">种门店组合<br>M 档；L 档 1,050 种</span></div>
-      <div class="kpi"><span class="n">3</span><span class="l">张 A2 图页<br>平面 / 点位 / 工程量表</span></div>
-      <div class="kpi"><span class="n">1,595</span><span class="l">组出图 × 报价组合校验<br>0 失败</span></div>
-      <div class="kpi"><span class="n">0</span><span class="l">坏件<br>351 件全检，7 件可用边界件</span></div>
-      <div class="kpi"><span class="n">652</span><span class="l">积分<br>授权 3,200，余额 2,548</span></div>
+      <div class="kpi"><span class="n">351<small>+9</small></span><span class="l">件资产 · 13 类空间<br>全部由 Lux3D 生成</span></div>
+      <div class="kpi"><span class="n">440</span><span class="l">种组合（M 档）<br>L 档 1,050 种</span></div>
+      <div class="kpi"><span class="n">3</span><span class="l">张 A2 图页<br>平面 / 点位 / 估价</span></div>
+      <div class="kpi"><span class="n">1,595</span><span class="l">组出图 × 报价校验<br>0 失败</span></div>
+      <div class="kpi"><span class="n">0</span><span class="l">坏件 / 7 件边界件<br>351 件全检</span></div>
+      <div class="kpi"><span class="n">652</span><span class="l">积分 / 授权 3,200<br>余额 2,548</span></div>
     </div>
   </div>
 </section>
@@ -361,7 +378,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 <section class="toc">
   <div class="wrap">
     <ol>
-      <li><span class="no">01</span><a href="#problem">判断：瓶颈不在钱，在复制的一致性</a></li>
+      <li><span class="no">01</span><a href="#problem">判断：复制的一致性，才是瓶颈</a></li>
       <li><span class="no">02</span><a href="#idea">理念：把汽车平台的方法搬进诊所</a></li>
       <li><span class="no">03</span><a href="#works">作品：三件东西，一条链</a></li>
       <li><span class="no">04</span><a href="#make">生产：Lux3D 是承重墙</a></li>
@@ -384,18 +401,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="sec-head">
       <div class="sec-no">01</div>
       <div>
-        <h2>瓶颈不在钱，在复制的一致性</h2>
-        <p class="lede">一家口腔诊所不大：90–240㎡、7–14 个房间、88–197 件家具设备、34 个机电点位。难的不是把一家店做好，而是把第十家店做得和第一家一样好。</p>
+        <h2>复制的一致性，才是瓶颈</h2>
+        <p class="lede">一家口腔诊所不大：90–240㎡、7–14 个房间、88–197 件家具设备、34 个机电点位。第十家店做得和第一家一样好，才是难点。</p>
       </div>
     </div>
     <div class="body">
       <p>口腔诊所是标准化与差异化同时极高的空间。标准化在于：诊疗室永远需要牙椅、边柜、洗手台、医废桶；消毒室永远需要清洗、灭菌、干燥、封口四件事。差异化在于：社区店、儿童店、正畸、种植、美学，房间组合与设备等级完全不同。</p>
-      <p>行业里的现实做法是<b>一店一设计</b>：平面重画、设备重选、点位重排、工程量重算、报价重拍。连锁越扩张，设计产能越吃紧；一致性靠资深设计师盯，人一走，标准就散。于是出现一个反直觉的成本结构——<b>真正贵的不是多开一家店，而是多开一家店都要把设计重做一遍</b>。</p>
-      <p>我们的判断是：可复用的从来不是某一张平面图，而是三层可以被写成数据的东西——<b>空间的硬点带宽</b>、<b>房间与设备的配置规则</b>、<b>可被反复引用的 3D 资产</b>。这三层一旦成立，配一家诊所就从「从零设计」变成「一次参数选择」。</p>
-      <p>这也是我们选择口腔诊所而不是泛商业空间的原因：它的房间类型收敛、设备清单收敛、机电要求收敛，<b>足够窄，才可能被平台化</b>。</p>
+      <p>行业里的现实做法是<b>一店一设计</b>：平面、设备、点位、算量、报价，全部重来一遍。连锁越扩张，设计产能越吃紧；一致性靠资深设计师盯，人一走，标准就散。于是成本结构变得反直觉：多开一家店，贵在<b>设计要重做一遍</b>。</p>
+      <p>我们的判断是，可复用的东西有三层，都能写成数据：<b>空间的硬点带宽</b>、<b>房间与设备的配置规则</b>、<b>可被反复引用的 3D 资产</b>。这三层一旦成立，配一家诊所就从「从零设计」变成「一次参数选择」。</p>
+      <p>这也是我们选择口腔诊所而不是泛商业空间的原因：它的房间类型、设备清单与机电要求都收敛，<b>足够窄，才可能被平台化</b>。</p>
     </div>
     <div class="callout">
-      <b>一句话：</b>我们要证明的不是「AI 能生成一个好看的牙椅」，而是「一套 AI 生成的资产，能不能支撑一家诊所从配置到出图到报价的完整交付」。
+      <b>我们要验证的是</b>一套 AI 生成的资产能不能撑起一家诊所从配置、出图到报价的完整交付。生成一个好看的牙椅，离这条链还差得远。
     </div>
   </div>
 </section>
@@ -406,11 +423,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <div class="sec-no">02</div>
       <div>
         <h2>把汽车平台的方法，搬进诊所</h2>
-        <p class="lede">汽车工业的答案不是把一辆车做得更好，而是让同一套硬点与接口长出很多车型：冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证。</p>
+        <p class="lede">汽车工业没有停在把一辆车做得更好，它让同一套硬点与接口长出很多车型：冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证。</p>
       </div>
     </div>
     <div class="body">
-      <p>但这套方法不能照抄。汽车的平台是「算力与硬件的归组」，降本靠 BOM 通用件；医院与诊所的域是「责任、流程与数据的归组」，降本只能靠<b>交付复用</b>——同一份图纸逻辑、同一套房间模板、同一批资产，在不同门店里被反复调用（见项目研究底稿：汽车平台 → 医疗平台的域架构分析）。所以我们只取方法，不取形式：不设域控制器，只冻结空间与机电的硬点。</p>
+      <p>但这套方法不能照抄。汽车的平台是「算力与硬件的归组」，降本靠 BOM 通用件；医院与诊所的域是「责任、流程与数据的归组」，降本只能靠<b>交付复用</b>，同一份图纸逻辑、同一套房间模板、同一批资产，在不同门店里被反复调用（见项目研究底稿：汽车平台 → 医疗平台的域架构分析）。所以我们只取方法，不取形式：不设域控制器，只冻结空间与机电的硬点。</p>
     </div>
 
     <div class="tw">
@@ -436,10 +453,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <li><b>受限变量 · 门店类型</b>：社区家庭、儿童诊疗、正畸中心、种植旗舰、美学体验。每类店有自己的必含房间、设备等级与差异件清单，且受平台档位约束（S 档开不出种植旗舰）。</li>
         <li><b>自由量 · 内饰</b>：洁净蓝白 / 儿童糖果 / 极简黑白 / 疗愈木 / 暖奶油。墙、地、木作、灯光色温与软装变体随之变化，但不影响硬点与设备。</li>
       </ul>
-      <p>这套分层带来的直接结果，是「复用」第一次可以被计量：在一套 L 档美学体验店的配置里，<b>平台件 143 件、差异件 55 件，平台件类型复用率 53%</b>。这个数字比任何「降本」话术都更接近采购方真正关心的问题——<b>这套设计里，有多少是可以复制的</b>。</p>
+      <p>这套分层带来的直接结果，是「复用」第一次可以被计量：在一套 L 档美学体验店的配置里，<b>平台件 143 件、差异件 55 件，平台件类型复用率 53%</b>。这个数字比任何「降本」话术都更接近采购方关心的问题：<b>这套设计里有多少可以复制</b>。</p>
     </div>
 
-    <p class="quote">平台不是更快的画图，而是把一次设计变成可复用的资产与规则。<small>本项目设计原则</small></p>
+    <p class="quote">平台把一次设计变成可复用的资产与规则。<small>本项目设计原则</small></p>
   </div>
 </section>
 
@@ -462,7 +479,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="body">
-      <p>这三个部件的边界很清楚：<b>资产库</b>回答「空间里有什么」；<b>配置器</b>回答「这些物件怎么按规则摆进一间店」；<b>出图报价</b>回答「这间店要花多少钱、多久、图长什么样」。前一个部件的输出，正好是后一个部件的输入——所以它们必须放在同一个仓库里，用同一份清单、同一套尺寸、同一套单价。</p>
+      <p>这三个部件的边界很清楚：<b>资产库</b>回答「空间里有什么」；<b>配置器</b>回答「这些物件怎么按规则摆进一间店」；<b>出图报价</b>回答「这间店要花多少钱、多久、图长什么样」。前一个部件的输出正好是后一个部件的输入，所以它们要放在同一个仓库里，用同一份清单、同一套尺寸、同一套单价。</p>
     </div>
 
     <div class="tw">
@@ -479,7 +496,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="callout">
-      <b>为什么强调「一条链」：</b>只做资产，是素材包；只做配置器，是看房 Demo；只做出图，是 CAD 插件。把三者接起来，才能回答评审真正会问的那句——<b>这东西能不能替代一次真实的诊所设计交付</b>。
+      <b>为什么强调「一条链」？</b>只做资产，是素材包；只做配置器，是看房 Demo；只做出图，是 CAD 插件。把三者接起来，才能回答评审会问的那个问题：<b>这东西能不能替代一次真实的诊所设计交付</b>。
     </div>
   </div>
 </section>
@@ -490,13 +507,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <div class="sec-no">04</div>
       <div>
         <h2>Lux3D 是承重墙</h2>
-        <p class="lede">351 件、2 小时 36 分、652 积分。这个规模的诊所资产库，过去意味着数月的外包建模；Lux3D 让它在一天之内成立。但真正的工作量不在「生成」，而在让生成结果可用。</p>
+        <p class="lede">351 件、2 小时 36 分、652 积分。这个规模的诊所资产库，过去意味着数月的外包建模；Lux3D 让它在一天之内成立。但工作量的大头在让生成结果可用。</p>
       </div>
     </div>
 
     <div class="body">
-      <p>资产是这个平台的地基：没有资产，配置器只是一个空房间；没有 351 件的「量」，就谈不上平台件、差异件与复用率。所以 Lux3D 在这件作品里不是一个「用了一下」的工具，而是<b>唯一的资产来源</b>——库里每一件 GLB 都由它生成，没有一件是买来或手工建的。</p>
-      <p>我们没有在网页上逐件点「生成」，而是走 <b>OpenAPI + 官方计费链路</b>：每一次提交前先做一次滚动报价（quote），报价 5 分钟过期；每次创建任务绑定一个未过期的 quote；任务完成后立即下载 —— 因为输出链接只有 <b>2 小时</b>有效期。整条链路留下三类可复核的落盘证据：报价记录、任务记录、平台回执。</p>
+      <p>资产是这个平台的地基：没有资产，配置器只是一个空房间；没有 351 件的「量」，就谈不上平台件、差异件与复用率。所以 Lux3D 在这件作品里是<b>唯一的资产来源</b>，库里每一件 GLB 都由它生成，没有一件是买来或手工建的。</p>
+      <p>生成走的是 <b>OpenAPI + 官方计费链路</b>：每一次提交前先做一次滚动报价（quote），报价 5 分钟过期；每次创建任务绑定一个未过期的 quote；任务完成后立即下载，输出链接只有 <b>2 小时</b>有效期。整条链路留下三类可复核的落盘证据：报价记录、任务记录、平台回执。</p>
     </div>
 
     <div class="pipe">
@@ -511,7 +528,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="body">
       <h3>四条工程决策</h3>
       <ul>
-        <li><b>最便宜路线优先，先覆盖「量」。</b>全库统一 G1-Turbo（图生 3D 1 积分/件），只在没有可用参考图时才走文生 3D（77 次，单价更高）。先用最低成本把 13 类空间铺满，再把预算花在返工上，而不是一开始就追求单件精品。</li>
+        <li><b>最便宜路线优先，先覆盖「量」。</b>全库统一 G1-Turbo（图生 3D 1 积分/件），只在没有可用参考图时才走文生 3D（77 次，单价更高）。先用最低成本把 13 类空间铺满，再把预算花在返工上。</li>
         <li><b>滚动报价 + 预算台账。</b>37 组报价，每一组都记录 quoteId、金额、余额与过期时间；预算写入台账（授权 3,200 / 已用 652 / 余额 2,548）。任何一次「超预算」都会在提交前被拦住。</li>
         <li><b>即下即存 + 断点续跑。</b>输出链接 2 小时过期，所以下载与提交解耦；失败件进入重试队列（<span class="mono">--retry-failed</span>），进程中断也不会重复计费。</li>
         <li><b>5 并发，不追求极限。</b>官方免费档的并发上限是 5。压满会比「更快的失败」更慢，因为限流重试会把整组报价拖过期。</li>
@@ -596,7 +613,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body">
       <h3>成本为什么重要</h3>
-      <p>一个平台的最小可行资产库不是「几件好看的样板」，而是<b>覆盖所有空间类型的全量清单</b>——缺一张消毒室的工作台，那一间就配不出来。用最便宜的档位把 351 件铺满、再对 33 件返工，比一开始用 10 倍单价生成 35 件精品更接近可用。这套「先全量、后返工」的预算分配，是这次能在 652 积分内交付出一个完整库的直接原因。</p>
+      <p>一个平台的最小可行资产库，是<b>覆盖所有空间类型的全量清单</b>。缺一张消毒室的工作台，那一间就配不出来。用最便宜的档位把 351 件铺满、再对 33 件返工，比一开始用 10 倍单价生成 35 件精品更接近可用。这套「先全量、后返工」的预算分配，是这次能在 652 积分内交付出一个完整库的直接原因。</p>
     </div>
   </div>
 </section>
@@ -607,13 +624,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <div class="sec-no">05</div>
       <div>
         <h2>33 次返工，换来 0 坏件</h2>
-        <p class="lede">AI 生成的失败模式很固定：碎片漂浮、多件粘连、尺度离谱、朝向相反。质检不是给资产打分，而是把它们拦在入库之前。</p>
+        <p class="lede">AI 生成的失败模式很固定：碎片漂浮、多件粘连、尺度离谱、朝向相反。质检要在入库之前把不合格的拦下来。</p>
       </div>
     </div>
 
     <div class="body">
       <p>我们没有「生成完就收货」。每一轮批量作业结束后，用无头浏览器把新完成的模型渲染成 320px 缩略图（本机没有 GPU，走软件渲染也可跑），逐件看三件事：<b>能不能看出是什么</b>、<b>画面里是不是只有这一件</b>、<b>比例与朝向是否合理</b>。不合格的进返工队列，重写提示词后重新生成，再复核。</p>
-      <p>五轮下来，坏件数先从 2 涨到 14、再到 26，然后被压回 5、最后归零。这个曲线不是失误，而是<b>每一轮都在扩大检查面</b>：27 件时只发现 2 个问题，不代表质量好，只代表看得少。</p>
+      <p>五轮下来，坏件数先从 2 涨到 14、再到 26，然后被压回 5、最后归零。曲线上升，是因为<b>每一轮都在扩大检查面</b>：27 件时只发现 2 个问题，不代表质量好，只代表看得少。</p>
     </div>
 
     <figure class="fig strip">
@@ -673,7 +690,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body">
       <h3>返工是怎么发生的</h3>
-      <p>返工不是「再点一次生成」。每一件坏件都会先被写成一句可执行的问题描述，再改写对应的生成提示词：是主体不明确，就补主体与视角；是多件粘连，就明确「single object, isolated」；是尺度离谱，就在清单的 <span class="mono">note</span> 里补真实尺寸再生成。两轮返工共 33 件（第一轮 28 件、第二轮 5 件）：<b>26 件在第 3 轮直接复核通过，其余 7 件在第 4 轮抽查中全部通过</b>。</p>
+      <p>返工前先要把问题写清楚。每一件坏件都会先被写成一句可执行的问题描述，再改写对应的生成提示词：是主体不明确，就补主体与视角；是多件粘连，就明确「single object, isolated」；是尺度离谱，就在清单的 <span class="mono">note</span> 里补真实尺寸再生成。两轮返工共 33 件（第一轮 28 件、第二轮 5 件）：<b>26 件在第 3 轮直接复核通过，其余 7 件在第 4 轮抽查中全部通过</b>。</p>
     </div>
 
     <div class="tw">
@@ -695,8 +712,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="honest">
       <h3>7 件「可用但不完美」的边界件</h3>
-      <p>我们没有把它们藏起来：这 7 件在场景里可用，但形态或比例与真实产品有差距。<b>imaging-positioning-chair</b>（影像定位椅）仍偏碎片；<b>intraoral-camera</b>（口内窥镜）有 2 个小配件悬浮；<b>shoe-change-bench</b>（换鞋凳）上方有手提包悬浮；<b>emergency-exit-sign</b>（安全出口牌）更像一面标牌墙；<b>digital-signage-kiosk</b>（立式标牌）缺屏幕；<b>dental-computer-tower</b>（电脑主机）像显示器推车；<b>corridor-handrail</b>（走廊扶手）由坏件降级——形态连贯但长度与材质偏短。</p>
-      <p>这 7 件的存在，是「0 坏件」这个数字可信的原因：我们区分「坏」与「不够好」，而不是把所有东西都说成好。</p>
+      <p>我们没有把它们藏起来：这 7 件在场景里可用，但形态或比例与真实产品有差距。<b>imaging-positioning-chair</b>（影像定位椅）仍偏碎片；<b>intraoral-camera</b>（口内窥镜）有 2 个小配件悬浮；<b>shoe-change-bench</b>（换鞋凳）上方有手提包悬浮；<b>emergency-exit-sign</b>（安全出口牌）更像一面标牌墙；<b>digital-signage-kiosk</b>（立式标牌）缺屏幕；<b>dental-computer-tower</b>（电脑主机）像显示器推车；<b>corridor-handrail</b>（走廊扶手）由坏件降为可用，形态连贯，但长度与材质偏短。</p>
+      <p>这 7 件的存在，是「0 坏件」这个数字可信的原因：我们区分「坏」与「不够好」，没有把所有东西都说成好。</p>
     </div>
   </div>
 </section>
@@ -734,7 +751,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <figure><span class="lab">Lux3D · 四视图</span><img src="assets/fit-cbct-machine.jpg" alt="生成的 CBCT 机四视图" loading="lazy"></figure>
         <figure><span class="lab">场景实装</span><img src="assets/crop-cbct.jpg" alt="CBCT 机在影像室场景中的实装特写" loading="lazy"></figure>
       </div>
-      <p class="asset-note"><span class="fig-no">图 6-2</span>CBCT 是典型的「三合一立式」设备：立柱、旋转臂、患者定位台、控制面板。生成件把立柱与臂的<b>空间关系</b>保住了，这也是配置器里真正要紧的部分——它决定了影像室需要多大的净空、铅防护门开在哪一侧。</p>
+      <p class="asset-note"><span class="fig-no">图 6-2</span>CBCT 是典型的「三合一立式」设备：立柱、旋转臂、患者定位台、控制面板。生成件把立柱与臂的<b>空间关系</b>保住了，这也是配置器里要紧的部分，它决定了影像室需要多大的净空、铅防护门开在哪一侧。</p>
     </div>
 
     <div class="asset">
@@ -752,13 +769,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body" style="margin-top:52px">
       <h3>尺寸与朝向：让生成的模型能进平面图</h3>
-      <p>生成件只有形体，没有「这是 2.4 米」这种知识。如果直接摆进场景，牙椅会和沙发一样高，平面图上的家具会互相穿模。所以我们补了两件事：<b>平面尺寸实测</b>——用无头 Chrome 逐件渲染、读归一化后的世界包围盒、按 rotY 转正，实测了 <b>119 件</b>资产的平面占位，写进 <span class="mono">demo/js/footprint.js</span>；<b>朝向与基准</b>——为牙椅、前台、沙发、工作台等关键件标定正面朝向与落地基准（<span class="mono">demo/data/asset-tuning.json</span>）。这张标定表，是 3D 场景能直接长出 1:50 平面图的前提。</p>
-      <p>至于「AI 生成件到底有多大」这件事，我们给的是可核对的口径，而不是一句「比例正确」：每件在清单里都写了参考尺寸（<span class="mono">note</span> 字段），场景基准与实测 footprint 两套数据同时存在，出图用的是实测值，人工核对时看的是参考尺寸。</p>
+      <p>生成件只有形体，没有「这是 2.4 米」这种知识。如果直接摆进场景，牙椅会和沙发一样高，平面图上的家具会互相穿模。所以我们补了两件事。<b>平面尺寸实测</b>是用无头 Chrome 逐件渲染、读归一化后的世界包围盒、按 rotY 转正，实测了 <b>119 件</b>资产的平面占位，写进 <span class="mono">demo/js/footprint.js</span>；<b>朝向与基准</b>是为牙椅、前台、沙发、工作台等关键件标定正面朝向与落地基准（<span class="mono">demo/data/asset-tuning.json</span>）。这张标定表，是 3D 场景能直接长出 1:50 平面图的前提。</p>
+      <p>至于「AI 生成件到底有多大」这件事，我们给的是可核对的口径，不用「比例正确」四个字带过：每件在清单里都写了参考尺寸（<span class="mono">note</span> 字段），场景基准与实测 footprint 两套数据同时存在，出图用的是实测值，人工核对时看的是参考尺寸。</p>
     </div>
 
     <div class="body">
       <h3>体量：从 9.9MB 到 0.75MB</h3>
-      <p>原始生成件平均 <b>9.9 MB</b>（2K 贴图、未压缩），一个 197 件家具的配置要下载近 2GB —— 网页里不可能跑。我们做了两级轻量化：交付件降到 <b>1.95 MB</b>（1024 JPEG + 几何量化），演示用 LOD 再降到 <b>0.75 MB</b>（meshopt 简化 + 512 贴图）。单件体积下降 <b>92%</b>，全库从 3.48 GB 降到 113 MB。</p>
+      <p>原始生成件平均 <b>9.9 MB</b>（2K 贴图、未压缩），一个 197 件家具的配置要下载近 2GB，网页里跑不动。我们做了两级轻量化：交付件降到 <b>1.95 MB</b>（1024 JPEG + 几何量化），演示用 LOD 再降到 <b>0.75 MB</b>（meshopt 简化 + 512 贴图）。单件体积下降 <b>92%</b>，全库从 3.48 GB 降到 113 MB。</p>
     </div>
 
     <figure class="fig strip">
@@ -795,7 +812,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </figure>
       <figure class="shot wide">
         <img src="assets/gallery-band.jpg" alt="资产库中的前台与候诊区物件缩略图带" loading="lazy">
-        <figcaption><span class="tag">图 6-6</span><span>同一页的资产带：装饰花瓶、服务铃、钥匙柜、无线路由器等小件也在库内——它们是场景可信度的来源。</span></figcaption>
+        <figcaption><span class="tag">图 6-6</span><span>同一页的资产带：装饰花瓶、服务铃、钥匙柜、无线路由器等小件也在库内。场景的可信度靠这些物件撑起来。</span></figcaption>
       </figure>
     </div>
 
@@ -816,7 +833,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="body" style="margin-top:22px">
-      <p><span class="fig-no">图 6-7</span>三处差异都值得记：<b>加载</b>从卡在 34/70 变成一次加载完成；<b>家具数</b>从 135 收敛到 113，是布局去重与房间模板修正的结果；<b>复用率</b>从 99% 修正到 53%——按实际使用到的资产类型去重统计后，这个数字才回答了「有多少是可以复制的」。同一天里，配置器还补上了造价与工时的指标卡：<b>配置器不再只是「看」，开始「算」</b>。</p>
+      <p><span class="fig-no">图 6-7</span>三处差异都值得记：<b>加载</b>从卡在 34/70 变成一次加载完成；<b>家具数</b>从 135 收敛到 113，是布局去重与房间模板修正的结果；<b>复用率</b>从 99% 修正到 53%。按实际使用到的资产类型去重统计后，这个数字才回答了「有多少是可以复制的」。同一天里，配置器还补上了造价与工时的指标卡：<b>配置器不再只是「看」，开始「算」</b>。</p>
     </div>
   </div>
 </section>
@@ -838,7 +855,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </figure>
       <figure class="shot wide">
         <img src="assets/demo-06-platform-parts.jpg" alt="平台件与差异件描边视图：L 档美学体验店，平台件 143、差异件 55" loading="lazy">
-        <figcaption><span class="tag">图 7-2</span><span>平台件（青绿描边，143 件）与差异件（琥珀描边，55 件）。这套 L 档美学体验店：14 间、198 件、1,050 种组合；对比 M 档社区家庭店（9 间、440 种）——档位决定组合上限，门店类型决定房间构成。</span></figcaption>
+        <figcaption><span class="tag">图 7-2</span><span>平台件（青绿描边，143 件）与差异件（琥珀描边，55 件）。这套 L 档美学体验店：14 间、198 件、1,050 种组合；对比 M 档社区家庭店（9 间、440 种）。档位决定组合上限，门店类型决定房间构成。</span></figcaption>
       </figure>
     </div>
 
@@ -849,7 +866,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </figure>
       <figure class="shot">
         <img src="assets/demo-08-S-kids.jpg" alt="S 档儿童诊疗店：90㎡、2 椅、7 间、儿童糖果风格" loading="lazy">
-        <figcaption><span class="tag">图 7-4</span><span>S 档 · 儿童诊疗店 · 儿童糖果：90㎡ / 2 椅 / 7 间 / 91 件 / 105 种组合。S 档开不出种植旗舰店——平台带宽先于门店类型。</span></figcaption>
+        <figcaption><span class="tag">图 7-4</span><span>S 档 · 儿童诊疗店 · 儿童糖果：90㎡ / 2 椅 / 7 间 / 91 件 / 105 种组合。S 档开不出种植旗舰店。平台带宽先于门店类型。</span></figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/demo-07-L-aesthetic.jpg" alt="L 档美学体验店：240㎡、6 椅、14 间、疗愈木风格" loading="lazy">
@@ -866,13 +883,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <ul>
         <li><b>平台档位</b>：S / M / L 三档，决定面积、开间进深、诊室数、椅位与模块槽位。降到放不下的档位时，门店类型与模块会自动禁用。</li>
         <li><b>门店类型</b>：5 类，决定必含房间、牙椅等级与差异件清单（儿童椅、正畸椅、种植椅、高端椅；CBCT、铅防护、咖啡吧、儿童角）。</li>
-        <li><b>选装模块</b>：影像室、技工室、儿童区、咨询室、咖啡吧、消毒升级；模块槽位 1 / 2 / 3，超槽位直接禁用而不是悄悄叠加。</li>
+        <li><b>选装模块</b>：影像室、技工室、儿童区、咨询室、咖啡吧、消毒升级；模块槽位 1 / 2 / 3，超槽位直接禁用，不会悄悄叠加。</li>
         <li><b>风格</b>：5 套墙地木作与灯光色温，切换时软装变体同步替换，但不改变硬点与设备。</li>
         <li><b>视角</b>：总览 / 前台 / 候诊 / 诊疗 / 消毒，相机 600ms 飞入；点房间标签也能飞。</li>
         <li><b>两个视图</b>：硬点、平台件 / 差异件描边；另有一个天花开关，程序化生成 LED 平板灯与空调风口。</li>
       </ul>
       <h3>指标面板回答什么</h3>
-      <p>面积、诊室、椅位、房间数是配置的「物理结果」；<b>平台件复用率</b>是配置的「经济结果」；<b>衍生组合数</b>是平台的「规模上限」。右下角的配置清单按房间分组列出家具件数——它是出图与算量的直接输入，不是另算一遍。</p>
+      <p>面积、诊室、椅位、房间数是配置的「物理结果」；<b>平台件复用率</b>是配置的「经济结果」；<b>衍生组合数</b>是平台的「规模上限」。右下角的配置清单按房间分组列出家具件数，它是出图与算量的直接输入，不另算一遍。</p>
       <h3>怎么做到在无 GPU 的机器上能跑</h3>
       <p>three.js 与全部依赖本地化，没有任何 CDN；建筑壳体（地面、2.8m 墙、门洞、玻璃隔断）由程序生成，不占模型体积；同一资产在场景里只加载一次、其余 clone；只加载当前配置用得到的资产（约 50–70 个），并按需渲染。本机没有显卡、走 SwiftShader 软件渲染也能完成截图与交互验证；真实 GPU 下的目标是 45 fps 以上。</p>
     </div>
@@ -885,7 +902,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <div class="sec-no">08</div>
       <div>
         <h2>一张图，一份报价</h2>
-        <p class="lede">配置器的终点不是好看，是能交出去的三张图和一份报价：DXF 能进 CAD，SVG 能进汇报，CSV 能进 Excel。</p>
+        <p class="lede">配置器最后要交出去三张图和一份报价：DXF 能进 CAD，SVG 能进汇报，CSV 能进 Excel。</p>
       </div>
     </div>
 
@@ -926,7 +943,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
           <tr><td>图号 / 标题栏</td><td>ADS-01-01 / ADS-02-01 / ADS-03-01；标题栏含平台、门店类型、风格、面积、椅位、家具件数、比例、阶段、造价、工时</td></tr>
           <tr><td>出口</td><td>DXF · SVG · 报价 CSV · 浏览器打印 A2 PDF</td></tr>
           <tr><td>报价口径</td><td>方案估算，<b>含税、±8% 区间</b>；工期为<b>净施工工期</b>（不含设备采购、报建审批）</td></tr>
-          <tr><td>单价来源</td><td><span class="mono">demo/js/price-book.js</span>：面积规则、五类点位、模块附加、资产覆盖价 / 分类兜底价、风格系数、税率、班组人数——商务直接改数，不改公式</td></tr>
+          <tr><td>单价来源</td><td><span class="mono">demo/js/price-book.js</span>：面积规则、五类点位、模块附加、资产覆盖价 / 分类兜底价、风格系数、税率、班组人数。商务直接改数，不改公式</td></tr>
         </tbody>
       </table>
     </div>
@@ -953,7 +970,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body">
       <h3>怎么证明它不是「算得好看」</h3>
-      <p>出图与报价最容易出的问题不是算错，而是<b>算得不自洽</b>：同一配置两次点开金额不同、DXF 与 SVG 的图元对不上、报价明细加起来不等于总额。我们写了三套相互独立的校验：</p>
+      <p>出图与报价里，算错反而少见，更常见的是<b>算得不自洽</b>：同一配置两次点开金额不同、DXF 与 SVG 的图元对不上、报价明细加起来不等于总额。我们写了三套相互独立的校验：</p>
     </div>
 
     <div class="tw">
@@ -976,7 +993,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="callout">
-      <b>为什么值得反复强调：</b>出图与报价是这份作品里唯一「错了会被真金白银发现」的部分。1,595 组组合全过，意味着评委随便换一个平台、一个门店、一套模块，看到的都是同一套自洽的规则——这就是「可交付」和「能动」的区别。
+      <b>校验为什么重要？</b>出图与报价是这份作品里唯一「错了会被真金白银发现」的部分。1,595 组组合全过，意味着评委随便换一个平台、一个门店、一套模块，看到的都是同一套自洽的规则，这就是「可交付」和「能动」的区别。
     </div>
   </div>
 </section>
@@ -1001,7 +1018,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
     <div class="body">
       <h3>工具链：每一步都有脚本，不靠手点</h3>
-      <p>从「清单」到「交付包」，全流程是可重跑的脚本；每个脚本都只做一件事，输出落盘可查。这也是为什么报告里能给出报价记录、回执、质检台账这种细粒度的证据——它们本来就是流程的副产物。</p>
+      <p>从「清单」到「交付包」，全流程是可重跑的脚本；每个脚本都只做一件事，输出落盘可查。这也是为什么报告里能给出报价记录、回执、质检台账这种细粒度的证据，它们本来就是流程的副产物。</p>
     </div>
 
     <div class="tw">
@@ -1026,7 +1043,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="body">
       <h3>部署：不让页面依赖一张会过期的签名链接</h3>
       <p>演示站由自托管服务器提供（Node ≥ 18，零依赖，只用内置模块）：浏览器请求模型时，服务器用 OSS 凭据去对象存储取，首次落盘缓存，之后本地命中（实测 3–12 ms / 件）。这样做的三个结果：页面<b>同源</b>、没有 CORS、没有签名 URL 过期；对象桶保持私有，不需要开 public-read；页面永远不因为链接过期而失效。这是「评审任何时候点开都能用」的技术前提。</p>
-      <p>维护上也有据可查：提交 <span class="mono">48188eb</span> 修掉了缓存导致的空房间与前台布局问题；<span class="mono">3629c0b</span> 把出图与报价接进演示页；<span class="mono">b63beb8</span> 落地了自托管服务器包。作品不是一次截图，是一条能继续往前走的分支。</p>
+      <p>维护上也有据可查：提交 <span class="mono">48188eb</span> 修掉了缓存导致的空房间与前台布局问题；<span class="mono">3629c0b</span> 把出图与报价接进演示页；<span class="mono">b63beb8</span> 落地了自托管服务器包。作品留成了一条能继续往前走的分支。</p>
     </div>
 
     <div class="body">
@@ -1047,7 +1064,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       <div class="sec-no">10</div>
       <div>
         <h2>我们没做的，和不敢说的</h2>
-        <p class="lede">评审要判断的是可信度，不是声量。所以这一节只写限制，不写愿景。</p>
+        <p class="lede">评审看的是可信度。所以这一节只写限制，不写愿景。</p>
       </div>
     </div>
 
@@ -1062,7 +1079,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     </div>
 
     <div class="body">
-      <p>把这些写出来，不是为了显得谦虚，而是因为<b>边界本身就是交付物的一部分</b>：一个设计工具如果不说清「图能用到哪一步」，它就在把风险转嫁给使用者。我们更愿意让评委看到：哪些数字是实测的（119 件 footprint、1,595 组校验、351 件全检），哪些是假设的（单价、工效、风格系数）。</p>
+      <p>把这些写出来，是因为<b>边界本身就是交付物的一部分</b>：一个设计工具如果不说清「图能用到哪一步」，它就在把风险转嫁给使用者。我们更愿意让评委看到：哪些数字是实测的（119 件 footprint、1,595 组校验、351 件全检），哪些是假设的（单价、工效、风格系数）。</p>
     </div>
   </div>
 </section>
@@ -1084,7 +1101,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
         <tbody>
           <tr>
             <td><b>群核技术栈应用</b><br><span class="small">30%</span></td>
-            <td>Lux3D 是不是「承重墙」，而不是点缀</td>
+            <td>Lux3D 是不是「承重墙」</td>
             <td>351 件资产<b>全部</b>由 Lux3D 生成（图生 3D 1,083 次、文生 3D 77 次），无外购、无手工建模；PBR 贴图；官方滚动报价与 REPORT 回执；生成 → 质检 → 返工闭环；Lux3D 交付包。</td>
             <td>§4 §5 §6</td>
           </tr>
@@ -1096,8 +1113,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
           </tr>
           <tr>
             <td><b>创新</b><br><span class="small">20%</span></td>
-            <td>有没有新方法，而不是新皮肤</td>
-            <td>把汽车平台五步（冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证）完整映射到诊所空间与机电；用「平台件复用率」把「能复制多少」变成指标；把 AI 资产库当作平台的地基而不是素材库。</td>
+            <td>有没有新方法</td>
+            <td>把汽车平台五步（冻结硬点 → 标准接口 → 通用化分层 → 规模覆盖 → 复用验证）完整映射到诊所空间与机电；用「平台件复用率」把「能复制多少」变成指标；把 AI 资产库当作平台的地基。</td>
             <td>§1 §2</td>
           </tr>
           <tr>
@@ -1116,7 +1133,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
       </table>
     </div>
 
-    <p class="quote">我们想被记住的不是「生成了 351 个模型」，而是「把一次诊所设计，变成了一套可复用、可计量、可出图的规则」。<small>团队 GRZ</small></p>
+    <p class="quote">希望被记住的是我们做的那件事：把一次诊所设计，变成一套可复用、可计量、可出图的规则。<small>团队 GRZ</small></p>
   </div>
 </section>
 
@@ -1243,7 +1260,7 @@ node source/tools/verify-drawing-quote.mjs
 <text x="357.4666666666667" y="406" font-family="'Cascadia Mono',Consolas,'SF Mono',monospace" font-size="12" fill="#0e7490" text-anchor="start" font-weight="700" letter-spacing="0">16</text>
 <text x="132" y="442" font-family="-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" font-size="12" fill="#7b828c" text-anchor="start" font-weight="600" letter-spacing="0">合计 351 件 · 优先级 1/2/3 = 73/135/143</text>
 </svg>
-      <figcaption><span class="tag">图 A-1</span><span>13 类空间的物件分布。诊疗室（54）与小型器械/耗材（52）占近三分之一——它们是配置器里出现频率最高的资产。</span></figcaption>
+      <figcaption><span class="tag">图 A-1</span><span>13 类空间的物件分布。诊疗室（54）与小型器械/耗材（52）占近三分之一，是配置器里出现频率最高的资产。</span></figcaption>
     </figure>
 
     <div class="tw">
